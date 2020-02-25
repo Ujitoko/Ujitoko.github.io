@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yusuke Ujitoko</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yusuke Ujitoko</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 25 Feb 2020 21:38:23 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Yusuke Ujitoko</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>Vibrator Transparency</title>
+      <link>/project/vibrator_transparency/</link>
+      <pubDate>Tue, 25 Feb 2020 21:38:23 +0900</pubDate>
+      <guid>/project/vibrator_transparency/</guid>
+      <description>&lt;p&gt;When an input command signal designed with one vibrator is reused with another vibrator with different frequency characteristics, there is a problem that the output vibration will differ.
+Therefore, we propose the concept of &amp;lsquo;&amp;lsquo;vibrator transparency.&amp;rsquo;&amp;rsquo;
+We define the &amp;lsquo;&amp;lsquo;ibrator transparent system&amp;rsquo;&amp;rsquo; as a control system that absorbs the difference in vibrator environments&amp;rsquo; frequency characteristics.
+The output vibration of the system does not depend on the change of the vibrator environment but depends only on the input signal.
+Therefore, with this system, it is possible to reproduce the output vibration by only reusing the input signals from vibrotactile signal assets.
+Inside the system, an adaptation process for the input signal is automatically executed.
+To prove the feasibility of this concept, we verified the reproducibility of vibration
+through both objective metrics and user study.
+It was proved that the proposed system significantly improved the reproducibility of the vibrations compared with the conventional system for any vibrators and any input signals.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pseudo-haptic Friction</title>
+      <link>/project/pseudo-friction/</link>
+      <pubDate>Mon, 24 Feb 2020 22:01:07 +0900</pubDate>
+      <guid>/project/pseudo-friction/</guid>
+      <description>&lt;p&gt;Previous studies have aimed at creating a simple hardware implementation of surface friction display.
+In this study, we propose a new method for presenting static frictional sensation using the pseudo-haptic effect as a first attempt, which is the simplest implementation of presenting static friction sensation.
+We focus on the stick-slip phenomenon while users explore surfaces with an input device, such as a stylus.
+During the stick phase, we present users with pseudo-haptic feedback that represents static friction on the surface.
+In our method, users watch a virtual contact point become stuck at the contact point on screen while users freely move the input device.
+We hypothesize that the perceived probability and intensity of static friction sensation can be controlled by changing the static friction coefficient as a visual parameter.
+User studies were conducted, and results show the threshold value over which users felt the pseudo-haptic static friction sensation at 90% probability.
+The results also show that the perceived intensity of the sensation changed with respect to the static friction coefficient.
+The maximum intensity change was 23%.
+These results confirm the hypothesis and show that our method is a promising option for presenting static friction sensation.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/B7K4sr_zWtU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>敵対的学習を用いた触覚提示向け振動の自動生成</title>
+      <link>/publication/ujitoko-cds/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0900</pubDate>
+      <guid>/publication/ujitoko-cds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GAN-based Vibrotactile Design</title>
+      <link>/project/vibrotactile_generation/</link>
+      <pubDate>Fri, 24 Jan 2020 17:36:13 +0900</pubDate>
+      <guid>/project/vibrotactile_generation/</guid>
+      <description>&lt;h1 id=&#34;vibrotactile-design-productivity&#34;&gt;Vibrotactile Design Productivity&lt;/h1&gt;
+&lt;p&gt;Recently, consumer devices equipped with vibrotactile actuators such as Apple Watch have become wide-spread.
+For example, there are touch pens, touchpads, and game controllers with vibrotactile
+actuators around us, and we think of them as nothing
+special.
+Vibrotactile stimulation allows humans to perceive
+the material properties of virtual surfaces.
+If vibrotactile stimuli match the material attributes of visualized
+surfaces in the application, the users perceive the textures
+as more realistic.
+Thus, tactile designers need to design vibrations carefully and how to design the vibrotactile stimuli is becoming essential.&lt;/p&gt;
+&lt;p&gt;The vibrotactile design process consists of preparation,
+initial designing, and fine-tuning. It is known that the finetuning
+phase occupies more than half of all workloads.
+Thus, improving productivity in the fine-tuning phase will contribute to the improvement of all workloads.
+However, there is no suitable tool for iteration and refinement while
+there are existing tools for preparation and initial designing.
+The difficulty in fine-tuning exists in the control of high-level material parameters such as rocky or metallic by changing low-level engineering parameters such as
+frequency or amplitude.
+The ability to use low-level engineering parameters to construct or evaluate for material characteristics is tacit knowledge that vibrotactile designers build over the years.
+Based on these considerations, we set a goal of this study as providing a vibrotactile design method that enables non-expert designers to fine-tune vibrations with material-level
+user-interfaces.
+This study utilizes the Generative Adversarial Network (GAN) based vibration generator.&lt;/p&gt;
+&lt;h1 id=&#34;prototype-design-tool-using-gan-based-automatic-generation&#34;&gt;Prototype Design Tool using GAN-based Automatic Generation&lt;/h1&gt;
+&lt;p&gt;We made the prototype design tool.
+With this tool, users can experience the rapid designing process of the vibrotactile stimuli for specific user interfaces or specific contents on applications.
+Users receive the vibrotactile feedback by moving or tapping with a pen-type tactile device described above on a surface of a tablet device.
+For designing UI components&amp;rsquo; tactile feedback, users can control parameters like material kinds or perceptual tactile words to generate suitable vibrotactile stimuli.
+They can generate vibrotactile stimuli while touching and set it as a UI such as a button or a slider. For instance, by controlling the setting values of such parameters, we can generate vibrotactile stimuli like &amp;ldquo;rough metal&amp;rdquo; or &amp;ldquo;slippery wood.&amp;rdquo;
+In addition, for designing the 3D model&amp;rsquo;s texture with vibrotactile stimuli, the system can automatically generate optimum virotactile feedback for the texture image that users apply to the model.
+Users can touch and compare various textures, and if there is no suitable one, they can generate a texture and a vibrotactile stimulus by taking a picture with a camera, searching an image from the web, or sending an image that users have in their mobile phones to the system.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;TactGAN_full.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GAN-Based Fine-Tuning of Vibrotactile Signals to Render Material Surfaces</title>
+      <link>/publication/ujitoko-ieee-access-gan-fine-tuning/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0900</pubDate>
+      <guid>/publication/ujitoko-ieee-access-gan-fine-tuning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulating Wearable Pin-array Display</title>
+      <link>/project/design_guideline_for_wearable_pin-array/</link>
+      <pubDate>Tue, 24 Dec 2019 22:04:42 +0900</pubDate>
+      <guid>/project/design_guideline_for_wearable_pin-array/</guid>
+      <description>&lt;p&gt;Researchers have developed a multi-point haptic display that has a high contact point density between the users&amp;rsquo; finger skin and the virtual object. However, the ideal contact point density that enables intuitive shape recognition has not been determined yet. Meanwhile, there is also a fundamental problem, that is, real fingers and virtual objects do penetrate, which cannot be solved with such wearable displays. This study investigated the influence of both contact point density and penetration on the shape recognition performance. We prepared a real testing environment where the user touched the real object, and where we could simulate both the sparse contact point and the penetration. Specifically, users&amp;rsquo; fingers wore thin film coated with glass particles and they touched the urethane foams that deformed flexibly. The result of experiments showed a broad trend where the sparseness and the softness of the object influenced the exploration time required to achieve recognition. In addition, the result suggested that the larger contact density could make up for the problem of penetration. We confirmed it by conducting two different tasks: (1) exploring the object surface with the index finger and (2) grasping the object surface with the thumb and the index finger.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/IFIzG92ZnNs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Automated Vibrotactile Generation based on Texture Images or Material Attributes using GAN</title>
+      <link>/publication/ban-gan/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0900</pubDate>
+      <guid>/publication/ban-gan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Influence of Sparse Contact Point and Finger Penetration In Object on Shape Recognition</title>
+      <link>/publication/ujitoko-to-h-sponge/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0900</pubDate>
+      <guid>/publication/ujitoko-to-h-sponge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presenting Static Friction Sensation at Stick-slip Transition using Pseudo-haptic Effect</title>
+      <link>/publication/8816100/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0900</pubDate>
+      <guid>/publication/8816100/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modulating Fine Roughness Perception of Vibrotactile Textured Surface using Pseudo-haptic Effect</title>
+      <link>/publication/ujitoko-ieee-vr-2019/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0900</pubDate>
+      <guid>/publication/ujitoko-ieee-vr-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modulating Fine Roughness Perception of Vibrotactile Textured Surface using Pseudo-haptic Effect</title>
+      <link>/publication/ujitoko-tvcg-modulating-fine-roughness/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0900</pubDate>
+      <guid>/publication/ujitoko-tvcg-modulating-fine-roughness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pseudo-haptic Roughness</title>
+      <link>/project/pseudo-roughness/</link>
+      <pubDate>Sun, 24 Mar 2019 22:01:49 +0900</pubDate>
+      <guid>/project/pseudo-roughness/</guid>
+      <description>&lt;p&gt;Playing back vibrotactile signals through actuators is commonly used to simulate tactile feelings of virtual textured surfaces. However, there is often a small mismatch between the simulated tactile feelings and intended tactile feelings by tactile designers. Thus, a method of modulating the vibrotactile perception is required. We focus on fine roughness perception and we propose a method using a pseudo-haptic effect to modulate fine roughness perception of vibrotactile texture. Specifically, we visually modify the pointer&amp;rsquo;s position on the screen slightly, which indicates the touch position on textured surfaces. We hypothesized that if users receive vibrational feedback watching the pointer visually oscillating back/forth and left/right, users would believe the vibrotactile surfaces more uneven. We also hypothesized that as the size of visual oscillation is getting larger, the amount of modification of roughness perception of vibrotactile surfaces would be larger. We conducted user studies to test the hypotheses. Results of first user study suggested that users felt vibrotactile texture with our method rougher than they did without our method at a high probability. Results of second user study suggested that users felt different roughness for vibrational texture in response to the size of visual oscillation. These results confirmed our hypotheses and they suggested that our method was effective. Also, the same effect could potentially be applied to the visual movement of virtual hands or fingertips when users are interacting with virtual surfaces using their hands.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/CjyISnUbcUY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Inclination Manipulator</title>
+      <link>/publication/10-1145-3355049-3360541/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0900</pubDate>
+      <guid>/publication/10-1145-3355049-3360541/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>バーチャル紐を用いることによるタッチスクリーンでのPseudo-haptics効果の向上</title>
+      <link>/publication/ban-vrsj-virtual-string/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0900</pubDate>
+      <guid>/publication/ban-vrsj-virtual-string/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>アプリケーションの不具合解析を効率化する走行制御向けECUプラットフォームの検討</title>
+      <link>/publication/horita-cds/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0900</pubDate>
+      <guid>/publication/horita-cds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing the Pseudo-Haptic effect on the touch panel using the virtual string</title>
+      <link>/publication/8357188/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0900</pubDate>
+      <guid>/publication/8357188/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TactGAN: Vibrotactile Designing Driven by GAN-Based Automatic Generation</title>
+      <link>/publication/10-1145-3275476-3275484/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0900</pubDate>
+      <guid>/publication/10-1145-3275476-3275484/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vibrotactile Signal Generation from Texture Images or Attributes Using Generative Adversarial Network</title>
+      <link>/publication/10-1007-978-3-319-93399-3-3/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0900</pubDate>
+      <guid>/publication/10-1007-978-3-319-93399-3-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resistive swipe: Visuo-haptic interaction during swipe gestures to scroll background images on touch interfaces</title>
+      <link>/publication/7989924/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0900</pubDate>
+      <guid>/publication/7989924/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pseudo-haptics on Touchscreen</title>
+      <link>/project/pseudo-haptics_on_touchscreen/</link>
+      <pubDate>Fri, 24 Feb 2017 22:02:29 +0900</pubDate>
+      <guid>/project/pseudo-haptics_on_touchscreen/</guid>
+      <description>&lt;h1 id=&#34;resistive-feedback-during-swipe-gestures&#34;&gt;Resistive Feedback during Swipe Gestures&lt;/h1&gt;
+&lt;p&gt;We proposes a novel method named “Resistive swipe” that renders haptic perceptions only using a touch screen based on visuo-haptic interaction. The method evokes a feeling of resistive force by creating a discrepancy between the movement of the finger during swiping the screen and the background image shown on the screen. Through two experiments, this study shows that the “Resistive Swipe” can evoke perception of resistance according to the constant ratio between the displacement of the finger and background image (the user perceives strong resistance to move when the background image moves slower than the finger). Moreover, the experiments also suggested that the evoked haptic perception becomes stronger when the method is applied to frequently repeated movements. These features suggested that the mechanism to evoke haptic perception in the proposed approach differs from that in the conventional pseudo-haptic approach. Because the “Resistive Swipe” is simple and easy to implement on ordinary smartphone/tablet applications that use swipe gestures to scroll the background image, it opens up a new possibility of haptic feedback on touch panels.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/NEy53mj_BgY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;yubi-toko&#34;&gt;Yubi-Toko&lt;/h1&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/project/pseudo-haptics_on_touchscreen/yubitoko_touka_hu832be6787236a447ccf47cbfb326e376_347096_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Yubi-Toko&#34;&gt;
+
+
+  &lt;img data-src=&#34;/project/pseudo-haptics_on_touchscreen/yubitoko_touka_hu832be6787236a447ccf47cbfb326e376_347096_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;50%&#34; height=&#34;605&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Yubi-Toko
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;“Yubi-Toko” is a touchpad system in which users can walk in a　snowy scene using their fingers. Users feel the difficulty in moving forward caused as generated by a pseudo-haptic technique.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;media11.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>背景移動量操作を利用した視触覚間相互作用生起によるタッチパネルでの擬似触力覚提示</title>
+      <link>/publication/ujitoko-vrsj-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0900</pubDate>
+      <guid>/publication/ujitoko-vrsj-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact of illusory resistance on finger walking behavior</title>
+      <link>/publication/ujitoko-ieee-vr-2015/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0900</pubDate>
+      <guid>/publication/ujitoko-ieee-vr-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Application of the Locomotion Interface Using Anthropomorphic Finger Motion</title>
+      <link>/publication/10-1007-978-3-319-20618-9-65/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
+      <guid>/publication/10-1007-978-3-319-20618-9-65/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Object Manipulation by Deformable Hand</title>
+      <link>/publication/hirota-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
+      <guid>/publication/hirota-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Scaling of the Haptic Perception on the Fingertip Using an Interface of Anthropomorphic Finger Motions</title>
+      <link>/publication/ujitoko-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
+      <guid>/publication/ujitoko-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yubi-Toko: Finger Walking in Snowy Scene Using Pseudo-Haptic Technique on Touchpad</title>
+      <link>/publication/10-1145-2818466-2818491/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
+      <guid>/publication/10-1145-2818466-2818491/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interpretation of Tactile Sensation Using an Anthropomorphic Finger Motion Interface to Operate a Virtual Avatar</title>
+      <link>/publication/10-5555-2854457-2854461/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0900</pubDate>
+      <guid>/publication/10-5555-2854457-2854461/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>European Historic Rally Project 2013</title>
+      <link>/publication/rallye/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0900</pubDate>
+      <guid>/publication/rallye/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Takuji Narumi | Yusuke Ujitoko</title>
+    <link>/authors/takuji-narumi/</link>
+      <atom:link href="/authors/takuji-narumi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Takuji Narumi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Takuji Narumi</title>
+      <link>/authors/takuji-narumi/</link>
+    </image>
+    
+    <item>
+      <title>Yubi-Toko: Finger Walking in Snowy Scene Using Pseudo-Haptic Technique on Touchpad</title>
+      <link>/publication/10-1145-2818466-2818491/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
+      <guid>/publication/10-1145-2818466-2818491/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

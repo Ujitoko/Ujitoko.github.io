@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>N. Togo | Yusuke Ujitoko</title>
+    <link>/authors/n.-togo/</link>
+      <atom:link href="/authors/n.-togo/index.xml" rel="self" type="application/rss+xml" />
+    <description>N. Togo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>N. Togo</title>
+      <link>/authors/n.-togo/</link>
+    </image>
+    
+    <item>
+      <title>European Historic Rally Project 2013</title>
+      <link>/publication/rallye/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0900</pubDate>
+      <guid>/publication/rallye/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

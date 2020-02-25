@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pin-arrays | Yusuke Ujitoko</title>
+    <link>/tags/pin-arrays/</link>
+      <atom:link href="/tags/pin-arrays/index.xml" rel="self" type="application/rss+xml" />
+    <description>pin-arrays</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 Dec 2019 22:04:42 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>pin-arrays</title>
+      <link>/tags/pin-arrays/</link>
+    </image>
+    
+    <item>
+      <title>Simulating Wearable Pin-array Display</title>
+      <link>/project/design_guideline_for_wearable_pin-array/</link>
+      <pubDate>Tue, 24 Dec 2019 22:04:42 +0900</pubDate>
+      <guid>/project/design_guideline_for_wearable_pin-array/</guid>
+      <description>&lt;p&gt;Researchers have developed a multi-point haptic display that has a high contact point density between the users&amp;rsquo; finger skin and the virtual object. However, the ideal contact point density that enables intuitive shape recognition has not been determined yet. Meanwhile, there is also a fundamental problem, that is, real fingers and virtual objects do penetrate, which cannot be solved with such wearable displays. This study investigated the influence of both contact point density and penetration on the shape recognition performance. We prepared a real testing environment where the user touched the real object, and where we could simulate both the sparse contact point and the penetration. Specifically, users&amp;rsquo; fingers wore thin film coated with glass particles and they touched the urethane foams that deformed flexibly. The result of experiments showed a broad trend where the sparseness and the softness of the object influenced the exploration time required to achieve recognition. In addition, the result suggested that the larger contact density could make up for the problem of penetration. We confirmed it by conducting two different tasks: (1) exploring the object surface with the index finger and (2) grasping the object surface with the thumb and the index finger.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/IFIzG92ZnNs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

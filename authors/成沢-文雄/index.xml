@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>成沢 文雄 | Yusuke Ujitoko</title>
+    <link>/authors/%E6%88%90%E6%B2%A2-%E6%96%87%E9%9B%84/</link>
+      <atom:link href="/authors/%E6%88%90%E6%B2%A2-%E6%96%87%E9%9B%84/index.xml" rel="self" type="application/rss+xml" />
+    <description>成沢 文雄</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 May 2018 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>成沢 文雄</title>
+      <link>/authors/%E6%88%90%E6%B2%A2-%E6%96%87%E9%9B%84/</link>
+    </image>
+    
+    <item>
+      <title>アプリケーションの不具合解析を効率化する走行制御向けECUプラットフォームの検討</title>
+      <link>/publication/horita-cds/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0900</pubDate>
+      <guid>/publication/horita-cds/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Y. Ban | Yusuke Ujitoko</title>
+    <link>/authors/y.-ban/</link>
+      <atom:link href="/authors/y.-ban/index.xml" rel="self" type="application/rss+xml" />
+    <description>Y. Ban</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Y. Ban</title>
+      <link>/authors/y.-ban/</link>
+    </image>
+    
+    <item>
+      <title>GAN-Based Fine-Tuning of Vibrotactile Signals to Render Material Surfaces</title>
+      <link>/publication/ujitoko-ieee-access-gan-fine-tuning/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0900</pubDate>
+      <guid>/publication/ujitoko-ieee-access-gan-fine-tuning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Vibrotactile Generation based on Texture Images or Material Attributes using GAN</title>
+      <link>/publication/ban-gan/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0900</pubDate>
+      <guid>/publication/ban-gan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presenting Static Friction Sensation at Stick-slip Transition using Pseudo-haptic Effect</title>
+      <link>/publication/8816100/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0900</pubDate>
+      <guid>/publication/8816100/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modulating Fine Roughness Perception of Vibrotactile Textured Surface using Pseudo-haptic Effect</title>
+      <link>/publication/ujitoko-ieee-vr-2019/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0900</pubDate>
+      <guid>/publication/ujitoko-ieee-vr-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modulating Fine Roughness Perception of Vibrotactile Textured Surface using Pseudo-haptic Effect</title>
+      <link>/publication/ujitoko-tvcg-modulating-fine-roughness/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0900</pubDate>
+      <guid>/publication/ujitoko-tvcg-modulating-fine-roughness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing the Pseudo-Haptic effect on the touch panel using the virtual string</title>
+      <link>/publication/8357188/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0900</pubDate>
+      <guid>/publication/8357188/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resistive swipe: Visuo-haptic interaction during swipe gestures to scroll background images on touch interfaces</title>
+      <link>/publication/7989924/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0900</pubDate>
+      <guid>/publication/7989924/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

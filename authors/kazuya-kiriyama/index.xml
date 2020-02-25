@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kazuya Kiriyama | Yusuke Ujitoko</title>
+    <link>/authors/kazuya-kiriyama/</link>
+      <atom:link href="/authors/kazuya-kiriyama/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kazuya Kiriyama</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Kazuya Kiriyama</title>
+      <link>/authors/kazuya-kiriyama/</link>
+    </image>
+    
+    <item>
+      <title>Object Manipulation by Deformable Hand</title>
+      <link>/publication/hirota-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
+      <guid>/publication/hirota-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

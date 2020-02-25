@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>谷川 智洋 | Yusuke Ujitoko</title>
+    <link>/authors/%E8%B0%B7%E5%B7%9D-%E6%99%BA%E6%B4%8B/</link>
+      <atom:link href="/authors/%E8%B0%B7%E5%B7%9D-%E6%99%BA%E6%B4%8B/index.xml" rel="self" type="application/rss+xml" />
+    <description>谷川 智洋</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>谷川 智洋</title>
+      <link>/authors/%E8%B0%B7%E5%B7%9D-%E6%99%BA%E6%B4%8B/</link>
+    </image>
+    
+    <item>
+      <title>背景移動量操作を利用した視触覚間相互作用生起によるタッチパネルでの擬似触力覚提示</title>
+      <link>/publication/ujitoko-vrsj-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0900</pubDate>
+      <guid>/publication/ujitoko-vrsj-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
