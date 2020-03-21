@@ -5,7 +5,7 @@
     <link>/authors/n-igarashi/</link>
       <atom:link href="/authors/n-igarashi/index.xml" rel="self" type="application/rss+xml" />
     <description>N Igarashi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2013 00:00:00 -0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>N Igarashi</title>
@@ -15,7 +15,7 @@
     <item>
       <title>European Historic Rally Project 2013</title>
       <link>/publication/rallye/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 -0800</pubDate>
       <guid>/publication/rallye/</guid>
       <description></description>
     </item>

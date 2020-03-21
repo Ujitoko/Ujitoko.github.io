@@ -5,7 +5,7 @@
     <link>/authors/%E5%A0%80%E7%94%B0-%E5%8B%87%E6%A8%B9/</link>
       <atom:link href="/authors/%E5%A0%80%E7%94%B0-%E5%8B%87%E6%A8%B9/index.xml" rel="self" type="application/rss+xml" />
     <description>堀田 勇樹</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 May 2018 00:00:00 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 May 2018 00:00:00 -0700</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>堀田 勇樹</title>
@@ -15,7 +15,7 @@
     <item>
       <title>アプリケーションの不具合解析を効率化する走行制御向けECUプラットフォームの検討</title>
       <link>/publication/horita-cds/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
       <guid>/publication/horita-cds/</guid>
       <description></description>
     </item>

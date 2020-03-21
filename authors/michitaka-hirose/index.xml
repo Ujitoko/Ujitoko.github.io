@@ -5,7 +5,7 @@
     <link>/authors/michitaka-hirose/</link>
       <atom:link href="/authors/michitaka-hirose/index.xml" rel="self" type="application/rss+xml" />
     <description>Michitaka Hirose</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 -0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Michitaka Hirose</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Yubi-Toko: Finger Walking in Snowy Scene Using Pseudo-Haptic Technique on Touchpad</title>
       <link>/publication/10-1145-2818466-2818491/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
       <guid>/publication/10-1145-2818466-2818491/</guid>
       <description></description>
     </item>

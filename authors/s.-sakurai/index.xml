@@ -5,7 +5,7 @@
     <link>/authors/s.-sakurai/</link>
       <atom:link href="/authors/s.-sakurai/index.xml" rel="self" type="application/rss+xml" />
     <description>S. Sakurai</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 -0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>S. Sakurai</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>Re-using Vibrotactile Signal Assets for Different Black Box Vibrators without Re-designing</title>
+      <link>/publication/ujitoko-vibrator-transparency/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
+      <guid>/publication/ujitoko-vibrator-transparency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Influence of Sparse Contact Point and Finger Penetration In Object on Shape Recognition</title>
       <link>/publication/ujitoko-to-h-sponge/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0900</pubDate>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 -0700</pubDate>
       <guid>/publication/ujitoko-to-h-sponge/</guid>
       <description></description>
     </item>

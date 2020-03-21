@@ -5,7 +5,7 @@
     <link>/authors/t.-tanikawa/</link>
       <atom:link href="/authors/t.-tanikawa/index.xml" rel="self" type="application/rss+xml" />
     <description>T. Tanikawa</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2017 00:00:00 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2017 00:00:00 -0700</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>T. Tanikawa</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Resistive swipe: Visuo-haptic interaction during swipe gestures to scroll background images on touch interfaces</title>
       <link>/publication/7989924/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
       <guid>/publication/7989924/</guid>
       <description></description>
     </item>

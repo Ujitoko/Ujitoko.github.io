@@ -5,12 +5,28 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Yusuke Ujitoko</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 25 Feb 2020 21:38:23 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 -0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Yusuke Ujitoko</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Edge Vibration Improves Ability to Discriminate Roughness Difference of Adjoining Areas</title>
+      <link>/publication/ban-to-h-edge-vibration/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
+      <guid>/publication/ban-to-h-edge-vibration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Re-using Vibrotactile Signal Assets for Different Black Box Vibrators without Re-designing</title>
+      <link>/publication/ujitoko-vibrator-transparency/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
+      <guid>/publication/ujitoko-vibrator-transparency/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Vibrator Transparency</title>
@@ -55,7 +71,7 @@ These results confirm the hypothesis and show that our method is a promising opt
     <item>
       <title>敵対的学習を用いた触覚提示向け振動の自動生成</title>
       <link>/publication/ujitoko-cds/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0900</pubDate>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 -0800</pubDate>
       <guid>/publication/ujitoko-cds/</guid>
       <description></description>
     </item>
@@ -120,7 +136,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>GAN-Based Fine-Tuning of Vibrotactile Signals to Render Material Surfaces</title>
       <link>/publication/ujitoko-ieee-access-gan-fine-tuning/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0900</pubDate>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 -0800</pubDate>
       <guid>/publication/ujitoko-ieee-access-gan-fine-tuning/</guid>
       <description></description>
     </item>
@@ -142,7 +158,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Automated Vibrotactile Generation based on Texture Images or Material Attributes using GAN</title>
       <link>/publication/ban-gan/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 +0900</pubDate>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 -0800</pubDate>
       <guid>/publication/ban-gan/</guid>
       <description></description>
     </item>
@@ -150,7 +166,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Influence of Sparse Contact Point and Finger Penetration In Object on Shape Recognition</title>
       <link>/publication/ujitoko-to-h-sponge/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0900</pubDate>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 -0700</pubDate>
       <guid>/publication/ujitoko-to-h-sponge/</guid>
       <description></description>
     </item>
@@ -158,7 +174,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Presenting Static Friction Sensation at Stick-slip Transition using Pseudo-haptic Effect</title>
       <link>/publication/8816100/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0900</pubDate>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 -0700</pubDate>
       <guid>/publication/8816100/</guid>
       <description></description>
     </item>
@@ -166,7 +182,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Modulating Fine Roughness Perception of Vibrotactile Textured Surface using Pseudo-haptic Effect</title>
       <link>/publication/ujitoko-ieee-vr-2019/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0900</pubDate>
+      <pubDate>Wed, 01 May 2019 00:00:00 -0700</pubDate>
       <guid>/publication/ujitoko-ieee-vr-2019/</guid>
       <description></description>
     </item>
@@ -174,7 +190,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Modulating Fine Roughness Perception of Vibrotactile Textured Surface using Pseudo-haptic Effect</title>
       <link>/publication/ujitoko-tvcg-modulating-fine-roughness/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0900</pubDate>
+      <pubDate>Wed, 01 May 2019 00:00:00 -0700</pubDate>
       <guid>/publication/ujitoko-tvcg-modulating-fine-roughness/</guid>
       <description></description>
     </item>
@@ -196,7 +212,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Inclination Manipulator</title>
       <link>/publication/10-1145-3355049-3360541/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
       <guid>/publication/10-1145-3355049-3360541/</guid>
       <description></description>
     </item>
@@ -204,7 +220,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>バーチャル紐を用いることによるタッチスクリーンでのPseudo-haptics効果の向上</title>
       <link>/publication/ban-vrsj-virtual-string/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
       <guid>/publication/ban-vrsj-virtual-string/</guid>
       <description></description>
     </item>
@@ -212,7 +228,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>アプリケーションの不具合解析を効率化する走行制御向けECUプラットフォームの検討</title>
       <link>/publication/horita-cds/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
       <guid>/publication/horita-cds/</guid>
       <description></description>
     </item>
@@ -220,7 +236,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Enhancing the Pseudo-Haptic effect on the touch panel using the virtual string</title>
       <link>/publication/8357188/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 -0800</pubDate>
       <guid>/publication/8357188/</guid>
       <description></description>
     </item>
@@ -228,7 +244,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>TactGAN: Vibrotactile Designing Driven by GAN-Based Automatic Generation</title>
       <link>/publication/10-1145-3275476-3275484/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0900</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
       <guid>/publication/10-1145-3275476-3275484/</guid>
       <description></description>
     </item>
@@ -236,7 +252,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Vibrotactile Signal Generation from Texture Images or Attributes Using Generative Adversarial Network</title>
       <link>/publication/10-1007-978-3-319-93399-3-3/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0900</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
       <guid>/publication/10-1007-978-3-319-93399-3-3/</guid>
       <description></description>
     </item>
@@ -244,7 +260,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Resistive swipe: Visuo-haptic interaction during swipe gestures to scroll background images on touch interfaces</title>
       <link>/publication/7989924/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
       <guid>/publication/7989924/</guid>
       <description></description>
     </item>
@@ -324,7 +340,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>背景移動量操作を利用した視触覚間相互作用生起によるタッチパネルでの擬似触力覚提示</title>
       <link>/publication/ujitoko-vrsj-2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0900</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
       <guid>/publication/ujitoko-vrsj-2017/</guid>
       <description></description>
     </item>
@@ -332,7 +348,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Impact of illusory resistance on finger walking behavior</title>
       <link>/publication/ujitoko-ieee-vr-2015/</link>
-      <pubDate>Sun, 01 Mar 2015 00:00:00 +0900</pubDate>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 -0800</pubDate>
       <guid>/publication/ujitoko-ieee-vr-2015/</guid>
       <description></description>
     </item>
@@ -340,7 +356,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Application of the Locomotion Interface Using Anthropomorphic Finger Motion</title>
       <link>/publication/10-1007-978-3-319-20618-9-65/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
       <guid>/publication/10-1007-978-3-319-20618-9-65/</guid>
       <description></description>
     </item>
@@ -348,7 +364,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Object Manipulation by Deformable Hand</title>
       <link>/publication/hirota-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
       <guid>/publication/hirota-2015/</guid>
       <description></description>
     </item>
@@ -356,7 +372,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>The Scaling of the Haptic Perception on the Fingertip Using an Interface of Anthropomorphic Finger Motions</title>
       <link>/publication/ujitoko-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
       <guid>/publication/ujitoko-2015/</guid>
       <description></description>
     </item>
@@ -364,7 +380,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Yubi-Toko: Finger Walking in Snowy Scene Using Pseudo-Haptic Technique on Touchpad</title>
       <link>/publication/10-1145-2818466-2818491/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
       <guid>/publication/10-1145-2818466-2818491/</guid>
       <description></description>
     </item>
@@ -372,7 +388,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Interpretation of Tactile Sensation Using an Anthropomorphic Finger Motion Interface to Operate a Virtual Avatar</title>
       <link>/publication/10-5555-2854457-2854461/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0900</pubDate>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 -0800</pubDate>
       <guid>/publication/10-5555-2854457-2854461/</guid>
       <description></description>
     </item>
@@ -380,7 +396,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>European Historic Rally Project 2013</title>
       <link>/publication/rallye/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 -0800</pubDate>
       <guid>/publication/rallye/</guid>
       <description></description>
     </item>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Texture Rendering;Vibrotactile | Yusuke Ujitoko</title>
+    <link>/tags/texture-renderingvibrotactile/</link>
+      <atom:link href="/tags/texture-renderingvibrotactile/index.xml" rel="self" type="application/rss+xml" />
+    <description>Texture Rendering;Vibrotactile</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 -0800</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Texture Rendering;Vibrotactile</title>
+      <link>/tags/texture-renderingvibrotactile/</link>
+    </image>
+    
+    <item>
+      <title>Edge Vibration Improves Ability to Discriminate Roughness Difference of Adjoining Areas</title>
+      <link>/publication/ban-to-h-edge-vibration/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
+      <guid>/publication/ban-to-h-edge-vibration/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

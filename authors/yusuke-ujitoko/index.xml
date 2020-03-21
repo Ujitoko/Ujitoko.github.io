@@ -5,7 +5,7 @@
     <link>/authors/yusuke-ujitoko/</link>
       <atom:link href="/authors/yusuke-ujitoko/index.xml" rel="self" type="application/rss+xml" />
     <description>Yusuke Ujitoko</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 -0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Yusuke Ujitoko</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Inclination Manipulator</title>
       <link>/publication/10-1145-3355049-3360541/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
       <guid>/publication/10-1145-3355049-3360541/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>TactGAN: Vibrotactile Designing Driven by GAN-Based Automatic Generation</title>
       <link>/publication/10-1145-3275476-3275484/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0900</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
       <guid>/publication/10-1145-3275476-3275484/</guid>
       <description></description>
     </item>
@@ -31,7 +31,7 @@
     <item>
       <title>Vibrotactile Signal Generation from Texture Images or Attributes Using Generative Adversarial Network</title>
       <link>/publication/10-1007-978-3-319-93399-3-3/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0900</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
       <guid>/publication/10-1007-978-3-319-93399-3-3/</guid>
       <description></description>
     </item>
@@ -39,7 +39,7 @@
     <item>
       <title>Application of the Locomotion Interface Using Anthropomorphic Finger Motion</title>
       <link>/publication/10-1007-978-3-319-20618-9-65/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
       <guid>/publication/10-1007-978-3-319-20618-9-65/</guid>
       <description></description>
     </item>
@@ -47,7 +47,7 @@
     <item>
       <title>Object Manipulation by Deformable Hand</title>
       <link>/publication/hirota-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
       <guid>/publication/hirota-2015/</guid>
       <description></description>
     </item>
@@ -55,7 +55,7 @@
     <item>
       <title>The Scaling of the Haptic Perception on the Fingertip Using an Interface of Anthropomorphic Finger Motions</title>
       <link>/publication/ujitoko-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
       <guid>/publication/ujitoko-2015/</guid>
       <description></description>
     </item>
@@ -63,7 +63,7 @@
     <item>
       <title>Yubi-Toko: Finger Walking in Snowy Scene Using Pseudo-Haptic Technique on Touchpad</title>
       <link>/publication/10-1145-2818466-2818491/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
       <guid>/publication/10-1145-2818466-2818491/</guid>
       <description></description>
     </item>
