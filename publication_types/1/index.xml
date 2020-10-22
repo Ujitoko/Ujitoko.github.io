@@ -5,7 +5,7 @@
     <link>/publication_types/1/</link>
       <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0900</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>1</title>
@@ -15,15 +15,23 @@
     <item>
       <title>Re-using Vibrotactile Signal Assets for Different Black Box Vibrators without Re-designing</title>
       <link>/publication/ujitoko-vibrator-transparency/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0900</pubDate>
       <guid>/publication/ujitoko-vibrator-transparency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surface Roughness Judgment During Finger Exploration Is Changeable by Visual Oscillations</title>
+      <link>/publication/ota-2020-surface/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0900</pubDate>
+      <guid>/publication/ota-2020-surface/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Automated Vibrotactile Generation based on Texture Images or Material Attributes using GAN</title>
       <link>/publication/ban-gan/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0900</pubDate>
       <guid>/publication/ban-gan/</guid>
       <description></description>
     </item>
@@ -31,7 +39,7 @@
     <item>
       <title>Presenting Static Friction Sensation at Stick-slip Transition using Pseudo-haptic Effect</title>
       <link>/publication/8816100/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0900</pubDate>
       <guid>/publication/8816100/</guid>
       <description></description>
     </item>
@@ -39,7 +47,7 @@
     <item>
       <title>Modulating Fine Roughness Perception of Vibrotactile Textured Surface using Pseudo-haptic Effect</title>
       <link>/publication/ujitoko-ieee-vr-2019/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0900</pubDate>
       <guid>/publication/ujitoko-ieee-vr-2019/</guid>
       <description></description>
     </item>
@@ -47,7 +55,7 @@
     <item>
       <title>Inclination Manipulator</title>
       <link>/publication/10-1145-3355049-3360541/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0900</pubDate>
       <guid>/publication/10-1145-3355049-3360541/</guid>
       <description></description>
     </item>
@@ -55,7 +63,7 @@
     <item>
       <title>Enhancing the Pseudo-Haptic effect on the touch panel using the virtual string</title>
       <link>/publication/8357188/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0900</pubDate>
       <guid>/publication/8357188/</guid>
       <description></description>
     </item>
@@ -63,7 +71,7 @@
     <item>
       <title>TactGAN: Vibrotactile Designing Driven by GAN-Based Automatic Generation</title>
       <link>/publication/10-1145-3275476-3275484/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0900</pubDate>
       <guid>/publication/10-1145-3275476-3275484/</guid>
       <description></description>
     </item>
@@ -71,7 +79,7 @@
     <item>
       <title>Vibrotactile Signal Generation from Texture Images or Attributes Using Generative Adversarial Network</title>
       <link>/publication/10-1007-978-3-319-93399-3-3/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0900</pubDate>
       <guid>/publication/10-1007-978-3-319-93399-3-3/</guid>
       <description></description>
     </item>
@@ -79,7 +87,7 @@
     <item>
       <title>Resistive swipe: Visuo-haptic interaction during swipe gestures to scroll background images on touch interfaces</title>
       <link>/publication/7989924/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0900</pubDate>
       <guid>/publication/7989924/</guid>
       <description></description>
     </item>
@@ -87,7 +95,7 @@
     <item>
       <title>Impact of illusory resistance on finger walking behavior</title>
       <link>/publication/ujitoko-ieee-vr-2015/</link>
-      <pubDate>Sun, 01 Mar 2015 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0900</pubDate>
       <guid>/publication/ujitoko-ieee-vr-2015/</guid>
       <description></description>
     </item>
@@ -95,7 +103,7 @@
     <item>
       <title>Application of the Locomotion Interface Using Anthropomorphic Finger Motion</title>
       <link>/publication/10-1007-978-3-319-20618-9-65/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
       <guid>/publication/10-1007-978-3-319-20618-9-65/</guid>
       <description></description>
     </item>
@@ -103,7 +111,7 @@
     <item>
       <title>Yubi-Toko: Finger Walking in Snowy Scene Using Pseudo-Haptic Technique on Touchpad</title>
       <link>/publication/10-1145-2818466-2818491/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
       <guid>/publication/10-1145-2818466-2818491/</guid>
       <description></description>
     </item>
@@ -111,7 +119,7 @@
     <item>
       <title>Interpretation of Tactile Sensation Using an Anthropomorphic Finger Motion Interface to Operate a Virtual Avatar</title>
       <link>/publication/10-5555-2854457-2854461/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 -0800</pubDate>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0900</pubDate>
       <guid>/publication/10-5555-2854457-2854461/</guid>
       <description></description>
     </item>
@@ -119,7 +127,7 @@
     <item>
       <title>European Historic Rally Project 2013</title>
       <link>/publication/rallye/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0900</pubDate>
       <guid>/publication/rallye/</guid>
       <description></description>
     </item>

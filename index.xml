@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Yusuke Ujitoko</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Yusuke Ujitoko</title>
@@ -13,9 +13,25 @@
     </image>
     
     <item>
+      <title>Development of Finger-Mounted High-Density Pin-Array Haptic Display</title>
+      <link>/publication/ujitoko-2020-development/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/ujitoko-2020-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pseudo Roughness_finger</title>
+      <link>/project/pseudo-roughness_finger/</link>
+      <pubDate>Sat, 16 May 2020 15:45:08 +0900</pubDate>
+      <guid>/project/pseudo-roughness_finger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Edge Vibration Improves Ability to Discriminate Roughness Difference of Adjoining Areas</title>
       <link>/publication/ban-to-h-edge-vibration/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0900</pubDate>
       <guid>/publication/ban-to-h-edge-vibration/</guid>
       <description></description>
     </item>
@@ -23,7 +39,7 @@
     <item>
       <title>Re-using Vibrotactile Signal Assets for Different Black Box Vibrators without Re-designing</title>
       <link>/publication/ujitoko-vibrator-transparency/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0900</pubDate>
       <guid>/publication/ujitoko-vibrator-transparency/</guid>
       <description></description>
     </item>
@@ -35,7 +51,7 @@
       <guid>/project/vibrator_transparency/</guid>
       <description>&lt;p&gt;When an input command signal designed with one vibrator is reused with another vibrator with different frequency characteristics, there is a problem that the output vibration will differ.
 Therefore, we propose the concept of &amp;lsquo;&amp;lsquo;vibrator transparency.&amp;rsquo;&amp;rsquo;
-We define the &amp;lsquo;&amp;lsquo;ibrator transparent system&amp;rsquo;&amp;rsquo; as a control system that absorbs the difference in vibrator environments&amp;rsquo; frequency characteristics.
+We define the &amp;lsquo;&amp;lsquo;ibrator transparent system&amp;rsquo;&amp;rsquo; as a control system that absorbs the difference in vibrator environments&#39; frequency characteristics.
 The output vibration of the system does not depend on the change of the vibrator environment but depends only on the input signal.
 Therefore, with this system, it is possible to reproduce the output vibration by only reusing the input signals from vibrotactile signal assets.
 Inside the system, an adaptation process for the input signal is automatically executed.
@@ -71,7 +87,7 @@ These results confirm the hypothesis and show that our method is a promising opt
     <item>
       <title>敵対的学習を用いた触覚提示向け振動の自動生成</title>
       <link>/publication/ujitoko-cds/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 -0800</pubDate>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0900</pubDate>
       <guid>/publication/ujitoko-cds/</guid>
       <description></description>
     </item>
@@ -108,7 +124,7 @@ This study utilizes the Generative Adversarial Network (GAN) based vibration gen
 &lt;p&gt;We made the prototype design tool.
 With this tool, users can experience the rapid designing process of the vibrotactile stimuli for specific user interfaces or specific contents on applications.
 Users receive the vibrotactile feedback by moving or tapping with a pen-type tactile device described above on a surface of a tablet device.
-For designing UI components&amp;rsquo; tactile feedback, users can control parameters like material kinds or perceptual tactile words to generate suitable vibrotactile stimuli.
+For designing UI components&#39; tactile feedback, users can control parameters like material kinds or perceptual tactile words to generate suitable vibrotactile stimuli.
 They can generate vibrotactile stimuli while touching and set it as a UI such as a button or a slider. For instance, by controlling the setting values of such parameters, we can generate vibrotactile stimuli like &amp;ldquo;rough metal&amp;rdquo; or &amp;ldquo;slippery wood.&amp;rdquo;
 In addition, for designing the 3D model&amp;rsquo;s texture with vibrotactile stimuli, the system can automatically generate optimum virotactile feedback for the texture image that users apply to the model.
 Users can touch and compare various textures, and if there is no suitable one, they can generate a texture and a vibrotactile stimulus by taking a picture with a camera, searching an image from the web, or sending an image that users have in their mobile phones to the system.&lt;/p&gt;
@@ -136,8 +152,16 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>GAN-Based Fine-Tuning of Vibrotactile Signals to Render Material Surfaces</title>
       <link>/publication/ujitoko-ieee-access-gan-fine-tuning/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 -0800</pubDate>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0900</pubDate>
       <guid>/publication/ujitoko-ieee-access-gan-fine-tuning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surface Roughness Judgment During Finger Exploration Is Changeable by Visual Oscillations</title>
+      <link>/publication/ota-2020-surface/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0900</pubDate>
+      <guid>/publication/ota-2020-surface/</guid>
       <description></description>
     </item>
     
@@ -146,7 +170,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
       <link>/project/design_guideline_for_wearable_pin-array/</link>
       <pubDate>Tue, 24 Dec 2019 22:04:42 +0900</pubDate>
       <guid>/project/design_guideline_for_wearable_pin-array/</guid>
-      <description>&lt;p&gt;Researchers have developed a multi-point haptic display that has a high contact point density between the users&amp;rsquo; finger skin and the virtual object. However, the ideal contact point density that enables intuitive shape recognition has not been determined yet. Meanwhile, there is also a fundamental problem, that is, real fingers and virtual objects do penetrate, which cannot be solved with such wearable displays. This study investigated the influence of both contact point density and penetration on the shape recognition performance. We prepared a real testing environment where the user touched the real object, and where we could simulate both the sparse contact point and the penetration. Specifically, users&amp;rsquo; fingers wore thin film coated with glass particles and they touched the urethane foams that deformed flexibly. The result of experiments showed a broad trend where the sparseness and the softness of the object influenced the exploration time required to achieve recognition. In addition, the result suggested that the larger contact density could make up for the problem of penetration. We confirmed it by conducting two different tasks: (1) exploring the object surface with the index finger and (2) grasping the object surface with the thumb and the index finger.&lt;/p&gt;
+      <description>&lt;p&gt;Researchers have developed a multi-point haptic display that has a high contact point density between the users&#39; finger skin and the virtual object. However, the ideal contact point density that enables intuitive shape recognition has not been determined yet. Meanwhile, there is also a fundamental problem, that is, real fingers and virtual objects do penetrate, which cannot be solved with such wearable displays. This study investigated the influence of both contact point density and penetration on the shape recognition performance. We prepared a real testing environment where the user touched the real object, and where we could simulate both the sparse contact point and the penetration. Specifically, users&#39; fingers wore thin film coated with glass particles and they touched the urethane foams that deformed flexibly. The result of experiments showed a broad trend where the sparseness and the softness of the object influenced the exploration time required to achieve recognition. In addition, the result suggested that the larger contact density could make up for the problem of penetration. We confirmed it by conducting two different tasks: (1) exploring the object surface with the index finger and (2) grasping the object surface with the thumb and the index finger.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/IFIzG92ZnNs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -158,7 +182,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Automated Vibrotactile Generation based on Texture Images or Material Attributes using GAN</title>
       <link>/publication/ban-gan/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0900</pubDate>
       <guid>/publication/ban-gan/</guid>
       <description></description>
     </item>
@@ -166,7 +190,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Influence of Sparse Contact Point and Finger Penetration In Object on Shape Recognition</title>
       <link>/publication/ujitoko-to-h-sponge/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0900</pubDate>
       <guid>/publication/ujitoko-to-h-sponge/</guid>
       <description></description>
     </item>
@@ -174,7 +198,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Presenting Static Friction Sensation at Stick-slip Transition using Pseudo-haptic Effect</title>
       <link>/publication/8816100/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0900</pubDate>
       <guid>/publication/8816100/</guid>
       <description></description>
     </item>
@@ -182,7 +206,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Modulating Fine Roughness Perception of Vibrotactile Textured Surface using Pseudo-haptic Effect</title>
       <link>/publication/ujitoko-ieee-vr-2019/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0900</pubDate>
       <guid>/publication/ujitoko-ieee-vr-2019/</guid>
       <description></description>
     </item>
@@ -190,7 +214,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Modulating Fine Roughness Perception of Vibrotactile Textured Surface using Pseudo-haptic Effect</title>
       <link>/publication/ujitoko-tvcg-modulating-fine-roughness/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0900</pubDate>
       <guid>/publication/ujitoko-tvcg-modulating-fine-roughness/</guid>
       <description></description>
     </item>
@@ -212,7 +236,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Inclination Manipulator</title>
       <link>/publication/10-1145-3355049-3360541/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0900</pubDate>
       <guid>/publication/10-1145-3355049-3360541/</guid>
       <description></description>
     </item>
@@ -220,7 +244,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>バーチャル紐を用いることによるタッチスクリーンでのPseudo-haptics効果の向上</title>
       <link>/publication/ban-vrsj-virtual-string/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0900</pubDate>
       <guid>/publication/ban-vrsj-virtual-string/</guid>
       <description></description>
     </item>
@@ -228,7 +252,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>アプリケーションの不具合解析を効率化する走行制御向けECUプラットフォームの検討</title>
       <link>/publication/horita-cds/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0900</pubDate>
       <guid>/publication/horita-cds/</guid>
       <description></description>
     </item>
@@ -236,7 +260,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Enhancing the Pseudo-Haptic effect on the touch panel using the virtual string</title>
       <link>/publication/8357188/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0900</pubDate>
       <guid>/publication/8357188/</guid>
       <description></description>
     </item>
@@ -244,7 +268,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>TactGAN: Vibrotactile Designing Driven by GAN-Based Automatic Generation</title>
       <link>/publication/10-1145-3275476-3275484/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0900</pubDate>
       <guid>/publication/10-1145-3275476-3275484/</guid>
       <description></description>
     </item>
@@ -252,7 +276,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Vibrotactile Signal Generation from Texture Images or Attributes Using Generative Adversarial Network</title>
       <link>/publication/10-1007-978-3-319-93399-3-3/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0900</pubDate>
       <guid>/publication/10-1007-978-3-319-93399-3-3/</guid>
       <description></description>
     </item>
@@ -260,7 +284,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Resistive swipe: Visuo-haptic interaction during swipe gestures to scroll background images on touch interfaces</title>
       <link>/publication/7989924/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0900</pubDate>
       <guid>/publication/7989924/</guid>
       <description></description>
     </item>
@@ -340,7 +364,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>背景移動量操作を利用した視触覚間相互作用生起によるタッチパネルでの擬似触力覚提示</title>
       <link>/publication/ujitoko-vrsj-2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0900</pubDate>
       <guid>/publication/ujitoko-vrsj-2017/</guid>
       <description></description>
     </item>
@@ -348,7 +372,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Impact of illusory resistance on finger walking behavior</title>
       <link>/publication/ujitoko-ieee-vr-2015/</link>
-      <pubDate>Sun, 01 Mar 2015 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0900</pubDate>
       <guid>/publication/ujitoko-ieee-vr-2015/</guid>
       <description></description>
     </item>
@@ -356,7 +380,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Application of the Locomotion Interface Using Anthropomorphic Finger Motion</title>
       <link>/publication/10-1007-978-3-319-20618-9-65/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
       <guid>/publication/10-1007-978-3-319-20618-9-65/</guid>
       <description></description>
     </item>
@@ -364,7 +388,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Object Manipulation by Deformable Hand</title>
       <link>/publication/hirota-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
       <guid>/publication/hirota-2015/</guid>
       <description></description>
     </item>
@@ -372,7 +396,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>The Scaling of the Haptic Perception on the Fingertip Using an Interface of Anthropomorphic Finger Motions</title>
       <link>/publication/ujitoko-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
       <guid>/publication/ujitoko-2015/</guid>
       <description></description>
     </item>
@@ -380,7 +404,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Yubi-Toko: Finger Walking in Snowy Scene Using Pseudo-Haptic Technique on Touchpad</title>
       <link>/publication/10-1145-2818466-2818491/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0900</pubDate>
       <guid>/publication/10-1145-2818466-2818491/</guid>
       <description></description>
     </item>
@@ -388,7 +412,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>Interpretation of Tactile Sensation Using an Anthropomorphic Finger Motion Interface to Operate a Virtual Avatar</title>
       <link>/publication/10-5555-2854457-2854461/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 -0800</pubDate>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0900</pubDate>
       <guid>/publication/10-5555-2854457-2854461/</guid>
       <description></description>
     </item>
@@ -396,7 +420,7 @@ Users can touch and compare various textures, and if there is no suitable one, t
     <item>
       <title>European Historic Rally Project 2013</title>
       <link>/publication/rallye/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0900</pubDate>
       <guid>/publication/rallye/</guid>
       <description></description>
     </item>

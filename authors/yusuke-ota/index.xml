@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yusuke Ota | Yusuke Ujitoko</title>
+    <link>/authors/yusuke-ota/</link>
+      <atom:link href="/authors/yusuke-ota/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yusuke Ota</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Yusuke Ota</title>
+      <link>/authors/yusuke-ota/</link>
+    </image>
+    
+    <item>
+      <title>Surface Roughness Judgment During Finger Exploration Is Changeable by Visual Oscillations</title>
+      <link>/publication/ota-2020-surface/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0900</pubDate>
+      <guid>/publication/ota-2020-surface/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

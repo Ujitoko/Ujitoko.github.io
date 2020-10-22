@@ -5,7 +5,7 @@
     <link>/authors/sho-sakurai/</link>
       <atom:link href="/authors/sho-sakurai/index.xml" rel="self" type="application/rss+xml" />
     <description>Sho Sakurai</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Sho Sakurai</title>
@@ -13,9 +13,25 @@
     </image>
     
     <item>
+      <title>Development of Finger-Mounted High-Density Pin-Array Haptic Display</title>
+      <link>/publication/ujitoko-2020-development/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/ujitoko-2020-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surface Roughness Judgment During Finger Exploration Is Changeable by Visual Oscillations</title>
+      <link>/publication/ota-2020-surface/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0900</pubDate>
+      <guid>/publication/ota-2020-surface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Inclination Manipulator</title>
       <link>/publication/10-1145-3355049-3360541/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0900</pubDate>
       <guid>/publication/10-1145-3355049-3360541/</guid>
       <description></description>
     </item>
