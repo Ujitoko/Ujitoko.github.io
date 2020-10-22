@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/project/high-density-pin-arrays/</loc>
+    <lastmod>2020-10-22T12:47:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2020-10-22T12:47:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-10-22T12:47:13+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication_types/2/</loc>
     <lastmod>2020-10-22T11:40:56+09:00</lastmod>
   </url>
@@ -45,16 +60,6 @@
   <url>
     <loc>/authors/yusuke-ujitoko/</loc>
     <lastmod>2020-10-22T11:40:56+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-10-22T11:40:56+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2020-05-16T15:45:08+09:00</lastmod>
   </url>
   
   <url>
