@@ -1,0 +1,59 @@
+/* styles.css */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Zen Kaku Gothic New', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Roboto, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /*'Arial', sans-serif;*/
+}
+
+.contact-links span {
+    margin-right: 15px;
+  }
+
+.aligned-text {
+    display: inline-block; /* インラインブロック要素として表示 */
+    text-align: right; /* テキストを右寄せにする */
+    margin-right: 20px; /* 追加のマージンを設定（必要に応じて調整） */
+}
+
+#block0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 40px; /* 適切なパディングを追加 */
+  padding-right: 40px; /* 適切なパディングを追加 */
+}
+
+#block1 {
+  background-color: #ffffff; /* 背景色を設定 */
+  color: #333; /* 文字色を設定 */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px; /* 適切なパディングを追加 */
+  padding-right: 40px; /* 適切なパディングを追加 */
+}
+
+#block2 {
+  background-color: #EEEEEE;
+  color: #333;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px; /* 適切なパディングを追加 */
+  padding-right: 40px; /* 適切なパディングを追加 */
+}
+
+.publication-list ol li {
+	list-style-type: none;
+	counter-increment: cnt;
+	position: relative;
+	margin-left: 0.9em; /* サイトに合せて調整 */
+}
+
+.publication-list ol li:before {
+	content: "[" counter(cnt) "]";
+	display: inline-block;
+	margin-left: -3.5em; /* サイトに合せて調整 */
+	width: 3em; /* サイトに合せて調整 */
+	text-align: right;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
