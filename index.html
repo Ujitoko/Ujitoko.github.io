@@ -1,25 +1,5 @@
-<!DOCTYPE html>
-
-<script>
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
-}
-</script>
-
-
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="ja">
 <head>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DLW8CP9SBQ"></script>
@@ -47,7 +27,7 @@ function myFunction() {
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse" role="navigation" aria-label="Main navigation">
   <div class="container">
   </div>
 </nav>
@@ -56,20 +36,25 @@ function myFunction() {
   <div class="container-fluid">
     <div class="row">
       <!-- 写真と自己紹介 -->
-      <div class="col-md-12" id="block0">
+      <div class="col-md-12 block block--0">
         <div class="row">
-          <div class="col-md-2">
-              <img class="img-responsive" src="img/ujitoko.png" alt=""><br>
-          </div>
-          <div class="col-md-10" style="text-align:justify;">
-            <div style="font-size: 26px;"><b>Yusuke Ujitoko / 宇治土公 雄介</b></div>
+            <div class="col-xs-3 col-sm-2 col-md-2">
+              <picture>
+                <source type="image/webp" srcset="img/ujitoko.webp 1x, img/ujitoko@2x.webp 2x">
+                <source type="image/svg+xml" srcset="img/ujitoko.svg 1x, img/ujitoko@2x.svg 2x">
+                <img loading="lazy" class="img-responsive" src="img/ujitoko.png" srcset="img/ujitoko.png 1x, img/ujitoko@2x.png 2x" sizes="(max-width:480px) 120px, (max-width:768px) 160px, 200px" alt="宇治土公 雄介の写真">
+              </picture>
+              <br>
+            </div>
+            <div class="col-xs-9 col-sm-10 col-md-10 intro">
+            <div class="page-title"><b>Yusuke Ujitoko / 宇治土公 雄介</b></div>
             <p>
-            <ul style="margin-left: 20px; padding-left: 0;margin-bottom:0px;">
+            <ul class="list-compact">
               <li>NTT Communication Science Laboratories, Distinguished Researcher / NTT株式会社 コミュニケーション科学基礎研究所 特別研究員</li>
               <li>The University of Electro-Communications, Associate Professor / 電気通信大学 大学院情報理工学研究科 連携准教授</li>
             </ul>
             </p>
-            <p style="text-indent: 1em;">
+            <p class="indent">
               物体や他者に触れた感触を人に感じさせる触覚提示システムは医療、エンタメなど多岐にわたる分野での応用が期待されています。私は社会で<b>実際に活用される触覚提示システム</b>の実現をめざして触覚の基礎的な研究に取り組んでいます。現在は、<b>人の知覚特性</b>の理解、知覚特性に基づく<b>触覚提示技術</b>の提案、触覚提示の<b>ニーズや応用シナリオ</b>の体系化、<b>触覚提示システムの満たすべき仕様</b>の検討を主なテーマとしています。
             </p>
 
@@ -86,46 +71,46 @@ function myFunction() {
         </div>
       </div>
 
-      <div class="col-md-12" id="block1" style="padding-top:0px;">
-        <div style="font-size: 20px;"><b>Work experience</b></div>
+      <div class="col-md-12 block block--1 no-top">
+        <div class="section-title"><b>Work experience</b></div>
         <table>
           <tr>
-            <td width="150" style="vertical-align: top;">Apr 2025 -</td>
+            <td width="150" class="vtop">Apr 2025 -</td>
             <td>The University of Electro-Communications / 電気通信大学</td>
           </tr>
           <tr>
-            <td width="150" style="vertical-align: top;">Oct 2020 -</td>
+            <td width="150" class="vtop">Oct 2020 -</td>
             <td>Communication Science Laboratories, NTT, Inc. / NTT株式会社 コミュニケーション科学基礎研究所</td>
           </tr>
           <tr>
-            <td width="150" style="vertical-align: top;">Apr 2016 - Sep 2020</td>
+            <td width="150" class="vtop">Apr 2016 - Sep 2020</td>
             <td>R&D Group, Hitachi, Ltd. / 株式会社日立製作所 研究開発グループ</td>
           </tr>
         </table>
       </div>
 
-      <div class="col-md-12" id="block2">
-        <div style="font-size: 20px;"><b>Education</b></div>
+      <div class="col-md-12 block block--2">
+        <div class="section-title"><b>Education</b></div>
         <table>
           <tr>
-            <td width="70" style="vertical-align: top;">Sep 2020</td>
+            <td width="70" class="vtop">Sep 2020</td>
             <td>Ph.D. in Engineering, The University of Electro-Communications / 電気通信大学 博士(工学)</td>
           </tr>
           <tr>
-            <td width="70" style="vertical-align: top;">Mar 2016</td>
+            <td width="70" class="vtop">Mar 2016</td>
             <td>M.A.Sc., The University of Tokyo / 東京大学 修士(学際情報学)</td>
           </tr>
           <tr>
-            <td width="70" style="vertical-align: top;">Mar 2014</td>
+            <td width="70" class="vtop">Mar 2014</td>
             <td>B.E., The University of Tokyo / 東京大学 学士(機械工学)
             </td>
           </tr>
         </table>
       </div>
 
-      <div class="col-md-12" id="block1" style="padding-top:0px;">
-        <div style="font-size: 20px;"><b>Research Topic</b></div>
-        <ul style="margin-left: 20px; padding-left: 0;margin-bottom:0px;">
+      <div class="col-md-12 block block--1 no-top">
+        <div class="section-title"><b>Research Topic</b></div>
+        <ul class="list-compact">
           <li>Pseudo-haptics / 視覚刺激に基づく疑似的な触知覚 (<a href="https://ieeexplore.ieee.org/document/9424469"><b>サーベイ論文</b></a>、<a href="https://www.jstage.jst.go.jp/article/psychono/42/1/42_42.28/_article/-char/ja/"><b>日本語の解説記事</b></a>、<a href="https://speakerdeck.com/ujitoko/kurosumodaruzhi-jue-niji-dukuni-si-hong-jue-ti-shi"><b>チュートリアルスライド(2021年時点)</b></a>)</li>
           <li>Touch desire / 触りたさ (<a href="project/touch_desire/index.html"><b>研究紹介ページ</b></a>)</li> 
           <li>Softness perception / 柔らかさ知覚 (<a href="project/visual_softness/index.html"><b>研究紹介ページ</b></a>)</li>
@@ -136,11 +121,11 @@ function myFunction() {
       </div>
 
       <!-- Publication -->
-      <div class="col-md-12" id="block2">
-        <div style="font-size: 20px;"><b>Publication</b></div>
-        <div style="font-size: 16px;"><b>Journal Paper</b></div>
+      <div class="col-md-12 block block--2">
+        <div class="section-title"><b>Publication</b></div>
+        <div class="subsection-title"><b>Journal Paper</b></div>
         <div class="publication-list">
-          <ol style="margin-left: 20px; padding-left: 0;">
+          <ol class="list-compact">
             <li><u>Ujitoko, Y.</u>, & Ban, Y. (2026, XXX). Eliciting Pleasantness With Haptic Feedback: The Role of Physical and Pseudo-Haptic Resistance in Virtual Archery. IEEE Transactions on Visualization and Computer Graphics. <a href="https://doi.org/10.1109/tvcg.2025.3648732">https://doi.org/10.1109/tvcg.2025.3648732</a></li></li>
             <li>Yokosaka, T., <u>Ujitoko, Y.</u>, & Kawabe, T. (2025, XXX). Asymmetric Playback Speeds for Ascent and Descent Phases Produce Natural Jump Impressions. Royal Society Open Science.</li>
             <li><u>Ujitoko, Y.</u>, & Morisaki, T. (2025, September). Exploring Acceptable Weight Criteria for Finger-Worn Haptic Device Design. IEEE Transactions on Haptics, 18(3), 615-625. <a href="https://doi.org/10.1109/TOH.2025.3580216">https://doi.org/10.1109/TOH.2025.3580216</a></li>
@@ -183,9 +168,9 @@ function myFunction() {
           </ol>
         </div>
 
-        <div style="font-size: 16px;"><b>Conference Proceeding</b></div>
+        <div class="subsection-title"><b>Conference Proceeding</b></div>
         <div class="publication-list">
-          <ol style="margin-left: 20px; padding-left: 0; margin-bottom:0px;">
+          <ol class="list-compact">
             <li><u>Ujitoko, Y.</u>, & Ban, Y. (2025, October). A Work-in-Progress Study on Effect of Post-Operation Visual Feedback on Perceived Pleasantness During Membrane Penetration with Force Feedback. In 2025 IEEE ISMAR.</li>
             <li>Morisaki, T., & <u>Ujitoko, Y.</u> (2024, June). Towards Intensifying Perceived Pressure in Midair Haptics: Comparing Perceived Pressure Intensity and Skin Displacement between LM and AM Stimuli. EuroHaptics 2024 (pp. 107-119). <a href="https://doi.org/10.1007/978-3-031-70058-3_9">https://doi.org/10.1007/978-3-031-70058-3_9</a></li>
             <li>Kawagishi, T., Ban, Y., <u>Ujitoko, Y.</u>, & Warisawa, S. I. (2023, July). Enhancing Perceived Resistance and Propulsion by Combining Pseudo-haptics and Pulling Illusion. In 2023 IEEE World Haptics Conference (WHC) (pp. 403-409). IEEE. <a href="https://doi.org/10.1109/WHC56415.2023.10224457">https://doi.org/10.1109/WHC56415.2023.10224457</a></li>
@@ -210,9 +195,9 @@ function myFunction() {
         </div>
       </div>
 
-        <div class="col-md-12" id="block1">
-          <div style="font-size: 20px;"><b>Invited talk</b></div>
-          <ul style="margin-left: 20px; padding-left: 0; margin-bottom:0px;">
+        <div class="col-md-12 block block--1">
+          <div class="section-title"><b>Invited talk</b></div>
+          <ul class="list-compact">
             <li>Dec 2022 日本バーチャルリアリティ学会ハプティクス研究会 触覚講習会2022、クロスモーダル知覚に基づく擬似触覚提示</li>
             <li>Dec 2022  ヒューマンインタフェース学会トップカンファレンス・アドバンスト・ワークショップ2022 <a href="https://jp.his.gr.jp/events/top-conference-aws/">https://jp.his.gr.jp/events/top-conference-aws/</a></li>
             <li>Dec 2021 日本バーチャルリアリティ学会ハプティクス研究会 触覚講習会2021、クロスモーダル知覚に基づく擬似触覚提示</li>
@@ -220,9 +205,9 @@ function myFunction() {
           </ul>
         </div>
 
-        <div class="col-md-12" id="block2">
-          <div style="font-size: 20px;"><b>Award</b></div>
-          <ul style="margin-left: 20px; padding-left: 0; margin-bottom:0px;">
+        <div class="col-md-12 block block--2">
+          <div class="section-title"><b>Award</b></div>
+          <ul class="list-compact">
             <li>2024 Eurohaptics 2024 Best Paper Award Finalist (Tao Morisaki, Yusuke Ujitoko)</li>
             <li>2024 IEEE Haptics Symposium 2024 Outstanding Reviewer Award</li>
             <li>2021 IEEE World Haptics 2021 Best Video Presentation Award Honorable Mention</li>
@@ -233,9 +218,9 @@ function myFunction() {
           </ul>
         </div>
 
-        <div class="col-md-12" id="block1">
-          <div style="font-size: 20px;"><b>Registered Patent</b></div>
-          <ul style="margin-left: 20px; padding-left: 0; margin-bottom:0px;">
+        <div class="col-md-12 block block--1">
+          <div class="section-title"><b>Registered Patent</b></div>
+          <ul class="list-compact">
             <li>河邉隆寛, 横坂拓巳, 宇治土公雄介, "擬似触覚提示装置、擬似触覚提示方法、およびプログラム", JP(No. 7605340), WO(WO2023/079627).
             </li>
             <li>宇治土公雄介, 広田光一, "振動信号生成装置、振動提示装置、それらの方法、およびプログラム", JP(No. 7642942).
@@ -249,188 +234,188 @@ function myFunction() {
           </ul>
         </div>
 
-        <div class="col-md-12" id="block2">
-          <div style="font-size: 20px;"><b>News release</b></div>
+        <div class="col-md-12 block block--2">
+          <div class="section-title"><b>News release</b></div>
           <table>
             <tr>
-              <td width="70" style="vertical-align: top;">May 2025</td>
+              <td width="70" class="vtop">May 2025</td>
               <td>日本電信電話株式会社、デバイスの装着なしに超音波で空中にリアルな触感を創出 ～触れずにつるつる・ざらざらとした多彩な触り心地を演出～ <a href="https://group.ntt/jp/newsrelease/2025/05/13/250513b.html">https://group.ntt/jp/newsrelease/2025/05/13/250513b.html</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Mar 2025</td>
+              <td width="70" class="vtop">Mar 2025</td>
               <td>日本電信電話株式会社、同じ速さのはずなのに、手で感じる速さが変わる新たな触覚錯覚を発見 ～XRでの豊かな触体験につながる世界初の成果～ <a href="https://group.ntt/jp/newsrelease/2025/03/19/250319b.html">https://group.ntt/jp/newsrelease/2025/03/19/250319b.html</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Feb 2025</td>
+              <td width="70" class="vtop">Feb 2025</td>
               <td>日本電信電話株式会社、人のジャンプ動作と物体の跳ね返りにおいて、脳で感じる「自然な見え方」が異なることを発見 ～メタバース空間や映像表現におけるキャラクタの動きのリアリティ向上に期待～ <a href="https://group.ntt/jp/newsrelease/2025/02/17/250217b.html">https://group.ntt/jp/newsrelease/2025/02/17/250217b.html</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Sep 2024</td>
+              <td width="70" class="vtop">Sep 2024</td>
               <td>日本電信電話株式会社、資生堂とNTT、化粧品の触り心地を遠隔・非接触で体験できる技術開発に向けた共同研究を開始 ～両社の強みを活かし一人ひとりの多様なニーズに応え、新たな体験の機会創出をめざす～ <a href="https://group.ntt/jp/newsrelease/2024/09/18/240918a.html">https://group.ntt/jp/newsrelease/2024/09/18/240918a.html</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">May 2022</td>
+              <td width="70" class="vtop">May 2022</td>
               <td>日本電信電話株式会社、新型コロナウイルス感染拡大時に、何かに触りたいという欲求に変化が生じたことを発見 ～ソーシャルメディア上のテキストデータの解析により見えてきた触りたさの変化～ <a href="https://megalodon.jp/2023-0303-2355-57/https://group.ntt:443/jp/newsrelease/2022/05/27/220527a.html">https://group.ntt/jp/newsrelease/2022/05/27/220527a.html</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Aug 2017</td>
+              <td width="70" class="vtop">Aug 2017</td>
               <td>株式会社日立製作所、日立オートモティブシステムズ株式会社、自動運転用アプリケーションを開発する過程で発生する不具合を短時間に再現する技術を開発 <a href="https://www.hitachi.co.jp/rd/news/press/2017/0830.html">https://www.hitachi.co.jp/rd/news/press/2017/0830.html</a></td>
             </tr>
           </table>
         </div>
 
-        <div class="col-md-12" id="block1">
-          <div style="font-size: 20px;"><b>Media</b></div>
+        <div class="col-md-12 block block--1">
+          <div class="section-title"><b>Media</b></div>
           <table>
             <tr>
-              <td width="70" style="vertical-align: top;">Nov 2023</td>
+              <td width="70" class="vtop">Nov 2023</td>
               <td>メタバース総研(web)、「NTTコミュニケーション科学基礎研究所:身体周辺の2次元空間における振動源に対する触覚による定位を研究」<a href="https://metaversesouken.com/metaverse/university/#NTT2">https://metaversesouken.com/metaverse/university/#NTT2</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Sep 2023</td>
+              <td width="70" class="vtop">Sep 2023</td>
               <td>NTT技術ジャーナル(web)、明日のトップランナー: 本当に「触りたい」触覚コンテンツの新たな地平へ「触りたさの科学的理解とクロスモーダル知覚に基づく触覚提示法の提案」<a href="https://journal.ntt.co.jp/article/23102">https://journal.ntt.co.jp/article/23102</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Feb 2023</td>
+              <td width="70" class="vtop">Feb 2023</td>
               <td>日経産業新聞(web)、「夜は猫といっしょ」、猫あるある共感で漫画ヒット 男性も魅了
                 <a href="https://megalodon.jp/2023-0303-2338-09/https://www.nikkei.com:443/article/DGXZQOUC159ST0V10C23A2000000/">https://www.nikkei.com:443/article/DGXZQOUC159ST0V10C23A2000000/</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Feb 2023</td>
+              <td width="70" class="vtop">Feb 2023</td>
               <td>日経産業新聞(5面)、猫に触れたいピークは昼 NTT系、「触りたい」欲求分析</td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Jul 2022</td>
+              <td width="70" class="vtop">Jul 2022</td>
               <td>ビジネスコミュニケーション誌 「膨大なSNSデータを活用し、人々が日常において感じている「触りたさ」を理解」
                 <a href="https://www.bcm.co.jp/specials/2022/07/cs-3/">https://www.bcm.co.jp/specials/2022/07/cs-3/</a>
                 </td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Jun 2022</td>
+              <td width="70" class="vtop">Jun 2022</td>
               <td>BUILT(web)、NTTと東大の研究、コロナ禍以降「肌のぬくもりに触れたい欲求」高まる:調査レポート
                 <a href="https://megalodon.jp/2023-0303-2339-50/https://built.itmedia.co.jp:443/bt/articles/2206/17/news052.html">https://built.itmedia.co.jp:443/bt/articles/2206/17/news052.html</a>
                 </td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Jun 2022</td>
+              <td width="70" class="vtop">Jun 2022</td>
               <td>ASCIIxTech、コロナで「触りたい欲」はどう変化？ ハイブリッドワークで幸福感アップ、急成長するCIAM市場、ほか <a href="https://megalodon.jp/2023-0303-2341-26/https://ascii.jp:443/elem/000/004/093/4093703/">https://ascii.jp:443/elem/000/004/093/4093703/</a>
                 </td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Jun 2022</td>
+              <td width="70" class="vtop">Jun 2022</td>
               <td>日経産業新聞（5面）、コロナ禍で「生物とふれ合う」欲求増加</td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">May 2022</td>
+              <td width="70" class="vtop">May 2022</td>
               <td>日経新聞(web)、コロナ禍で生物のふれ合い求める NTTがツイッター分析
                 <a href="https://megalodon.jp/2023-0303-2342-47/https://www.nikkei.com:443/article/DGXZQOUC306TI0Q2A530C2000000/">https://www.nikkei.com:443/article/DGXZQOUC306TI0Q2A530C2000000/</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">May 2022</td>
+              <td width="70" class="vtop">May 2022</td>
               <td>ITmedia NEWS(web)、「人・動物に触りたい欲求」コロナ禍でアップ Twitter解析で判明 NTTと東大 <a href="https://megalodon.jp/2023-0303-2344-45/https://www.itmedia.co.jp:443/news/articles/2205/31/news142.html">https://www.itmedia.co.jp:443/news/articles/2205/31/news142.html</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">May 2022</td>
+              <td width="70" class="vtop">May 2022</td>
               <td>マイナビニュース_TECH+（テックプラス）(web)、COVID-19で生物のぬくもりに触れたいという欲求が高まる-東大×NTTが発見 <a href="https://megalodon.jp/2023-0303-2345-27/https://news.mynavi.jp:443/techplus/article/20220527-2353092/">https://news.mynavi.jp:443/techplus/article/20220527-2353092/</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">May 2022</td>
+              <td width="70" class="vtop">May 2022</td>
               <td>財経新聞(web)、コロナ以降「肌のぬくもり」への飢え慢性化 NTTと東大の研究 <a href="https://megalodon.jp/2023-0303-2343-55/https://www.zaikei.co.jp:443/article/20220530/674203.html">https://www.zaikei.co.jp:443/article/20220530/674203.html</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">May 2022</td>
+              <td width="70" class="vtop">May 2022</td>
               <td>電経新聞（1面）、新型コロナで日本人の欲求に変化 NTTが発見</td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Jan 2019</td>
+              <td width="70" class="vtop">Jan 2019</td>
               <td>Seamless、東大と日立の研究者、素材に触れた時の触振動を画像からそれっぽく生成し、効率的な触感デザインを可能とする手法「TactGAN」を発表 <a href="https://megalodon.jp/2023-0303-2346-38/https://shiropen.com:443/seamless/tactgan">https://shiropen.com:443/seamless/tactgan</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Dec 2018</td>
+              <td width="70" class="vtop">Dec 2018</td>
               <td>MograVR 画像から触覚再現、エラ呼吸体験システムなど独創的な展示が光るSIGGRAPH Asia 2018 体験ブースレポ（触覚編） <a href="https://megalodon.jp/2023-0303-2347-50/https://www.moguravr.com:443/siggraph-asia-2018-2/">https://www.moguravr.com:443/siggraph-asia-2018-2/</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Sep 2017</td>
+              <td width="70" class="vtop">Sep 2017</td>
               <td>ニュースイッチ、日立、自動運転の不具合再現を6割短縮｜ニュースイッチ by 日刊工業新聞社 <a href="https://megalodon.jp/2023-0304-0003-22/https://newswitch.jp:443/p/10273">https://newswitch.jp:443/p/10273</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Sep 2017</td>
+              <td width="70" class="vtop">Sep 2017</td>
               <td>bp-A ニュース、急増するセンサ情報による自動運転アプリ開発を効率化 <a href="https://bp-affairs.com/news/2017/09/20170901-966.html.preview.html">https://bp-affairs.com/news/2017/09/20170901-966.html.preview.html</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Sep 2017</td>
+              <td width="70" class="vtop">Sep 2017</td>
               <td>日経クロステック（xTECH）日立、自動運転用アプリケーション開発中の不具合を短時間に再現 <a href="https://xtech.nikkei.com/dm/atcl/news/16/083108984/">https://xtech.nikkei.com/dm/atcl/news/16/083108984/</a> <a href="https://www.nikkei.com/article/DGXMZO20585750R30C17A8000000/">https://www.nikkei.com/article/DGXMZO20585750R30C17A8000000/</a></td>
             </tr>
             <tr>
-              <td width="70" style="vertical-align: top;">Aug 2017</td>
+              <td width="70" class="vtop">Aug 2017</td>
               <td>マイナビニュース TECH（テックプラス）、日立など、自動運転用アプリケーションでの不具合の原因究明を効率化 <a href="https://megalodon.jp/2023-0304-0000-46/https://news.mynavi.jp:443/techplus/article/20170830-a200/">https://news.mynavi.jp:443/techplus/article/20170830-a200/</a></td>
             </tr>
           </table>
         </div>
 
-        <div class="col-md-12" id="block2">
-          <div style="font-size: 20px;"><b>Academic service</b></div>
+        <div class="col-md-12 block block--2">
+          <div class="section-title"><b>Academic service</b></div>
           <table>
             <tr>
-              <td width="150" style="vertical-align: top;">Oct 2025</td>
+              <td width="150" class="vtop">Oct 2025</td>
               <td>Program Committee, IEEE Haptics Symposium 2026</td>
             </tr>
             <tr>
-              <td width="150" style="vertical-align: top;">Apr 2025 - Mar 2029</td>
+              <td width="150" class="vtop">Apr 2025 - Mar 2029</td>
               <td>日本VR学会論文委員会 委員</td>
             </tr>
             <tr>
-              <td width="150" style="vertical-align: top;">July 2025</td>
+              <td width="150" class="vtop">July 2025</td>
               <td>Program Committee, IEEE World Haptics Conference 2025</td>
             </tr>
             <tr>
-              <td width="150" style="vertical-align: top;">Sep 2024</td>
+              <td width="150" class="vtop">Sep 2024</td>
               <td>Program Committee, ICAT-EGVE 2024</td>
             </tr>
             <tr>
-              <td width="150" style="vertical-align: top;">Aug 2024</td>
+              <td width="150" class="vtop">Aug 2024</td>
               <td>Program Committee, AsiaHaptics 2024</td>
             </tr>
             <tr>
-              <td width="150" style="vertical-align: top;">Jan 2024 - </td>
+              <td width="150" class="vtop">Jan 2024 - </td>
               <td>触覚部会 幹事</td>
             </tr>
             <tr>
-              <td width="150" style="vertical-align: top;">Dec 2023</td>
+              <td width="150" class="vtop">Dec 2023</td>
               <td>日本VR学会論文誌 第28巻第4号「社会とハプティクス」特集 ゲストエディタ <a href="https://www.jstage.jst.go.jp/browse/tvrsj/28/4/_contents/-char/ja">https://www.jstage.jst.go.jp/browse/tvrsj/28/4/_contents/-char/ja</a></td>
             </tr>
             <tr>
-              <td width="150" style="vertical-align: top;">Mar 2022 - </td>
+              <td width="150" class="vtop">Mar 2022 - </td>
               <td>日本VR学会ハプティクス研究委員会 委員</td>
             </tr>
             <tr>
-              <td width="150" style="vertical-align: top;">Feb 2021 - Dec 2023</td>
+              <td width="150" class="vtop">Feb 2021 - Dec 2023</td>
               <td>触覚部会 委員</td>
             </tr>
             <tr>
-              <td width="150" style="vertical-align: top;">Jan 2020 - Mar 2024</td>
+              <td width="150" class="vtop">Jan 2020 - Mar 2024</td>
               <td>触覚若手の会 幹事</td>
             </tr>
           </table>
         </div>
 
-        <div class="col-md-12" id="block1">
-          <div style="font-size: 20px;"><b>Teaching</b></div>
-          <ul style="margin-left: 20px; padding-left: 0; margin-bottom:0px;">
+        <div class="col-md-12 block block--1">
+          <div class="section-title"><b>Teaching</b></div>
+          <ul class="list-compact">
             <li>2025 電気通信大学 後学期 ユビキタスネットワーク 第9回「触覚提示・触覚知覚」</li>
           </ul>
         </div>
 
 
-        <div class="col-md-12" id="block2">
-          <div style="font-size: 20px;"><b>Budget</b></div>
+        <div class="col-md-12 block block--2">
+          <div class="section-title"><b>Budget</b></div>
           <table>
             <tr>
-              <td width="150" style="vertical-align: top;">Apr 2024 - Mar 2026</td>
+              <td width="150" class="vtop">Apr 2024 - Mar 2026</td>
               <td>日本学術振興会 科学研究費助成事業 若手研究 触感類似物を活用した代替触覚提示システムの構築 (代表者)</td>
             </tr>
             <tr>
-              <td width="150" style="vertical-align: top;">Apr 2021 - Mar 2024</td>
+              <td width="150" class="vtop">Apr 2021 - Mar 2024</td>
               <td>日本学術振興会 科学研究費助成事業 基盤研究(B) Pseudo-haptics実用化に向けた効果の不安定要因解明と安定化制御法開発 (分担者)</td>
             </tr>
           </table>
@@ -439,3 +424,15 @@ function myFunction() {
     </div>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+

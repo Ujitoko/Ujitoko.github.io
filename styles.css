@@ -2,8 +2,6 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Inter', Roboto, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Zen Kaku Gothic New', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Roboto, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
-  /*'Arial', sans-serif;*/
 }
 
 .contact-links span {
@@ -16,30 +14,48 @@ body {
     margin-right: 20px; /* 追加のマージンを設定（必要に応じて調整） */
 }
 
-#block0 {
+.block {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.block--0 {
   padding-top: 0px;
   padding-bottom: 0px;
-  padding-left: 40px; /* 適切なパディングを追加 */
-  padding-right: 40px; /* 適切なパディングを追加 */
 }
 
-#block1 {
-  background-color: #ffffff; /* 背景色を設定 */
-  color: #333; /* 文字色を設定 */
+.block--1 {
+  background-color: #ffffff;
+  color: #333;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-left: 40px; /* 適切なパディングを追加 */
-  padding-right: 40px; /* 適切なパディングを追加 */
 }
 
-#block2 {
+.block--2 {
   background-color: #EEEEEE;
   color: #333;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-left: 40px; /* 適切なパディングを追加 */
-  padding-right: 40px; /* 適切なパディングを追加 */
 }
+
+/* Small utility classes used to replace inline styles */
+.intro { text-align: justify; }
+.section-title { font-size: 20px; font-weight: 700; }
+
+/* Page title */
+.page-title { font-size: 26px; font-weight: 700; }
+
+/* Subsection smaller title */
+.subsection-title { font-size: 16px; font-weight: 700; }
+
+/* Compact lists used across the site */
+.list-compact { margin-left: 20px; padding-left: 0; margin-bottom: 0; }
+
+/* Paragraph indent utility */
+.indent { text-indent: 1em; }
+
+/* Utility to remove top padding when needed */
+.no-top { padding-top: 0 !important; }
 
 .publication-list ol li {
 	list-style-type: none;
@@ -58,3 +74,33 @@ body {
 	top: 0;
 	left: 0;
 }
+
+/* Vertical align helper previously inline in index.html */
+.vtop { vertical-align: top; }
+
+/* Profile image responsive sizing */
+.block--0 .col-xs-3 {
+  text-align: center;
+}
+.block--0 .col-xs-3 img {
+  display: inline-block;
+  width: 100%;
+  max-width: 200px; /* default max */
+  height: auto;
+}
+
+/* Scale down on very small screens */
+@media (max-width: 480px) {
+  .block--0 .col-xs-3 img { max-width: 120px; }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .block--0 .col-xs-3 img { max-width: 160px; }
+}
+
+@media (min-width: 769px) {
+  .block--0 .col-xs-3 img { max-width: 200px; }
+}
+/* Date column utilities: keep legacy width attributes but style via CSS */
+td[width="150"] { width: 150px; }
+td[width="70"] { width: 70px; }
