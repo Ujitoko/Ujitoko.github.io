@@ -101,6 +101,12 @@ body {
 @media (min-width: 769px) {
   .block--0 .col-xs-3 img { max-width: 200px; }
 }
+/* Year-aligned list: wrapped lines align with text after the year */
+.list-year li { padding-left: 3em; }
+.list-year .year { display: inline-block; width: 3em; margin-left: -3em; vertical-align: top; }
+.list-yearmonth li { padding-left: 5em; }
+.list-yearmonth .yearmonth { display: inline-block; width: 5em; margin-left: -5em; vertical-align: top; }
+
 /* Date column utilities: keep legacy width attributes but style via CSS */
 td[width="150"] { width: 150px; }
 td[width="70"] { width: 70px; }

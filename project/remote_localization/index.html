@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DLW8CP9SBQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DLW8CP9SBQ');
+  </script>
+
+  <title>身体から離れた位置の振動定位 - Yusuke Ujitoko</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="手から離れた振動源の位置を触覚で認識できるか？ インパルス振動・正弦波振動での方向定位や時空間パタン認識を調べた研究の紹介。">
+  <link rel="icon" href="../../img/icon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../../styles.css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&amp;family=Zen+Kaku+Gothic+New:wght@500&amp;display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 15px;
+    }
+    .title {
+      text-align: center;
+    }
+    .research-title {
+      font-size: 36px;
+      font-weight: bold;
+      padding: 20px 0;
+      text-align: center;
+      color: #333;
+    }
+    .section {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+      padding: 20px;
+    }
+    .section-title {
+      font-size: 24px;
+      margin: 25px 0;
+      color: #1f78d1;
+    }
+    .text {
+      font-size: 18px;
+      line-height: 1.4;
+      white-space: pre-line;
+      color: #555;
+      margin: 25px 0;
+    }
+
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: auto;
+    }
+
+    .publication-list ol li {
+      list-style-type: none;
+      counter-increment: cnt;
+      position: relative;
+      margin-left: 0.9em;
+    }
+
+    .publication-list ol li:before {
+      content: "[" counter(cnt) "]";
+      display: inline-block;
+      margin-left: -3.5em;
+      width: 3em;
+      text-align: right;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .img-caption {
+      text-align: center;
+      font-size: 10pt;
+      color: #888;
+      margin-bottom:0px;
+    }
+  </style>
+
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse" role="navigation" aria-label="Main navigation">
+  <div class="container">
+  </div>
+</nav>
+
+  <div class="title">
+    <h1 class="research-title">身体から離れた位置での振動、どこで起きてるかわかる？</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="section">
+        <p>※電通大の広田先生、櫻井先生、NTTの黒木さん、学生さん方との共同研究の成果ですが、ここに書いてあることには私個人の感想が含まれます。</p>
+        
+        <h1 class="section-title">背景</h1>
+        <p class="text">生き物の中には遠隔のイベントの位置を触覚で認識できる種がいます。クモは巣の振動を脚で受け取り、獲物の方向・距離を認識します[1]。サソリは砂の振動で、獲物の方向・距離を認識します[2]。人も遠隔の振動を手で感じ取り、振動源の位置を認識できるのでしょうか？人に対して振動で空間情報を提示するよくある方法は、振動子を身体の皮膚表面（手のひら、手首、胴体など）に直接貼り付けるものです。しかし、振動子を皮膚から離れた位置に配置した場合に、媒質を通じて伝わってきた振動から、人が振動源の位置を推定できるかどうかはよくわかっていません。
+
+        もし人が遠隔の振動源の位置を、振動で認識できるのであれば便利です。例えば自動車の運転中、視覚は前方の確認に使われており、聴覚は騒音で遮断されがちです。このようなとき、振動提示を使って「どの方向に障害物があるか」といった空間情報を人に対して伝えられると効率的な情報提示が可能となります。</p>
+
+        <h1 class="section-title">研究1: インパルス振動の振動源を定位できるか？</h1>
+
+        <p class="text">シリコンゴムシート上の離れた位置をソレノイドで叩いてインパルス振動を発生させ、シートに手を置いたユーザにその振動源の位置を答えてもらう実験を行いました。振動源は手の周囲8方向×3距離の計24点に配置しました。また、手の姿勢として「指先2本」「指先5本」「手のひら全体」の3条件を比較しました。
+
+        実験の結果、振動源の方向はある程度認識できることがわかりました。特に指と手のひら全体をシートに接地させた条件で、中指の指先付近に振動源を呈示した場合に最も精度が高く、方向認識の誤差は約6°でした。一方、振動源の距離を正確に認識することは難しいことがわかりました。つまり「どの方向から振動が来たか」はわかるが、「どれくらい遠いか」はわかりにくいということです。この結果は、媒質を介した遠隔振動による方向情報の提示が実現可能であることを示唆しています。詳細は論文[3]をご覧ください。</p>
+
+        <div class="img-container">
+          <img src="img/fig1.png" alt="インパルス振動の振動源を定位できるか？" class="img-fluid">
+          <div class="img-caption">人は手から離れた振動源の方向はわかるが、距離はわかりにくい。</div>
+        </div>
+
+        <h1 class="section-title">研究2: 正弦波振動ではどうか？</h1>
+        <p class="text">研究1では衝撃振動を使いましたが、正弦波のような持続的な振動もどうか調べました。周波数は30 Hz（低周波・RA受容器が反応しやすい）と230 Hz（高周波・パチニ小体が反応しやすい）の2条件を用いました。
+
+        実験の結果、正弦波振動でも方向を認識できることが確認されました。一方、距離の認識は衝撃振動と同様に困難でした。周波数による違いとしては、方向の認識精度が振動源の方向によってわずかに異なること、また振動源が遠くなったときの精度のばらつきが低周波で特に大きくなることでした。つまり、遠くの振動源の方向をより安定して認識させるには高周波の方が有利であることが示唆されました。詳細は論文[4]をご覧ください。
+        </p>
+
+        <h1 class="section-title">研究3: 時空間パタンを認識できるか？</h1>
+        <p class="text">研究1・2で「遠隔振動源の方向は認識できる」ことがわかりました。では、複数の振動源を順番に提示する時空間パタンはどうでしょうか？ 例えば手の周囲を時計回りに順番に振動させたとき、ユーザはその回転パタンを正しく認識できるでしょうか？ 時空間パタンの認識が可能であれば、単純な方向提示を超えた、より豊かな情報伝達への道が開けます。
+
+        研究3では、手の周囲8方向に配置した振動源を使い、64種類の回転パタン（開始点、終了点、回転方向の組み合わせ）を呈示して認識精度を調べました。その結果、平均正答率は48.9%でした（チャンスレベルは0.78%）。さらに、パタンの特性によって認識精度が異なることもわかりました。手の尺側（小指側）から始まるまたは終わるパタンは認識が難しく、遠位側（指先側）や近位側（手首側）から始まるパタンは認識しやすいことが明らかになりました。また、時計回りのパタンは反時計回りよりもやや認識しやすい傾向が見られました。これらの知見は、身体周囲での時空間パタン提示ディスプレイの設計に役立つ基礎的な情報となります。詳細は論文[3]をご覧ください。
+        </p>
+
+      </div>
+      <div class="section">
+        <div class="publication-list">
+          <ol class="list-compact">
+            <li>Ujitoko, Y., Tokuhisa, R., Sakurai, S., & Hirota, K. (2021). Impact vibration source localization in two-dimensional space around hand. IEEE Transactions on Haptics, 14(4), 862-873.</li>
+            <li>Ujitoko, Y., & Kuroki, S. (2022). Sinusoidal vibration source localization in two-dimensional space around the hand. Frontiers in Psychology, 13, 878397.</li>
+            <li>Ujitoko, Y., Tokuhisa, R., & Hirota, K. (2022). Vibrotactile spatiotemporal pattern recognition in two-dimensional space around hand. IEEE Transactions on Haptics, 15(4), 718-728.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
