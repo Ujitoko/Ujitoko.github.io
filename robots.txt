@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /index.html
+Disallow: /paper/
+Disallow: /*?*
 
 Sitemap: https://ujitoko.github.io/sitemap.xml
