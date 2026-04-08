@@ -1,0 +1,68 @@
+/* project/project.css — shared styles for project pages */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 15px;
+}
+
+.title {
+  text-align: center;
+}
+
+.research-title {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 20px 0;
+  text-align: center;
+  color: #333;
+}
+
+.section {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 20px;
+  width: 100%;
+}
+
+.section-title {
+  font-size: 24px;
+  margin: 25px 0;
+  color: #1f78d1;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.4;
+  white-space: pre-line;
+  color: #555;
+  margin: 25px 0;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.img-caption {
+  text-align: center;
+  font-size: 10pt;
+  color: #888;
+  margin-bottom: 0px;
+}
+
+.back-link {
+  text-align: center;
+  margin: 20px 0 40px;
+}
