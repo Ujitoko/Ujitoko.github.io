@@ -1,7 +1,38 @@
 /* styles.css */
 
+/* ===== Bootstrap 5 compatibility: match Bootstrap 3 appearance ===== */
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Inter', Roboto, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+/* BS3 navbar-inverse appearance */
+.navbar {
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+.navbar-dark.bg-dark {
+  background-color: #222 !important;
+  border-color: #080808;
+}
+
+/* BS3 row gutters (15px each side) */
+.row {
+  --bs-gutter-x: 30px;
+}
+
+/* BS3 container-fluid padding */
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* BS3 img-responsive had display:block, BS5 img-fluid does not */
+.img-fluid {
+  display: block;
 }
 
 .contact-links span {
