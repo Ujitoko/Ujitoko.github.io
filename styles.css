@@ -79,10 +79,10 @@ body {
 .vtop { vertical-align: top; }
 
 /* Profile image responsive sizing */
-.block--0 .col-xs-3 {
+.block--0 .col-3 {
   text-align: center;
 }
-.block--0 .col-xs-3 img {
+.block--0 .col-3 img {
   display: inline-block;
   width: 100%;
   max-width: 200px; /* default max */
@@ -91,15 +91,15 @@ body {
 
 /* Scale down on very small screens */
 @media (max-width: 480px) {
-  .block--0 .col-xs-3 img { max-width: 120px; }
+  .block--0 .col-3 img { max-width: 120px; }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  .block--0 .col-xs-3 img { max-width: 160px; }
+  .block--0 .col-3 img { max-width: 160px; }
 }
 
 @media (min-width: 769px) {
-  .block--0 .col-xs-3 img { max-width: 200px; }
+  .block--0 .col-3 img { max-width: 200px; }
 }
 /* Year-aligned list: wrapped lines align with text after the year */
 .list-year li { padding-left: 3em; }
