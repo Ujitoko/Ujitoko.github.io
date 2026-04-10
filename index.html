@@ -62,7 +62,7 @@
 
 <!-- Navigation -->
 <nav class="navbar navbar-dark bg-dark" role="navigation" aria-label="Main navigation">
-  <div class="container">
+  <div class="container-fluid">
     <a class="navbar-brand" href="/">Yusuke Ujitoko</a>
   </div>
 </nav>
@@ -95,7 +95,7 @@
               <span><a href="mailto:yusuke.ujitoko@gmail.com">Email</a></span>
               <span><a href="https://scholar.google.co.jp/citations?&user=VxugqL0AAAAJ">Google Scholar</a></span>
               <span><a href="https://orcid.org/0000-0001-6059-9324">ORCID[0000-0001-6059-9324]</a></span>
-              <span><a href="https://twitter.com/y_ujitoko">Twitter(X)</a></span>
+              <span><a href="https://x.com/y_ujitoko">X</a></span>
               <span><a href="https://www.linkedin.com/in/yusuke-ujitoko-214586135/">LinkedIn</a></span>
               <!-- <span><a href="https://yusuke-ujitoko.hatenablog.com/">Blog</a></span> -->
             </div>
@@ -140,27 +140,191 @@
         </table>
       </div>
 
-      <div class="col-md-12 block block--1 no-top">
+      <div class="col-md-12 block block--1">
         <div class="section-title"><b>Research Topic</b></div>
-        <ul class="list-compact">
-          <li>Pseudo-haptics / 視覚刺激に基づく疑似的な触知覚 (<a href="https://ieeexplore.ieee.org/document/9424469"><b>サーベイ論文</b></a>、<a href="https://www.jstage.jst.go.jp/article/psychono/42/1/42_42.28/_article/-char/ja/"><b>日本語の解説記事</b></a>、<a href="https://speakerdeck.com/ujitoko/kurosumodaruzhi-jue-niji-dukuni-si-hong-jue-ti-shi"><b>チュートリアルスライド</b></a>)</li>
-          <li>Touch desire / 触りたさ (<a href="project/touch_desire/index.html"><b>研究紹介ページ</b></a>)</li> 
-          <li>Softness perception / 柔らかさ知覚 (<a href="project/visual_softness/index.html"><b>研究紹介ページ</b></a>)</li>
-          <li>Remote vibration localization / 身体から離れた位置の振動定位</li>
-          <li>Pin-array display / ピンアレイディスプレイ</li>
-          <li>Design criteria of haptic display / 触覚ディスプレイの設計基準</li>
-        </ul>
+        <div class="row">
+
+          <div class="col-md-6 research-topic-card">
+            <div class="row">
+              <div class="col-4">
+                <div class="ph-demo">
+                  <div class="ph-slowzone"></div>
+                  <span class="ph-label-mouse">mouse</span>
+                  <span class="ph-label-cursor">cursor</span>
+                  <div class="ph-mouse"><svg viewBox="0 0 24 24" stroke="#555" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="6" fill="#fff"/><line x1="12" y1="2" x2="12" y2="10"/></svg></div>
+                  <div class="ph-pointer"><svg viewBox="0 0 24 24" fill="#333"><path d="M4 0l16 12h-8l-2 10z"/></svg></div>
+                  <span class="ph-resistance"><span class="ph-bubble">抵抗感</span></span>
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="subsection-title"><b>Pseudo-haptics / 疑似触覚</b></div>
+                <p>ポインタなどを人が操作する際の視覚刺激に介入して、疑似的な触感を感じさせます。大掛かりな触覚提示装置なしで、触覚的な情報を伝えるズルい手法を追求します。</p>
+                <ul class="list-compact topic-refs">
+                  <li><a href="https://ieeexplore.ieee.org/document/9424469">サーベイ論文</a>、<a href="https://www.jstage.jst.go.jp/article/psychono/42/1/42_42.28/_article/-char/ja/">日本語の解説記事</a>、<a href="https://speakerdeck.com/ujitoko/kurosumodaruzhi-jue-niji-dukuni-si-hong-jue-ti-shi">チュートリアルスライド</a></li>
+                  <li>粗さ感、摩擦感、重さ感の変調 <a class="pub-ref" data-doi="10.1109/TVCG.2019.2898820" href="https://doi.org/10.1109/TVCG.2019.2898820"></a> <a class="pub-ref" data-doi="10.1109/WHC.2019.8816100" href="https://doi.org/10.1109/WHC.2019.8816100"></a> <a class="pub-ref" data-doi="10.1109/TOH.2023.3266494" href="https://ieeexplore.ieee.org/document/10100898"></a> など</li>
+                  <li>年齢・性別差 <a class="pub-ref" data-doi="10.1109/tvcg.2023.3295389" href="https://doi.org/10.1109/tvcg.2023.3295389"></a>, 錯視による変調 <a class="pub-ref" data-doi="10.1167/jov.23.4.5" href="https://doi.org/10.1167/jov.23.4.5"></a>, 操作後の視覚刺激の効果 <a class="pub-ref" data-doi="10.3389/fpsyg.2023.1042188" href="https://doi.org/10.3389/fpsyg.2023.1042188"></a></li>
+                  <li>牽引力錯覚との組み合わせ <a class="pub-ref" data-doi="10.1109/WHC56415.2023.10224457" href="https://doi.org/10.1109/WHC56415.2023.10224457"></a>, VRヒットストップ <a class="pub-ref" data-doi="10.1109/WHC49131.2021.9517129" href="https://doi.org/10.1109/WHC49131.2021.9517129"></a>, タッチパネルへの適用 <a class="pub-ref" data-doi="10.1145/2818466.2818491" href="https://doi.org/10.1145/2818466.2818491"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 research-topic-card">
+            <div class="row">
+              <div class="col-4">
+                <div class="td-demo">
+                  <svg viewBox="0 0 120 83" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Axes -->
+                    <line x1="15" y1="10" x2="15" y2="65" stroke="#999" stroke-width="0.8"/>
+                    <line x1="15" y1="65" x2="115" y2="65" stroke="#999" stroke-width="0.8"/>
+                    <!-- Curve: body parts (blue) - peak at 25h(=1h), lowest ~6h, 0h=24h near peak -->
+                    <path d="M15,16 Q18,13 19,13 Q25,20 36,55 Q46,52 57,45 Q67,38 78,28 Q88,20 98,16" fill="none" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+                    <!-- Curve: animals (orange-yellow) - 0h and 24h same height, peaks 12-13h (smaller peak) -->
+                    <path d="M15,50 Q25,47 36,42 Q46,34 53,29 Q57,27 60,28 Q67,33 78,42 Q88,48 98,50" fill="none" stroke="#e8a030" stroke-width="2" stroke-linecap="round"/>
+                    <!-- Time labels (0-24h) -->
+                    <text x="15" y="72" font-size="6" fill="#999" text-anchor="middle">0</text>
+                    <text x="35.8" y="72" font-size="6" fill="#999" text-anchor="middle">6</text>
+                    <text x="56.7" y="72" font-size="6" fill="#999" text-anchor="middle">12</text>
+                    <text x="77.5" y="72" font-size="6" fill="#999" text-anchor="middle">18</text>
+                    <text x="98.3" y="72" font-size="6" fill="#999" text-anchor="middle">24</text>
+                    <!-- X label -->
+                    <text x="65" y="80" font-size="8" fill="#555" text-anchor="middle">Hour</text>
+                    <!-- Y label -->
+                    <text x="10" y="40" font-size="8" fill="#555" transform="rotate(-90,10,40)" text-anchor="middle">Touch desire</text>
+                    <!-- Legend -->
+                    <line x1="62" y1="7" x2="70" y2="7" stroke="#4a90d9" stroke-width="2"/>
+                    <text x="72" y="9" font-size="6" fill="#555">人</text>
+                    <line x1="92" y1="7" x2="100" y2="7" stroke="#e8a030" stroke-width="2"/>
+                    <text x="102" y="9" font-size="6" fill="#555">動物</text>
+                  </svg>
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="subsection-title"><b>Touch desire / 触りたさ</b></div>
+                <p>人が感じる「触りたい」という気持ちを調べる研究です。SNSの大規模テキストデータを活用するなどして、日常のリアルな触りたさを浮き彫りにすることが目標です。</p>
+                <ul class="list-compact topic-refs">
+                  <li><a href="project/touch_desire/index.html">一連の研究紹介ページ</a></li>
+                  <li>触り方と触りたさ <a class="pub-ref" data-doi="10.1109/TOH.2021.3105979" href="https://doi.org/10.1109/TOH.2021.3105979"></a></li>
+                  <li>触りたさの時間帯変動 <a class="pub-ref" data-doi="10.1109/TVCG.2024.3355413" href="https://doi.org/10.1109/TVCG.2024.3355413"></a></li>
+                  <li>コロナ禍での触りたさの変化 <a class="pub-ref" data-doi="10.3389/fpsyg.2022.1016909" href="https://doi.org/10.3389/fpsyg.2022.1016909"></a></li>
+                  <li>触りたい対象への触感期待 <a class="pub-ref" data-doi="10.1109/toh.2023.3310662" href="https://doi.org/10.1109/toh.2023.3310662"></a></li>
+                  <li>弾性の視覚特徴と触りたさ <a class="pub-ref" data-doi="10.1109/TVCG.2025.3590469" href="https://doi.org/10.1109/TVCG.2025.3590469"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 research-topic-card">
+            <div class="row">
+              <div class="col-4"><img class="img-fluid" src="img/pinarray.JPG" alt="Pin-array display" style="border-radius:4px;"></div>
+              <div class="col-8">
+                <div class="subsection-title"><b>Pin-array display / ピンアレイディスプレイ</b></div>
+                <p>ピンアレイ型の触覚ディスプレイの高密度化・広範囲化を進めて、よりリッチな情報を伝えます。ピンの数だけ未来があると信じています。</p>
+                <ul class="list-compact topic-refs">
+                  <li>指腹ピンアレイ <a class="pub-ref" data-doi="10.1109/ACCESS.2020.3015058" href="https://ieeexplore.ieee.org/document/9162102"></a></li>
+                  <li>指包囲ピンアレイ <a class="pub-ref" data-doi="10.1109/TOH.2026.3660473" href="https://doi.org/10.1109/TOH.2026.3660473"></a></li>
+                  <li>物体内部の質感表現 <a class="pub-ref" data-doi="10.1109/ACCESS.2021.3082100" href="https://doi.org/10.1109/ACCESS.2021.3082100"></a></li>
+                  <li>刺激密度と形状認識 <a class="pub-ref" data-doi="10.1109/TOH.2019.2954882" href="https://doi.org/10.1109/TOH.2019.2954882"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 research-topic-card">
+            <div class="row">
+              <div class="col-4"><img class="img-fluid" src="img/weight.png" alt="Design criteria of haptic display" style="border-radius:4px;"></div>
+              <div class="col-8">
+                <div class="subsection-title"><b>Design criteria / 触覚ディスプレイの設計基準</b></div>
+                <p>触覚ディスプレイの設計項目（重量など）による影響を調べ、設計指針策定に役立つ情報を見つけます。作る前に知りたかった、を先回りして調べます。</p>
+                <ul class="list-compact topic-refs">
+                  <li>指装着ディスプレイの重量基準 <a class="pub-ref" data-doi="10.1109/TOH.2025.3580216" href="https://doi.org/10.1109/TOH.2025.3580216"></a></li>
+                  <li>刺激点密度による影響 <a class="pub-ref" data-doi="10.1109/TOH.2019.2954882" href="https://doi.org/10.1109/TOH.2019.2954882"></a></li>
+                  <li>刺激点配置による影響 <a class="pub-ref" data-doi="10.1016/j.isci.2024.110803" href="https://www.cell.com/iscience/fulltext/S2589-0042(24)02028-5"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 research-topic-card">
+            <div class="row">
+              <div class="col-4">
+                <video autoplay loop muted playsinline class="img-fluid" style="border-radius:4px;"><source src="project/visual_softness/img/M2_I_L18_V10_h264.mp4" type="video/mp4"></video>
+              </div>
+              <div class="col-8">
+                <div class="subsection-title"><b>Softness perception / 柔らかさ知覚</b></div>
+                <p>人が視覚や触覚に基づいてどのように柔らかさを知覚するかを調べます。「柔らかい＝変形が大きい」だけではないようです。</p>
+                <ul class="list-compact topic-refs">
+                  <li><a href="project/visual_softness/index.html">一連の研究紹介ページ</a></li>
+                  <li>変形速度による柔らかさ <a class="pub-ref" data-doi="10.1038/s41598-022-05864-x" href="https://doi.org/10.1038/s41598-022-05864-x"></a></li>
+                  <li>指のぷるぷるに基づく柔らかさ <a class="pub-ref" data-doi="10.1038/s41598-022-10243-7" href="https://doi.org/10.1038/s41598-022-10243-7"></a></li>
+                  <li>視触覚の柔らかさマッチング <a class="pub-ref" data-doi="10.1109/TOH.2023.3269016" href="https://doi.org/10.1109/TOH.2023.3269016"></a></li>
+                  <li>タッチレス入力での柔らかさ知覚 <a class="pub-ref" data-doi="10.1109/TVCG.2023.3254522" href="https://doi.org/10.1109/TVCG.2023.3254522"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 research-topic-card">
+            <div class="row">
+              <div class="col-4"><img class="img-fluid" src="project/remote_localization/img/fig_intro_r2.png" alt="Remote vibration localization" style="border-radius:4px;"></div>
+              <div class="col-8">
+                <div class="subsection-title"><b>Remote vibration localization / 遠隔振動の定位</b></div>
+                <p>手から離れた位置で発生した振動の位置やパタンを触覚で認識できるかを調べます。意外と方向はわかります。距離はわかりません。</p>
+                <ul class="list-compact topic-refs">
+                  <li>インパルス振動の定位 <a class="pub-ref" data-doi="10.1109/TOH.2021.3085756" href="https://doi.org/10.1109/TOH.2021.3085756"></a></li>
+                  <li>正弦波振動の定位 <a class="pub-ref" data-doi="10.3389/fpsyg.2022.878397" href="https://doi.org/10.3389/fpsyg.2022.878397"></a></li>
+                  <li>時空間パタンの認識 <a class="pub-ref" data-doi="10.1109/TOH.2022.3213313" href="https://doi.org/10.1109/TOH.2022.3213313"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 research-topic-card">
+            <div class="row">
+              <div class="col-4">
+                <div class="vd-demo">
+                  <svg viewBox="0 0 120 70" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Texture square with dot/noise pattern -->
+                    <rect x="5" y="15" width="30" height="30" rx="2" fill="#ddd" stroke="#999" stroke-width="1"/>
+                    <circle cx="10" cy="20" r="1" fill="#999"/><circle cx="18" cy="18" r="0.8" fill="#aaa"/><circle cx="25" cy="21" r="1.2" fill="#888"/>
+                    <circle cx="8" cy="26" r="0.7" fill="#aaa"/><circle cx="14" cy="25" r="1" fill="#999"/><circle cx="22" cy="27" r="0.8" fill="#888"/><circle cx="30" cy="25" r="1" fill="#999"/>
+                    <circle cx="11" cy="32" r="1.1" fill="#888"/><circle cx="19" cy="31" r="0.7" fill="#aaa"/><circle cx="27" cy="33" r="1" fill="#999"/>
+                    <circle cx="7" cy="38" r="0.8" fill="#999"/><circle cx="15" cy="37" r="1.2" fill="#888"/><circle cx="23" cy="39" r="0.7" fill="#aaa"/><circle cx="31" cy="37" r="1" fill="#999"/>
+                    <circle cx="12" cy="42" r="0.9" fill="#aaa"/><circle cx="20" cy="43" r="1" fill="#888"/><circle cx="28" cy="41" r="0.8" fill="#999"/>
+                    <text x="20" y="56" font-size="6" fill="#555" text-anchor="middle">texture</text>
+                    <!-- Arrow -->
+                    <path class="vd-arrow" d="M40,30 L52,30" stroke="#555" stroke-width="1.5" fill="none" marker-end="url(#vd-arrowhead)"/>
+                    <defs><marker id="vd-arrowhead" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto"><path d="M0,0 L6,2 L0,4" fill="#555"/></marker></defs>
+                    <!-- Waveform area -->
+                    <rect x="58" y="15" width="55" height="30" rx="2" fill="#f9f9f9" stroke="#ccc" stroke-width="0.8"/>
+                    <path class="vd-wave" d="M60,30 Q63,20 66,30 Q69,40 72,30 Q75,18 78,30 Q81,42 84,30 Q87,22 90,30 Q93,38 96,30 Q99,20 102,30 Q105,40 108,30 L110,30" fill="none" stroke="#e07040" stroke-width="1.5" stroke-linecap="round"/>
+                    <text x="85" y="56" font-size="6" fill="#555" text-anchor="middle">vibration</text>
+                  </svg>
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="subsection-title"><b>Vibrotactile design / 振動設計</b></div>
+                <p>触覚コンテンツの振動設計はまだ職人芸。一つずつ手作りしていたら、世界中のコンテンツに追いつけません。手軽に作れる仕組みを研究しています。</p>
+                <ul class="list-compact topic-refs">
+                  <li>テクスチャ画像からの振動生成 <a class="pub-ref" data-doi="10.1109/ACCESS.2020.2968185" href="https://doi.org/10.1109/ACCESS.2020.2968185"></a> <a class="pub-ref" data-doi="10.1007/978-3-319-93399-3_3" href="https://doi.org/10.1007/978-3-319-93399-3_3"></a></li>
+                  <li>振動資産の再利用 <a class="pub-ref" data-doi="10.1109/HAPTICS45997.2020.ras.HAP20.80.00957e94" href="https://doi.org/10.1109/HAPTICS45997.2020.ras.HAP20.80.00957e94"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
 
       <!-- Publication -->
       <div class="col-md-12 block block--2">
         <div class="section-title"><b>Publication</b></div>
         <div class="subsection-title"><b>Journal Paper</b></div>
-        <div class="publication-list">
+        <div class="publication-list" id="journal-list">
           <ol class="list-compact">
-            <li><u>Ujitoko, Y.</u>, Takenaka, Y., & Hirota, K. (2026, XXX). FingerWrap: A High-Density Finger-Enveloping Tactile Display. IEEE Transactions on Haptics. <a href="https://doi.org/10.1109/TOH.2026.3660473">https://doi.org/10.1109/TOH.2026.3660473</a></li>
-            <li><u>Ujitoko, Y.</u>, & Ban, Y. (2026, XXX). Eliciting Pleasantness With Haptic Feedback: The Role of Physical and Pseudo-Haptic Resistance in Virtual Archery. IEEE Transactions on Visualization and Computer Graphics. <a href="https://doi.org/10.1109/tvcg.2025.3648732">https://doi.org/10.1109/tvcg.2025.3648732</a></li>
-            <li>Yokosaka, T., <u>Ujitoko, Y.</u>, & Kawabe, T. (2025, XXX). Asymmetric Playback Speeds for Ascent and Descent Phases Produce Natural Jump Impressions. Royal Society Open Science.</li>
+            <li><u>Ujitoko, Y.</u>, Takenaka, Y., & Hirota, K. (2026, February). FingerWrap: A High-Density Finger-Enveloping Tactile Display. IEEE Transactions on Haptics, 19(1), 169-180. <a href="https://doi.org/10.1109/TOH.2026.3660473">https://doi.org/10.1109/TOH.2026.3660473</a></li>
+            <li><u>Ujitoko, Y.</u>, & Ban, Y. (2025, December). Eliciting Pleasantness With Haptic Feedback: The Role of Physical and Pseudo-Haptic Resistance in Virtual Archery. IEEE Transactions on Visualization and Computer Graphics, 32(3), 2555-2567. <a href="https://doi.org/10.1109/tvcg.2025.3648732">https://doi.org/10.1109/tvcg.2025.3648732</a></li>
+            <li>Yokosaka, T., <u>Ujitoko, Y.</u>, & Kawabe, T. (2025, January). Asymmetric Playback Speeds for Ascent and Descent Phases Produce Natural Jump Impressions. Royal Society Open Science, 13(1), 251351. <a href="https://doi.org/10.1098/rsos.250126">https://doi.org/10.1098/rsos.250126</a></li>
             <li><u>Ujitoko, Y.</u>, & Morisaki, T. (2025, September). Exploring Acceptable Weight Criteria for Finger-Worn Haptic Device Design. IEEE Transactions on Haptics, 18(3), 615-625. <a href="https://doi.org/10.1109/TOH.2025.3580216">https://doi.org/10.1109/TOH.2025.3580216</a></li>
             <li>Kawabe, T., & <u>Ujitoko, Y.</u> (2025, July). Visual Features Involved in Determining Apparent Elasticity Elicit Touch Desire. IEEE Transactions on Visualization and Computer Graphics, 31(10), 9530-9536. <a href="https://doi.org/10.1109/TVCG.2025.3590469">https://doi.org/10.1109/TVCG.2025.3590469</a></li>
             <li>Shimamura, K., Shimomura, Y., Ban, Y., <u>Ujitoko, Y.</u>, & Warisawa, S. I. (2024, December). Effect of virtual object material on the pseudo-haptic weight. IEEE Access, 12, 183143-183152. <a href="https://doi.org/10.1109/ACCESS.2024.3511078">https://doi.org/10.1109/ACCESS.2024.3511078</a></li>
@@ -202,7 +366,7 @@
         </div>
 
         <div class="subsection-title"><b>Conference Proceeding</b></div>
-        <div class="publication-list">
+        <div class="publication-list" id="conference-list">
           <ol class="list-compact">
             <li><u>Ujitoko, Y.</u>, & Ban, Y. (2025, October). A Work-in-Progress Study on Effect of Post-Operation Visual Feedback on Perceived Pleasantness During Membrane Penetration with Force Feedback. In 2025 IEEE ISMAR.</li>
             <li>Morisaki, T., & <u>Ujitoko, Y.</u> (2024, June). Towards Intensifying Perceived Pressure in Midair Haptics: Comparing Perceived Pressure Intensity and Skin Displacement between LM and AM Stimuli. EuroHaptics 2024 (pp. 107-119). <a href="https://doi.org/10.1007/978-3-031-70058-3_9">https://doi.org/10.1007/978-3-031-70058-3_9</a></li>
@@ -376,6 +540,40 @@
         </div>
       </div>
     </div>
+  <script>
+  // Auto-resolve publication reference numbers from DOI
+  document.addEventListener('DOMContentLoaded', function() {
+    var doiMap = {};
+    // Journal papers: [J1], [J2], ...
+    var jList = document.querySelector('#journal-list ol');
+    if (jList) {
+      jList.querySelectorAll('li').forEach(function(li, i) {
+        li.querySelectorAll('a[href*="doi.org"]').forEach(function(a) {
+          var doi = a.href.replace(/.*doi\.org\//, '').toLowerCase();
+          doiMap[doi] = 'J' + (i + 1);
+        });
+      });
+    }
+    // Conference papers: [C1], [C2], ...
+    var cList = document.querySelector('#conference-list ol');
+    if (cList) {
+      cList.querySelectorAll('li').forEach(function(li, i) {
+        li.querySelectorAll('a[href*="doi.org"]').forEach(function(a) {
+          var doi = a.href.replace(/.*doi\.org\//, '').toLowerCase();
+          doiMap[doi] = 'C' + (i + 1);
+        });
+      });
+    }
+    // Fill in [JN] or [CN] for each pub-ref link
+    document.querySelectorAll('.pub-ref').forEach(function(a) {
+      var doi = (a.dataset.doi || '').toLowerCase();
+      var label = doiMap[doi];
+      if (label) {
+        a.textContent = '[' + label + ']';
+      }
+    });
+  });
+  </script>
   </body>
 </html>
 

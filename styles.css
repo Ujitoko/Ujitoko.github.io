@@ -18,6 +18,10 @@ body {
   background-color: #222 !important;
   border-color: #080808;
 }
+.navbar .container-fluid {
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
 /* BS3 row gutters (15px each side) */
 .row {
@@ -78,6 +82,256 @@ body {
 
 /* Subsection smaller title */
 .subsection-title { font-size: 16px; font-weight: 700; }
+
+/* Pseudo-haptics demo animation */
+.ph-demo {
+  position: relative;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  height: 100px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+/* Labels */
+.ph-label-mouse, .ph-label-cursor {
+  position: absolute;
+  font-size: 12px;
+  color: #555;
+  left: 4px;
+}
+.ph-label-cursor { top: 4px; }
+.ph-label-mouse { bottom: 4px; }
+/* Slow zone highlight */
+.ph-slowzone {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  background-color: rgba(255, 165, 0, 0.12);
+  border-radius: 0 4px 4px 0;
+}
+/* Divider line */
+.ph-demo::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  border-top: 1px dashed #ccc;
+}
+/* Mouse icon (top half) - moves at constant speed */
+.ph-mouse {
+  position: absolute;
+  top: 68%;
+  left: 10%;
+  transform: translateY(-50%);
+  animation: ph-mouse-move 4s linear infinite;
+}
+.ph-mouse svg { width: 18px; height: 18px; }
+/* Cursor pointer (bottom half) - starts same speed, then slows */
+.ph-pointer {
+  position: absolute;
+  top: 32%;
+  left: 10%;
+  transform: translateY(-50%);
+  animation: ph-pointer-move 4s linear infinite;
+}
+.ph-pointer svg { width: 16px; height: 16px; }
+/* Mouse moves at constant speed the whole way */
+@keyframes ph-mouse-move {
+  0%   { left: 10%; }
+  70%  { left: 80%; }
+  85%  { left: 80%; }
+  85.01% { left: 10%; }
+  100% { left: 10%; }
+}
+/* Pointer matches mouse at first, then slows down */
+@keyframes ph-pointer-move {
+  0%   { left: 10%; }
+  35%  { left: 45%; }
+  70%  { left: 55%; }
+  85%  { left: 55%; }
+  85.01% { left: 10%; }
+  100% { left: 10%; }
+}
+
+/* Touch desire demo animation */
+.td-demo {
+  position: relative;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+.td-object {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+}
+.td-hand {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  animation: td-reach 3s ease-in-out infinite;
+}
+@keyframes td-reach {
+  0%   { bottom: -10px; }
+  50%  { bottom: 15px; }
+  70%  { bottom: 15px; }
+  100% { bottom: -10px; }
+}
+
+/* "抵抗感" label moves with cursor and fades in at slow zone */
+.ph-resistance {
+  position: absolute;
+  top: 32%;
+  left: 10%;
+  transform: translateY(-50%);
+  margin-left: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  color: rgba(200, 80, 20, 0.9);
+  white-space: nowrap;
+  opacity: 0;
+  animation: ph-resistance-move 4s linear infinite;
+}
+.ph-bubble {
+  display: inline-block;
+  background: #fff;
+  border: 1.5px solid rgba(200, 80, 20, 0.7);
+  border-radius: 8px;
+  padding: 1px 6px;
+  position: relative;
+}
+.ph-bubble::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  margin-top: -5px;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-right-color: rgba(200, 80, 20, 0.7);
+}
+.ph-bubble::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -7px;
+  top: 50%;
+  margin-top: -4px;
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-right-color: #fff;
+}
+@keyframes ph-resistance-move {
+  0%   { left: 10%; opacity: 0; }
+  34%  { left: 44%; opacity: 0; }
+  36%  { left: 46%; opacity: 1; }
+  70%  { left: 55%; opacity: 1; }
+  85%  { left: 55%; opacity: 0; }
+  85.01% { left: 10%; opacity: 0; }
+  100% { left: 10%; opacity: 0; }
+}
+
+/* Softness perception demo animation */
+.sp-demo {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+.sp-finger {
+  animation: sp-push 3s ease-in-out infinite;
+}
+@keyframes sp-push {
+  0%   { transform: translateY(0); }
+  40%  { transform: translateY(10px); }
+  60%  { transform: translateY(10px); }
+  100% { transform: translateY(0); }
+}
+.sp-top {
+  animation: sp-top-deform 3s ease-in-out infinite;
+}
+@keyframes sp-top-deform {
+  0%   { d: path("M15,55 L45,42 L80,53 L45,65 Z"); }
+  40%  { d: path("M15,58 L45,48 L80,56 L45,68 Z"); }
+  60%  { d: path("M15,58 L45,48 L80,56 L45,68 Z"); }
+  100% { d: path("M15,55 L45,42 L80,53 L45,65 Z"); }
+}
+.sp-left {
+  animation: sp-left-deform 3s ease-in-out infinite;
+}
+@keyframes sp-left-deform {
+  0%   { d: path("M15,55 L15,80 L45,90 L45,65 Z"); }
+  40%  { d: path("M15,58 Q13,80 15,80 L45,90 L45,68 Z"); }
+  60%  { d: path("M15,58 Q13,80 15,80 L45,90 L45,68 Z"); }
+  100% { d: path("M15,55 L15,80 L45,90 L45,65 Z"); }
+}
+.sp-right {
+  animation: sp-right-deform 3s ease-in-out infinite;
+}
+@keyframes sp-right-deform {
+  0%   { d: path("M45,65 L45,90 L80,78 L80,53 Z"); }
+  40%  { d: path("M45,68 L45,90 Q82,78 80,78 L80,56 Z"); }
+  60%  { d: path("M45,68 L45,90 Q82,78 80,78 L80,56 Z"); }
+  100% { d: path("M45,65 L45,90 L80,78 L80,53 Z"); }
+}
+
+/* Vibrotactile design demo animation */
+.vd-demo {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+.vd-wave {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: vd-draw 3s ease-in-out infinite;
+}
+@keyframes vd-draw {
+  0%   { stroke-dashoffset: 500; }
+  20%  { stroke-dashoffset: 500; }
+  70%  { stroke-dashoffset: 0; }
+  85%  { stroke-dashoffset: 0; }
+  85.01% { stroke-dashoffset: 500; }
+  100% { stroke-dashoffset: 500; }
+}
+.vd-arrow {
+  stroke-dasharray: 15;
+  stroke-dashoffset: 15;
+  animation: vd-arrow-draw 3s ease-in-out infinite;
+}
+@keyframes vd-arrow-draw {
+  0%   { stroke-dashoffset: 15; }
+  10%  { stroke-dashoffset: 15; }
+  25%  { stroke-dashoffset: 0; }
+  85%  { stroke-dashoffset: 0; }
+  85.01% { stroke-dashoffset: 15; }
+  100% { stroke-dashoffset: 15; }
+}
+
+/* Research topic cards (2-column, image-left layout) */
+.research-topic-card {
+  margin-bottom: 18px;
+}
+.research-topic-card > .row > .col-4 { flex: 0 0 41.667%; max-width: 41.667%; }
+.research-topic-card > .row > .col-8 { flex: 0 0 58.333%; max-width: 58.333%; }
+.research-topic-card img {
+  border-radius: 4px;
+  background-color: #ddd;
+  min-height: 80px;
+}
+.research-topic-card p {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
 
 /* Compact lists used across the site */
 .list-compact { margin-left: 20px; padding-left: 0; margin-bottom: 0; }
