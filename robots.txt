@@ -2,6 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /index.html
 Disallow: /paper/
+Disallow: /project/design_criteria/
 Disallow: /*?*
 
 Sitemap: https://ujitoko.github.io/sitemap.xml

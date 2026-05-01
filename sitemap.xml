@@ -48,8 +48,4 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://ujitoko.github.io/project/remote_localization/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ujitoko.github.io/en/project/remote_localization/"/>
   </url>
-  <url>
-    <loc>https://ujitoko.github.io/project/design_criteria/</loc>
-    <priority>0.5</priority>
-  </url>
 </urlset>

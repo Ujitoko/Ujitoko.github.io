@@ -3,3 +3,4 @@
 ~$*
 .venv/
 Thumbs.db
+tmp/

@@ -22,6 +22,15 @@ body {
   padding-left: 40px;
   padding-right: 40px;
 }
+@media (max-width: 480px) {
+  .navbar .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .lang-switcher {
+    font-size: 12px;
+  }
+}
 .lang-switcher {
   color: #888;
   font-size: 14px;
