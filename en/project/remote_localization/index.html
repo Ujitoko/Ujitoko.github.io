@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DLW8CP9SBQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DLW8CP9SBQ');
+  </script>
+
+  <title>Remote Vibration Localization - Yusuke Ujitoko</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Can people identify the location of a vibration source away from the hand using touch alone? An overview of our research on directional localization with impact and sinusoidal vibration, and spatiotemporal pattern recognition.">
+  <meta property="og:title" content="Remote Vibration Localization - Yusuke Ujitoko">
+  <meta property="og:description" content="Can people identify the location of a vibration source away from the hand using touch alone? An overview of our research on directional localization with impact and sinusoidal vibration, and spatiotemporal pattern recognition.">
+  <meta property="og:image" content="https://ujitoko.github.io/project/remote_localization/img/Fig1.png">
+  <meta property="og:url" content="https://ujitoko.github.io/en/project/remote_localization/">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://ujitoko.github.io/en/project/remote_localization/">
+  <link rel="alternate" hreflang="ja" href="https://ujitoko.github.io/project/remote_localization/">
+  <link rel="alternate" hreflang="en" href="https://ujitoko.github.io/en/project/remote_localization/">
+  <link rel="alternate" hreflang="x-default" href="https://ujitoko.github.io/project/remote_localization/">
+  <link rel="icon" href="../../../img/icon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../../../styles.css">
+  <link rel="stylesheet" href="../../../project/project.css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@500&amp;display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-dark bg-dark" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <a class="navbar-brand" href="/en/">Yusuke Ujitoko</a>
+    <span class="lang-switcher"><a href="/project/remote_localization/">日本語</a> | <span class="active">English</span></span>
+  </div>
+</nav>
+
+  <div class="title">
+    <h1 class="research-title">Where Is It Vibrating? &mdash; Localizing Remote Vibrations</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="section">
+        <p>* This is the result of joint research with Prof. Hirota, Prof. Sakurai (UEC), Dr. Kuroki (NTT), and our students. The descriptions here may include my personal opinions.</p>
+
+        <h1 class="section-title">Background</h1>
+        <p class="text">Some animals can recognize the location of remote events through touch. Spiders sense the vibrations on their web with their legs and identify the direction and distance of prey [1]. Scorpions identify the direction and distance of prey from vibrations in the sand [2]. Can humans similarly sense remote vibrations through their hands and identify the location of a vibration source? A common way to convey spatial information through vibration is to attach vibrators directly to the skin surface (palm, wrist, torso, etc.). However, when vibrators are placed at locations away from the skin, it is not well understood whether people can estimate the location of the source from vibrations transmitted through a medium.
+
+        If people can recognize the location of a remote vibration source through vibration, it would be useful. For example, while driving a car, vision is used to monitor what's ahead, and hearing is often blocked by noise. In such situations, presenting spatial information such as "in which direction is an obstacle" via vibration could enable efficient information delivery.</p>
+
+        <h1 class="section-title">Study 1: Can we localize impact vibration sources?</h1>
+
+        <p class="text">We conducted an experiment in which a solenoid struck a remote location on a silicone rubber sheet to generate impact vibrations, and users with their hand placed on the sheet were asked to identify the location of the vibration source. Vibration sources were placed at 24 points around the hand (8 directions x 3 distances). We also compared three hand postures: "two fingertips," "five fingertips," and "the entire palm."
+
+        The results showed that the direction of the vibration source can be recognized to some extent. Particularly when both fingers and the entire palm were in contact with the sheet, accuracy was highest when the source was near the middle finger's tip, with a directional error of about 6 degrees. On the other hand, accurately recognizing the distance of the vibration source was difficult. In other words, "from which direction the vibration came" is recognizable, but "how far away" is hard to tell. These results suggest that direction-information presentation via remote vibration through a medium is feasible. For details, please see paper [3].</p>
+
+        <div class="img-container">
+          <img src="../../../project/remote_localization/img/fig1.png" alt="Can we localize impact vibration sources?" class="img-fluid">
+          <div class="img-caption">People can identify the direction of a remote vibration source, but distance is hard to tell.</div>
+        </div>
+
+        <h1 class="section-title">Study 2: How about sinusoidal vibration?</h1>
+        <p class="text">In Study 1, we used impact vibrations. We also investigated whether continuous vibrations such as sinusoidal vibrations work. Two frequencies were used: 30 Hz (low frequency, more responsive to RA receptors) and 230 Hz (high frequency, more responsive to Pacinian corpuscles).
+
+        The experiment confirmed that sinusoidal vibration also enables direction recognition. Distance recognition, however, was difficult, similar to impact vibration. Differences by frequency included that direction-recognition accuracy varied slightly with the source direction, and that the variability in accuracy when the source was farther away was particularly larger at low frequency. In other words, high frequency is suggested to be more advantageous for stably recognizing the direction of distant vibration sources. For details, please see paper [4].
+        </p>
+
+        <h1 class="section-title">Study 3: Can spatiotemporal patterns be recognized?</h1>
+        <p class="text">Studies 1 and 2 showed that "the direction of remote vibration sources is recognizable." What about spatiotemporal patterns where multiple vibration sources are presented in sequence? For example, when vibrations are presented sequentially around the hand in clockwise direction, can users correctly recognize that rotational pattern? If spatiotemporal pattern recognition is possible, it opens the way to richer information transmission beyond simple direction presentation.
+
+        In Study 3, we used vibration sources arranged in 8 directions around the hand and presented 64 types of rotational patterns (combinations of start point, end point, and rotation direction) to investigate recognition accuracy. The average correct response rate was 48.9% (chance level was 0.78%). Furthermore, recognition accuracy varied with pattern characteristics. Patterns starting or ending on the ulnar (little finger) side were difficult to recognize, while patterns starting from the distal (fingertip) or proximal (wrist) side were easier to recognize. Clockwise patterns also showed a slight tendency to be more recognizable than counter-clockwise patterns. These findings provide fundamental information useful for designing spatiotemporal pattern presentation displays around the body. For details, please see paper [3].
+        </p>
+
+      </div>
+      <div class="section">
+        <div class="publication-list">
+          <ol class="list-compact">
+            <li>Ujitoko, Y., Tokuhisa, R., Sakurai, S., & Hirota, K. (2021). Impact vibration source localization in two-dimensional space around hand. IEEE Transactions on Haptics, 14(4), 862-873.</li>
+            <li>Ujitoko, Y., & Kuroki, S. (2022). Sinusoidal vibration source localization in two-dimensional space around the hand. Frontiers in Psychology, 13, 878397.</li>
+            <li>Ujitoko, Y., Tokuhisa, R., & Hirota, K. (2022). Vibrotactile spatiotemporal pattern recognition in two-dimensional space around hand. IEEE Transactions on Haptics, 15(4), 718-728.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div class="back-link"><a href="../../">&larr; Back to top page</a></div>
+  </div>
+</body>
+</html>

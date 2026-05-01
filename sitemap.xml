@@ -1,20 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ujitoko.github.io/</loc>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ujitoko.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ujitoko.github.io/en/"/>
+  </url>
+  <url>
+    <loc>https://ujitoko.github.io/en/</loc>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ujitoko.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ujitoko.github.io/en/"/>
   </url>
   <url>
     <loc>https://ujitoko.github.io/project/touch_desire/</loc>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ujitoko.github.io/project/touch_desire/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ujitoko.github.io/en/project/touch_desire/"/>
+  </url>
+  <url>
+    <loc>https://ujitoko.github.io/en/project/touch_desire/</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ujitoko.github.io/project/touch_desire/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ujitoko.github.io/en/project/touch_desire/"/>
   </url>
   <url>
     <loc>https://ujitoko.github.io/project/visual_softness/</loc>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ujitoko.github.io/project/visual_softness/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ujitoko.github.io/en/project/visual_softness/"/>
+  </url>
+  <url>
+    <loc>https://ujitoko.github.io/en/project/visual_softness/</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ujitoko.github.io/project/visual_softness/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ujitoko.github.io/en/project/visual_softness/"/>
   </url>
   <url>
     <loc>https://ujitoko.github.io/project/remote_localization/</loc>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ujitoko.github.io/project/remote_localization/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ujitoko.github.io/en/project/remote_localization/"/>
+  </url>
+  <url>
+    <loc>https://ujitoko.github.io/en/project/remote_localization/</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ujitoko.github.io/project/remote_localization/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ujitoko.github.io/en/project/remote_localization/"/>
   </url>
   <url>
     <loc>https://ujitoko.github.io/project/design_criteria/</loc>
