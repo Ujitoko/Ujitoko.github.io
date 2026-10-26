@@ -52,10 +52,16 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://ujitoko.github.io/project/remote_localization/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ujitoko.github.io/en/project/remote_localization/"/>
   </url>
+  {%- comment -%}
+  Notes は記事が 1 本もないうちは sitemap に載せない。
+  最初の記事を置いた時点で一覧も記事も自動で載る。
+  {%- endcomment -%}
+  {%- if site.posts.size > 0 %}
   <url>
     <loc>https://ujitoko.github.io/notes/</loc>
     <priority>0.6</priority>
   </url>
+  {%- endif %}
   {%- for post in site.posts %}
   <url>
     <loc>{{ post.url | absolute_url }}</loc>

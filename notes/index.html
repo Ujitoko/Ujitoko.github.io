@@ -19,6 +19,10 @@ permalink: /notes/
   <title>Notes - Yusuke Ujitoko</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- if site.posts.size == 0 %}
+  <!-- 記事が 0 本のうちは空の一覧をインデックスさせない。最初の記事を置けば自動で外れる。 -->
+  <meta name="robots" content="noindex, follow">
+  {%- endif %}
   <meta name="description" content="{{ site.description | escape }}">
   <meta property="og:title" content="Notes - Yusuke Ujitoko">
   <meta property="og:description" content="{{ site.description | escape }}">
