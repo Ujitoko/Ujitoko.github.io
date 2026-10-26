@@ -1,0 +1,155 @@
+:root {
+  color-scheme: light;
+  --text: #333;
+  --muted: #777;
+  --link: #337ab7;
+  --link-hover: #23527c;
+  --line: #e8e8e8;
+  --year-background: #eee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", Roboto, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+a {
+  color: var(--link);
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+.site-nav {
+  min-height: 50px;
+  background: #222;
+  border: 1px solid #080808;
+}
+
+.site-nav-inner {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 13px 40px;
+}
+
+.site-nav a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.page {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 28px 40px 56px;
+}
+
+.page-header {
+  margin-bottom: 24px;
+}
+
+.page-header h1 {
+  margin: 0 0 10px;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.page-header p {
+  margin: 0;
+}
+
+.year-heading {
+  margin: 28px 0 0;
+  padding: 5px 8px;
+  background: var(--year-background);
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.paper {
+  padding: 17px 0 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.paper-title {
+  margin: 0;
+  padding-left: 15px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.paper-title a {
+  text-decoration: none;
+}
+
+.paper-title a:hover {
+  text-decoration: underline;
+}
+
+.paper-meta {
+  margin: 1px 0 0;
+  padding-left: 15px;
+  color: var(--muted);
+}
+
+.paper-note {
+  margin-top: 12px;
+  margin-left: 15px;
+  padding: 12px 15px;
+  background: #f6f5f1;
+}
+
+.paper-note > :first-child {
+  margin-top: 0;
+}
+
+.paper-note > :last-child {
+  margin-bottom: 0;
+}
+
+.paper-note p {
+  margin: 0 0 7px;
+}
+
+.paper-note h1,
+.paper-note h2,
+.paper-note h3 {
+  margin: 12px 0 5px;
+  font-size: 14px;
+}
+
+.paper-note ul,
+.paper-note ol {
+  margin: 5px 0 8px;
+  padding-left: 24px;
+}
+
+.paper-note code {
+  padding: 1px 4px;
+  border-radius: 3px;
+  background: #f4f4f4;
+  font-family: Consolas, "SFMono-Regular", monospace;
+  font-size: .92em;
+}
+
+@media (max-width: 600px) {
+  .site-nav-inner,
+  .page {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .page-header h1 {
+    font-size: 23px;
+  }
+}

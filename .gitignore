@@ -4,3 +4,13 @@
 .venv/
 Thumbs.db
 tmp/
+
+# Pseudo-haptics survey authoring tools (local only)
+/pseudo-haptics-survey/editor.html
+/pseudo-haptics-survey/pseudo-haptics-survey-version.js
+/rebuild-pseudo-haptics-survey-page.ps1
+/install-pseudo-haptics-survey-rebuild-button.ps1
+/update-pseudo-haptics-survey.ps1
+/rebuild-pseudo-haptics-survey-page.sh
+/install-pseudo-haptics-survey-rebuild-button.sh
+/update-pseudo-haptics-survey.sh

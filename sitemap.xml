@@ -1,3 +1,7 @@
+---
+# 空の front matter を置くことで Jekyll に Liquid を処理させる。
+# 既存 URL は hreflang 付きで手書き管理を続け、Notes だけ自動生成する。
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
@@ -48,4 +52,15 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://ujitoko.github.io/project/remote_localization/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ujitoko.github.io/en/project/remote_localization/"/>
   </url>
+  <url>
+    <loc>https://ujitoko.github.io/notes/</loc>
+    <priority>0.6</priority>
+  </url>
+  {%- for post in site.posts %}
+  <url>
+    <loc>{{ post.url | absolute_url }}</loc>
+    <lastmod>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</lastmod>
+    <priority>0.6</priority>
+  </url>
+  {%- endfor %}
 </urlset>

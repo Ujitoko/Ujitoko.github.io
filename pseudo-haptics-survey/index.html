@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pseudo-haptics全論文メモ</title>
+  <meta name="description" content="Survey of Pseudo-Haptics以降に発表されたpseudo-haptics関連論文と研究メモの一覧。">
+  <link rel="canonical" href="https://ujitoko.github.io/pseudo-haptics-survey/">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&amp;family=Zen+Kaku+Gothic+New:wght@500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="site-nav-inner"><a href="../">Yusuke Ujitoko</a></div>
+  </nav>
+  <main class="page">
+    <header class="page-header">
+      <h1>Pseudo-haptics全論文メモ</h1>
+      <p>全論文といっても、対象は<a href="https://ieeexplore.ieee.org/document/9424469/" target="_blank" rel="noopener">我々の書いたサーベイ論文</a>以降の論文のみです。<br>メモはあくまで個人的なものです。<br>retargeting、redirectionをはじめ、pseudo-hapticsと呼べないものも含みます。</p>
+    </header>
+    <div class="papers">
+      <h2 class="year-heading">2021</h2>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1007/978-3-030-70566-4_34" target="_blank" rel="noopener">Magnitude Finger Forces Analysis during simulating pseudo-haptic spring</a></h3>
+        <p class="paper-meta">Peter Mitrouchev, Jingtao Chen, Sabine Coquillart, Franck Quaine — HAL (Le Centre pour la Communication Scientifique Directe) — 2021</p>
+        <div class="paper-note">
+<p><a href="https://ieeexplore.ieee.org/document/840369/" target="_blank" rel="noopener">Lécuyer-2000</a>等にみられるisometric inputを用いた古典的なpseudo-hapticsによるばね表現をほぼ踏襲し、実際のばねを押したときも含めて、押す力を分析した研究。押す力や距離、回数などを指定せず、参加者が自分の判断で押し比べたとき、提示剛性に応じて最大の押す力がどのように変化するかを調べている。新しい提示手法の提案というより、既存手法における自発的な探索行動を調べた検討という位置づけ。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1007/978-3-030-77599-5_16" target="_blank" rel="noopener">Pseudo-haptic Perception in Smartphones Graphical Interfaces: A Case Study</a></h3>
+        <p class="paper-meta">Edmilson Domaredzki Verona, Beatriz Regina Brum, Claiton de Oliveira, Sílvio Ricardo Rodrigues Sanches, Cléber Gimenez Corrêa — Lecture notes in computer science — 2021</p>
+        <div class="paper-note">
+<p>スマホ画面上で素材画像を、指で押したときに中央へ沈み込むよう変形させ、素材の硬さを感じさせようとした研究。<a href="https://dl.acm.org/doi/10.1145/2501599" target="_blank" rel="noopener">Elastic Images</a>の系統。視覚刺激だけでなく振動も同時に提示している。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/access.2021.3121390" target="_blank" rel="noopener">Using the Visuo-Haptic Illusion to Perceive and Manipulate Different Virtual Objects in Augmented Reality</a></h3>
+        <p class="paper-meta">Li Zhang, Weiping He, Yupeng Hu, Shuxia Wang, Huidong Bai, Mark Billinghurst — IEEE Access — 2021</p>
+        <div class="paper-note">
+<p>ある形状の実物体を触らせながら、ARで様々なバーチャル物体を操作させるための、実指とバーチャル指の動きのマッピングを検討した研究。指先のみだけでなく、関節も変形させる。アイデア自体は<a href="https://ieeexplore.ieee.org/document/6818579/" target="_blank" rel="noopener">Ban-2013</a>や<a href="https://doi.org/10.1109/3DUI.2010.5444703" target="_blank" rel="noopener">Kohli-2010</a>などのリターゲティング・リダイレクション系。様々な物体形状に対応するようなアルゴリズムを検討している。円柱の実物体を使用しているが、角のあるバーチャル物体に触らせるのは難しいとのこと。また、用意した実物体とサイズ的にかけ離れているバーチャル物体に触らせるのは難しそう。順当に考えるとこの後の検討としては、どのような形状・サイズの実物体を最低限揃えれば、どの範囲の形状・サイズのバーチャル物体を違和感なく触らせることができるかを明らかにすることだろうか。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1016/j.ijhcs.2021.102613" target="_blank" rel="noopener">Effects of visual and auditory cues on haptic illusions for active and passive touches in mixed reality</a></h3>
+        <p class="paper-meta">Namkyoo Kang, Young June Sah, Sangwon Lee — International Journal of Human-Computer Studies — 2021</p>
+        <div class="paper-note">
+<p>触感における視聴覚の効果を、active touch/passive touchという観点からMRのUI（ガジェット）で調べている。pseudo-hapticsで視覚と聴覚の両方の効果を調べる研究は珍しく貴重な試み。activeなときには視聴覚両方の効果があったが、passiveなときには聴覚のみの効果が見られた。ただし操作対象や評価する触感もactive/passiveで異なっているので、単純比較は難しそう。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/vr50410.2021.00028" target="_blank" rel="noopener">Blink-Suppressed Hand Redirection</a></h3>
+        <p class="paper-meta">André Zenner, Kora Persephone Regitz, Antonio Krüger — 2021 IEEE Virtual Reality and 3D User Interfaces (VR) — 2021</p>
+        <div class="paper-note">
+<p>Retargeting(redirecting)中の実際の手とバーチャル手のずらしを、人が瞬きしている間に行うことで、ユーザにばれないようにする手法を提案し検証している。瞬き中の操作だけでも、方向に応じて約2.7～3.8 cmのずらしを隠せた点が興味深い。アイデアは直感的で非常に面白いが、瞬きを使わない従来手法と比べて優れているという結果は報告されていない。ぜひ検討を続けてほしいと思っていたら、後に<a href="https://doi.org/10.1145/3613904.3642073" target="_blank" rel="noopener">Beyond the Blink</a>でサッカードまで拡張されていてよい。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/vr50410.2021.00059" target="_blank" rel="noopener">BouncyScreen: Physical Enhancement of Pseudo-Force Feedback</a></h3>
+        <p class="paper-meta">Yuki Onishi, Kazuki Takashima, Kazuyuki Fujita, Yoshifumi Kitamura — 2021 IEEE Virtual Reality and 3D User Interfaces (VR) — 2021</p>
+        <div class="paper-note">
+<p>通常のpseudo-hapticsでは映像を操作して疑似的な触感を与えるが、本研究ではスクリーンの位置を物理的に操作して疑似的な触感を作ろうとするユニークな試みを行っている。よく考えると網膜に映る刺激を操作しているという意味では、画面内でも画面外でも似ているといえるのかもしれない。著者らの研究グループの過去の研究に<a href="https://dl.acm.org/doi/10.1145/3275476.3275489" target="_blank" rel="noopener">Living Wall Display</a>があるが、これを疑似触覚に応用したもの。球をバーチャル物体にぶつけるタスクでは、スクリーンが動く条件の方が現実感は高かったとのこと。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/vrw52623.2021.00185" target="_blank" rel="noopener">Improving Weight Perception in Virtual Reality via a Brain-Computer Interface</a></h3>
+        <p class="paper-meta">Xupeng Ye, Jinyi Long — 2021 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW) — 2021</p>
+        <div class="paper-note">
+<p>実際の手とバーチャル手のずれによって生じる重さ感をEEGから推定し、その結果に応じてバーチャル手の位置を調整する閉ループシステムの構築を試みた研究。挑戦的なアイデアが面白い。pseudo-hapticsを最適化するための、知覚を推定しながら提示する刺激を調整する閉ループの考え方は、今後重要になっていくと感じる。一方、現段階では重さ感の推定が「重い／軽い」の二値に限られている。EEGから得た信号が主観的な重さ感とどの程度対応するのかも含め、今後の検証の広がりに注目したい。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/vrw52623.2021.00163" target="_blank" rel="noopener">LighterBody: RNN based Anticipated Virtual Body Makes You Feel Lighter</a></h3>
+        <p class="paper-meta">Tatsuya Kure, Shunichi Kasahara — 2021 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW) — 2021</p>
+        <div class="paper-note">
+<p>身体の動きを予測し、その予測した動きを視覚提示すると身体が軽くなったように感じ、逆に予測した動きから現在の動きへ視覚提示を変更すると重くなったように感じる傾向があった。これは<a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00760/full" target="_blank" rel="noopener">Honda-2013</a>の考え方で説明できる可能性はある。全身の動きのpseudo-hapticsという意味では<a href="https://ieeexplore.ieee.org/document/6777424" target="_blank" rel="noopener">Jauregui-2014</a>がまず浮かぶ。ちなみに映像を先送りして身体を軽く感じさせるシステム自体は、阪大の前田研が国内学会で発表していたのが最初だと思うが、その文献を思い出せない。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/vrw52623.2021.00170" target="_blank" rel="noopener">The Effect of the Virtual Object Size on Weight Perception Augmented with Pseudo-Haptic Feedback</a></h3>
+        <p class="paper-meta">Jinwook Kim, Jeongmi Lee — 2021 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW) — 2021</p>
+        <div class="paper-note">
+<p>物体のサイズがpseudo-hapticsによる重さ感に影響するかを調べた。重さを「感じた」「感じてない」の2択で回答させ、その結果、物体サイズが大きいほどpseudo-hapticsによる重さを感じにくいということだった。物体の視覚特徴によるpseudo-haptics効果を調べた研究という意味では、物体のテクスチャによる効果を調べた<a href="https://ieeexplore.ieee.org/document/10776970/" target="_blank" rel="noopener">Shimamura-2024</a>と関連がある。私はこの論文の実験を真似て、物体サイズとCD比を操作しつつ、重さ感の大きさを5段階の評定法で評価させた実験を色んなバリエーションでやってみたが、その結果としては物体サイズは重さ感の大きさに影響しなかった。重さ感の閾値は物体サイズで変わるが、重さ感の大きさは変わらないということなのかもしれない。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/vr50410.2021.00036" target="_blank" rel="noopener">Unscripted Retargeting: Reach Prediction for Haptic Retargeting in Virtual Reality</a></h3>
+        <p class="paper-meta">Aldrich Clarence, Jarrod Knibbe, Maxime Cordeil, Michael Wybrow — 2021 IEEE Virtual Reality and 3D User Interfaces (VR) — 2021</p>
+        <div class="paper-note">
+<p>通常のhaptic retargetingでは、ユーザの身体運動の到達先をシステムが知っている必要があるが、身体運動から到達先を予測できるかを調べた研究。実際にretargetingを適用したユーザ実験は行われていないので、現時点ではretargetingそのものより、自由選択時の到達先予測を検討した論文と見るのがよさそう。予測ができた時点で初めてretargetingが開始できるので、どれだけ初期に予測できるかがポイントになりそう。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/tvcg.2021.3067777" target="_blank" rel="noopener">Combining Dynamic Passive Haptics and Haptic Retargeting for Enhanced Haptic Feedback in Virtual Reality</a></h3>
+        <p class="paper-meta">André Zenner, Kristin Ullmann, Antonio Krüger — IEEE Transactions on Visualization and Computer Graphics — 2021</p>
+        <div class="paper-note">
+<p>&quot;physical proxy objects need to be sufficiently similar to their virtual counterparts in terms of haptic properties, for challenge&quot;という課題が明記されている点が個人的にはよかった。passive haptics系の研究では形状や位置などを考慮していても、その触感の類似性の観点での課題意識はほどんどなかったのではないかと思っていたが、この研究ではその課題にアプローチしている。ただし静的なphysical propを使う研究ではなくて、棒の内部の錘の位置を制御するdynamic passive hapticsを扱っている。また把持位置を視覚的にずらすhaptic retargetingを組み合わせる手法を提案している。例えば、棒の右側を重く感じさせる場合は、錘を右へ移動させるのに加えて、ユーザには中央を握っているように見せながら、実際の手を左寄りへ誘導する。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3389/fpsyg.2021.652781" target="_blank" rel="noopener">Sense of Resistance for a Cursor Moved by User’s Keystrokes</a></h3>
+        <p class="paper-meta">Takahiro Kawabe, Yusuke Ujitoko, Takumi Yokosaka, Scinob Kuroki — Frontiers in Psychology — 2021</p>
+        <div class="paper-note">
+<p>キーを押し続けて画面上のポインタを動かす際、画面中央の領域でカーソルを遅くすることで抵抗感を提示した研究。抵抗感を決めていたのは領域に入った際の減速率よりも、領域内におけるポインタの速度だったことや、キーを押さずポインタが自動的に移動するようにした場合にも抵抗感の評定値に有意な差はなかった。これらの結果は、少なくともキー押しによってポインタを動かす際の抵抗感の評定には、連続的な操作や身体運動―視覚間のずれが必須ではなく、操作対象の視覚的な遅さだけでも十分である可能性を示すものであり興味深い。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://ieeexplore.ieee.org/abstract/document/9424469" target="_blank" rel="noopener">Survey of Pseudo-Haptics: Haptic Feedback Design and Application Proposals</a></h3>
+        <p class="paper-meta">Yusuke Ujitoko, Yuki Ban — IEEE Transactions on Haptics — 2021</p>
+        <div class="paper-note">
+<p>2020年までのpseudo-haptics研究74件を対象に、提示する触覚属性と視覚刺激・ユーザ入力の対応で整理した。査読者・エディタだけでなく当時のToHのAssociate Editor-in-Chiefにまでアドバイスを頂いてまとめることできた。どの範囲までpseudo-hapticsの研究として扱うか、どのような軸で整理するか、pseudo-hapticsの評価手法をトピックに含めるか(結局含めなかった)などの観点で主に苦労した記憶がある。今だったら、<a href="https://www.prisma-statement.org/prisma-2020" target="_blank" rel="noopener">PRISMA-2020</a>に沿って分析する論文を決めると思う。土日に九品仏の坂道を歩いている時にアクセプト連絡がきた。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3411764.3445456" target="_blank" rel="noopener">Visuo-haptic Illusions for Linear Translation and Stretching using Physical Proxies in Virtual Reality</a></h3>
+        <p class="paper-meta">Martin Feick, Niko Kleer, André Zenner, Anthony Tang, Antonio Krüger — Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems — 2021</p>
+        <div class="paper-note">
+<p>一つの可動式のプロキシを複数のバーチャル物体として使い回すために、実物とバーチャル物体の移動量のマッピングを変更し、どの程度のずれまで利用者に気づかれないかを調べた研究。CD比を操作しているが、抵抗感や重さ感などの触感を評価した研究ではなく、検出閾の検討と捉えるのがよさそう。実験は三本指でつまむ一次元スライダに限定されており、得られた閾値をほかの触り方や多自由度の操作へ適用できるかは今後の検討。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3411763.3451814" target="_blank" rel="noopener">HaRT - The Virtual Reality Hand Redirection Toolkit</a></h3>
+        <p class="paper-meta">André Zenner, Hannah Maria Kriegler, Antonio Krüger — Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems — 2021</p>
+        <div class="paper-note">
+<p>既存のhand redirection手法をUnity上で実装しやすくするためのツールキット(https://github.com/AndreZenner/hand-redirection-toolkit)。Body warping、world warping、hybrid warpingに分類される9種類の既存アルゴリズムに加え、手の軌跡や実物―バーチャル物体間の対応の可視化、ログ出力、シミュレーションなどを備える。新しいredirection手法や知覚上の発見を示した研究ではない。<a href="https://ieeexplore.ieee.org/document/10316482" target="_blank" rel="noopener">Ogawa-2023</a>などいくつかの後続研究でHaRTを用いた実験や独自機能の追加例を確認できる。一方、2026年9月に確認した時点ではGitHubの最終更新が2024年6月で止まっており、現在も広く使われているツールとは言いにくいか？</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3411763.3451661" target="_blank" rel="noopener">Towards Adding Pseudo-Haptic Effects to Acoustic Levitation Displays</a></h3>
+        <p class="paper-meta">Maxime Reynal, Euan Freeman, Stephen Brewster — Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems — 2021</p>
+        <div class="paper-note">
+<p>超音波で空中に浮かべた粒子をジェスチャで操作する際、手の動きと粒子の動きの対応関係を変えることで、摩擦、滑り、質感、粘着、慣性、硬さを表現する方法を提案した研究。ただし評価は行われていない。浮いている粒子に物性情報を加えたいが、手で直接は触れさせたくないという条件に対する、追加装置の少ない解決策として、pseudo-hapticsの適用という位置づけ。空中像で粒子を描画しつつ同じpseudo-hapticsを適用した場合と、実際の粒子を浮かべた場合で、感覚的な違いはあるのだろうか？</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3411763.3451842" target="_blank" rel="noopener">Virtual Weight Illusion: Weight Perception of Virtual Objects Using Weight Illusions</a></h3>
+        <p class="paper-meta">Akihiro Maehigashi, Akira Sasada, Miki Matsumuro, Fumihisa Shibata, Asako Kimura, Sumaru Niida — Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems — 2021</p>
+        <div class="paper-note">
+<p>大きさ-重さ錯覚・明るさ-重さ錯覚・材質-重さ錯覚の起きるような見た目の物体を持ち上げる際に、CD比も操作して、重さ感がどう変わるかを検討。大きさとCD比には交互作用があった（CD比が1.6の場合には大きい物体の方が重く感じ、CD比が0.4や1のときには小さい物体の方が重く感じた）。これは物体大きさとCD比の効果を調べた<a href="https://ieeexplore.ieee.org/document/9419232/" target="_blank" rel="noopener">Kim-2021</a>とも関連がある。明るさや材質の場合は、黒いほうが重かったり金属風の物体の方が重く感じられた。CD比の効果が物体の見た目でどう変わったかは検討していない。材質の方は<a href="https://doi.org/10.1109/vrw52623.2021.00170" target="_blank" rel="noopener">Shimamura-2024</a>と関連がある。CD比によって錯覚の効果が異なったというのは、錯覚の仕組みを議論する上で有用かもしれない。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/whc49131.2021.9517174" target="_blank" rel="noopener">Generating Kinesthetic Feedback Using Self Contact and Velocity Scaling</a></h3>
+        <p class="paper-meta">Tommaso Lisini Baldi, Nicole D’Aurizio, Alberto Villani, Domenico Prattichizzo — 2021 IEEE World Haptics Conference (WHC) — 2021</p>
+        <div class="paper-note">
+<p>実際には親指と人差し指を接触させながら、視覚上では二本の指の間にバーチャル物体が挟まっているように見せ、その自己接触を物体からの反力として利用する手法に関する検討。核となるアイデアは<a href="https://dl.acm.org/doi/epdf/10.1145/2782782.2792498" target="_blank" rel="noopener">AirHaptics</a>と同じ。本研究では、実指とバーチャル指の速度差に気づかれない範囲を調べ、動作速度に応じたC/D比をモデル化したうえで、pick-and-place課題における操作性を検証している。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/whc49131.2021.9517129" target="_blank" rel="noopener">Hit-Stop in VR: Combination of Pseudo-haptics and Vibration Enhances Impact Sensation</a></h3>
+        <p class="paper-meta">Yuki Ban, Yusuke Ujitoko — 2021 IEEE World Haptics Conference (WHC) — 2021</p>
+        <div class="paper-note">
+<p>VRでボールを打つ瞬間にバーチャルラケットを一時的に停止または減速させ、実際の手との動きのずれから衝撃感を提示する研究。ゲームで使われてきたヒットストップを、VRへ導入した点が特徴。ヒットストップで衝撃感が生じ、停止時間を長くすると約0.2秒までは衝撃感が強くなった。一方、停止が長すぎると行為主体感、存在感、楽しさを低下させた。完全停止よりslow-motionの評価が高く、衝突時の振動と組み合わせることで、操作とのつながりを保ちながら衝撃感を強められる。やってて楽しい。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/whc49131.2021.9517261" target="_blank" rel="noopener">Pseudo-heaviness during mid-air gestures is tuned to visual speed</a></h3>
+        <p class="paper-meta">Takahiro Kawabe, Yusuke Ujitoko, Takumi Yokosaka — 2021 IEEE World Haptics Conference (WHC) — 2021</p>
+        <div class="paper-note">
+<p>画面上の同心円状グレーティングを空中でつまんで持ち上げるジェスチャで操作する際、手の上下移動に対するグレーティングの位相移動を遅くすると、より重く感じられることを示した予備的研究。グレーティング全体の大きさを変えず、模様の位相だけを動かすことで、物体のサイズ変化から視覚速度の効果を切り分けている。同じ手の移動量に対する位相移動量が小さいほど重く評定され、その傾向は位相が内向き・外向きのどちらに動く場合にもみられた。この予備的検討をもとに本実験を行いジャーナル論文としてまとめたものが<a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.811881/full" target="_blank" rel="noopener">Kawabe-2022</a>。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://www.scielo.org.za/scielo.php?pid=S2313-78352021000100002&amp;script=sci_arttext" target="_blank" rel="noopener">Creating pseudo-tactile feedback in virtual reality using shared crossmodal properties of audio and tactile feedback</a></h3>
+        <p class="paper-meta">Isak de Villiers Bosman, Koos de Beer, Theo J.D. Bothma — South African Computer Journal — 2021</p>
+        <div class="paper-note">
+<p>物理的な触覚刺激を使わず、バーチャルなブロックを手で擦る動きに応じて材質音を提示し、触感を生じさせようとした研究。一般的なpseudo-hapticsのように、実手とバーチャル手の対応を視覚的に変えているわけではない。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.21428/92fbeb44.c47be986" target="_blank" rel="noopener">The Effect of Control-Display Ratio on User Experience in Immersive Virtual Musical Instruments</a></h3>
+        <p class="paper-meta">Vincent Reynaert, Florent Berthaut, Yosra Rekik, Laurent Grisoni — Proceedings of the International Conference on New Interfaces for Musical Expression — 2021</p>
+        <div class="paper-note">
+<p>VR音楽インタフェースにおいて、実際の手の動きとバーチャルカーソルの動きの対応関係を変え、バーチャル空間の一定範囲を操作するために必要な手の移動量が、プレゼンス、疲労、音の操作性、音楽的な表現性に与える影響を調べた研究。。pseudo-haptics研究というより、CD比を使ったVR音楽インタフェースの研究という位置づけ。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://ieeexplore.ieee.org/abstract/document/9597234" target="_blank" rel="noopener">Virtual Reality Percussion Simulator for Medical Student Training</a></h3>
+        <p class="paper-meta">Luis Andrés Puértolas Bálint, Kaspar Althoefer, Luis Humberto Pérez Macías — 2021 IEEE 6th International Forum on Research and Technology for Society and Industry (RTSI) — 2021</p>
+        <div class="paper-note">
+<p>患者の胸部や腹部を指で叩き、臓器や病変に応じたフィードバック音を学ぶためのVR訓練システム。患者表面に接触したバーチャル手を止め、動き続ける実手とのずれから抵抗感を提示する。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3389/frvir.2021.738613" target="_blank" rel="noopener">Haplets: Finger-Worn Wireless and Low-Encumbrance Vibrotactile Haptic Feedback for Virtual and Augmented Reality</a></h3>
+        <p class="paper-meta">Pornthep Preechayasomboon, Eric Rombokas — Frontiers in Virtual Reality — 2021</p>
+        <div class="paper-note">
+<p>指の爪や指背に取り付け、指腹を塞がずに振動を提示できる小型無線デバイスHapletsを提案した研究。VRにおいて実際の手とバーチャル手の位置をずらすpseudo-hapticsと、物体との衝突や物体表面の質感表現のための振動提示を組み合わせている。実験で比較しているのは振動の効果であり、pseudo-hapticsの効果を検証した研究ではない。Figure 1がいつ見ても綺麗。<a href="https://dl.acm.org/doi/10.1145/3565970.3567703" target="_blank" rel="noopener">Fingeret</a>をはじめ、なんとかletという接尾辞をタイトルに持つデバイスがいくつかあるが、この接尾辞には「小さいもの」「小型版」というニュアンスがあるらしい。book-&gt;booklet, drop-&gt;dropletなど。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/iros51168.2021.9636500" target="_blank" rel="noopener">Can A Vibrotactile Stimulation On Fingertips Make An Illusion Of Elbow Joint Movement?</a></h3>
+        <p class="paper-meta">Dinmukhammed Mukashev, Adilzhan Adilkhanov, Zhanat Kappassov — 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) — 2021</p>
+        <div class="paper-note">
+<p>親指と人差し指で装置をつまみ、鉛直下向きに力を加えた際に、VR空間における手（と手で把持している棒）の位置が下向きにずれ、またVR空間の棒の下にあるボールが変形する。実際にはほとんど手は動いていないにも関わらず、動いたように感じさせる研究。さらに押す力に応じた振動を提示し、視覚による効果を強めるか調べている。ボールは、仮想物体の柔らかさを表現し、移動量を判断する視覚的な基準を与えるために置かれたと思われる。ただし、純粋に手や肘の運動錯覚を調べるのであれば、棒の移動だけでも成立した可能性がある。棒だけの条件がないため、この実験にボールが必要だったかは分からない。また、振動はボールの反応が棒を通じて手へ伝わる設定だと考えられるものの、VR内で何が振動を発生させているのかは明確に説明されていない。棒で机などの硬い面を押す、あるいは叩く課題であれば、振動の由来が分かりやすく、視覚との整合性も高かったのではないか。<a href="https://ieeexplore.ieee.org/document/8988217" target="_blank" rel="noopener">VibeRo</a>の後続研究。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/tvcg.2021.3120410" target="_blank" rel="noopener">Adaptive Reset Techniques for Haptic Retargeted Interaction</a></h3>
+        <p class="paper-meta">Brandon Matthews, Bruce H. Thomas, Stewart Von Itzstein, Ross T. Smith — IEEE Transactions on Visualization and Computer Graphics — 2021</p>
+        <div class="paper-note">
+<p>retargetingでは、実際の手とバーチャル手の動きを少しずらし、少数の実物体を複数のバーチャル物体として使い回す。このずれを次の操作に移行するときに整え直す「リセット」を省略・短縮することを検討。pseudo-hapticsでも同じようなずれをどう補正するかという課題があるので、参考になる。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3485279.3485293" target="_blank" rel="noopener">Adaptic: A Shape Changing Prop with Haptic Retargeting</a></h3>
+        <p class="paper-meta">Johann Felipe Gonzalez Avila, John McClelland, Robert J. Teather, Pablo Figueroa, Audrey Girouard — Symposium on Spatial User Interaction — 2021</p>
+        <div class="paper-note">
+<p>passive hapticsとretargetingを組み合わせた研究という意味では[Zenner-2021]と似ている。実物体の形状変化によって「形の違い」を吸収し、haptic retargetingによって「位置の違い」を吸収する。これにより、1つの実物体で異なる場所にある異なる形状の物体を触っているように感じさせる。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3485279.3485291" target="_blank" rel="noopener">Visuo-haptic Illusions for Motor Skill Acquisition in Virtual Reality</a></h3>
+        <p class="paper-meta">Benoît Geslain, Gilles Bailly, Sinan Haliyo, Corentin Duboc — Symposium on Spatial User Interaction — 2021</p>
+        <div class="paper-note">
+<p>retargetingによって練習中のVR空間の手を本来と異なる軌道で動かしても、その練習が実空間での運動技能として役立つかを調べている。私はつねづねpseudo-hapticsやretargetingは訓練には使えない可能性があるのではと思っていたので、この研究はとても重要だと思う。結果としては、実空間で練習した場合とretargetingした場合の差が小さかったとしている。今後は、より複雑な動作や力加減が必要な課題でも同じように技能が転移するか、retargetingの量が転移にどう影響するかを調べてほしい。訓練に利用できる範囲が明らかになれば、少ない実物体で多様な技能を学べるVR訓練環境につながりそう。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3758/s13414-021-02414-x" target="_blank" rel="noopener">Using Immersive Virtual Reality to Examine How Visual and Tactile Cues Drive the Material-Weight Illusion</a></h3>
+        <p class="paper-meta">Caitlin Elisabeth Naylor, Michael J. Proulx, Gavin Buckingham — Attention Perception &amp; Psychophysics — 2021</p>
+        <div class="paper-note">
+<p>VRで持ち上げる箱を持ち上げる際に、見える材質と手で実際に触れる材質を独立に変え、材質-重さ錯覚に対する視覚と触覚の寄与を調べた研究。見た目と触れた材質が矛盾していても、主に触った材質に基づいた錯覚が生じていた。つまり、材質から重さを推定するときには、視覚より触覚の手がかりが使われやすいことを示唆する。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3489849.3489866" target="_blank" rel="noopener">Analysis of Detection Thresholds for Hand Redirection during Mid-Air Interactions in Virtual Reality</a></h3>
+        <p class="paper-meta">Judith Hartfill, Jenny Gabel, Lucie Kruse, Susanne Schmidt, Kevin Riebandt, Simone Kühn, Frank Steinicke — VRST 2021 — 2021</p>
+        <div class="paper-note">
+<p>バーチャル手を実際の手より遅く動かすhand redirectionについて、気づかれない減速量を左右の手・6方向で調べた研究。身体中心方向、上方向、前方への動きでは、それぞれ反対方向より小さなずれに気づきやすかった一方、利き手と非利き手に有意な違いはなかった。同じ20 cmの動作でも、許容される位置差が方向によって約9 cmも変わるのは面白い。個人的には、pseudo-hapticsの実験でC/D比を方向によらず一律に決めてしまってよいのか、改めて考えさせられる結果だった。</p>
+        </div>
+      </article>
+      <h2 class="year-heading">2022</h2>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/access.2022.3172324" target="_blank" rel="noopener">A Pseudo-Haptic Method Using Auditory Feedback: The Role of Delay, Frequency, and Loudness of Auditory Feedback in Response to a User’s Button Click in Causing a Sensation of Heaviness</a></h3>
+        <p class="paper-meta">Seitaro Kaneko, Takumi Yokosaka, Hiroyuki Kajimoto, Takahiro Kawabe — IEEE Access — 2022</p>
+        <div class="paper-note">
+<p><a href="https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.761697/full" target="_blank" rel="noopener">Yokosaka-2022</a>ではキー押しに対応する視覚刺激の遅延によって重さや硬さを感じさせているが、本研究はその聴覚版であり、遅延・周波数・音量の効果を調べている。視覚を必要としないため、小型機器や画面のない機器にも応用できそう。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/access.2022.3140438" target="_blank" rel="noopener">The Effect of Multisensory Pseudo-Haptic Feedback on Perception of Virtual Weight</a></h3>
+        <p class="paper-meta">Jinwook Kim, Seonghyeon Kim, Jeongmi Lee — IEEE Access — 2022</p>
+        <div class="paper-note">
+<p>CD比とEMSを組み合わせ、重さ感の範囲が広がるか調べた研究。EMSを加えると、視覚的な遅れが比較的小さくても重さを感じるようになった。またCD比ごとの重さの弁別も調べており、こちらも興味深い。例えば基準のC/D比が0.2の場合、弁別には少なくとも約0.07のCD比の差が必要であり、基準のC/D比が0.4：少なくとも約0.15の差が必要であった。CD比に約35％の相対差を設けると、重さ感の違いとして弁別される傾向があった。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/vr51125.2022.00039" target="_blank" rel="noopener">Body Warping Versus Change Blindness Remapping: A Comparison of Two Approaches to Repurposing Haptic Proxies for Virtual Reality</a></h3>
+        <p class="paper-meta">Cristian Patras, Mantas Cibulskis, Niels Christian Nilsson — 2022 IEEE Conference on Virtual Reality and 3D User Interfaces (VR) — 2022</p>
+        <div class="paper-note">
+<p>body warpingとchange blindness remappingを比較した研究。body warpingは、到達中に実手とバーチャル手の軌道を徐々にずらす手法である。一方、change blindness remappingは、ユーザが別の画面を見ている間に、実物ボタンと重なる位置までバーチャルボタン自体を瞬間的に移動させる。操作に気づく確率が50%となる距離は前者が7.9 cm、後者が9.7 cmで、主体感も後者の方が高かった。ただしユーザが対象から目をそらしている間に、システムが次の操作対象を把握しておく必要がある。適用場面は限られそうだが、手の対応を崩さずに物体側を動かすという発想が面白い。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/vr51125.2022.00091" target="_blank" rel="noopener">Exploring Pseudo-Weight in Augmented Reality Extended Displays</a></h3>
+        <p class="paper-meta">Shohei Mori, Yuta Kataoka, Satoshi Hashiguchi — 2022 IEEE Conference on Virtual Reality and 3D User Interfaces (VR) — 2022</p>
+        <div class="paper-note">
+<p>実物のスマホの周囲にARでバーチャルな画面を表示した際、スマートフォン自体の重さ感が変わるかを調べた研究。バーチャル画面をスマホから離すと約200 mmまでは端末が軽く感じられ、端末の動きに対する仮想画面の追従を遅らせると重く感じられた。ただし、距離や遅延を大きくしすぎると効果は飽和または減少した。AR表示を付け加えるだけで実物のスマホの重さ感まで変えている点が面白い。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/vr51125.2022.00083" target="_blank" rel="noopener">Shape Aware Haptic Retargeting for Accurate Hand Interactions</a></h3>
+        <p class="paper-meta">Brandon Matthews, Bruce H. Thomas, Stewart Von Itzstein, Ross Smith — 2022 IEEE Conference on Virtual Reality and 3D User Interfaces (VR) — 2022</p>
+        <div class="paper-note">
+<p>従来のhaptic retargetingでは、手と対象物をそれぞれ一つの点で代表させ、その距離に応じてバーチャル手のずらし量を決めていたため、想定とは異なる指や位置で触れると、実物体とバーチャル物体の接触位置にずれが生じていた。本研究は、手と対象物の形状を考慮し、両者の表面間の最短距離からずらし量を計算することで、この問題を解消しようとしている。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3519391.3519410" target="_blank" rel="noopener">Increasing the Perceived Speed of Dynamic Handheld Shape Displays through Visuo-Haptic Illusions</a></h3>
+        <p class="paper-meta">Antonin Cheymol, Yutaro Hirao, Shigeo Yoshida, Hideaki Kuzuoka — Augmented Humans 2022 — 2022</p>
+        <div class="paper-note">
+<p>ハンドヘルド型の形状ディスプレイの変形速度を実際より速く感じさせるため、VR内で見える変形距離を増やす方法と、見た目の変形時間を短くする方法を検討した研究。装置の動作速度の限界を視覚による錯覚で補う発想は興味深く、いろいろ応用できそう。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3389/fnins.2022.761697" target="_blank" rel="noopener">Delay and Speed of Visual Feedback of a Keystroke Cause Illusory Heaviness and Stiffness</a></h3>
+        <p class="paper-meta">Takumi Yokosaka, Takahiro Kawabe — Frontiers in Neuroscience — 2022</p>
+        <div class="paper-note">
+<p>キーを押し続けると画面中央の四角形の明るさが変化する状況で、キー入力から視覚変化が始まるまでの遅延と、明るさの変化速度が重さ感・硬さ感・凹凸感に与える影響を調べた研究。遅延が長く、明るさがゆっくり変化するほど重さと硬さが強く評価され、同じ条件では操作の主体感が低下した。GUIでは入力に対する視覚変化のタイミングや速度だけで操作の手応えを設計できる可能性を示している。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.7759/cureus.23664" target="_blank" rel="noopener">Revisiting Pseudo-Haptics for Psychomotor Skills Development in Online Teaching</a></h3>
+        <p class="paper-meta">Bill Kapralos, Álvaro Uribe-Quevedo, Celina Da Silva, Eva Peisachovich, KC Collins, Kamen Kanev, Adam Dubrowski — Cureus — 2022</p>
+        <div class="paper-note">
+<p>オンラインでの医療技能訓練にpseudo-hapticsを活用する可能性を論じたEditorial。高価な力覚装置を家庭に用意するのは難しいため、マウス、映像、音を使って、自宅でも縫合や穿刺などの訓練の一部を行えるようにしようとしている。具体例として、13名が遠隔で参加したバーチャルなドリリング課題を紹介している。高価な装置を置き換えるのではなく、自宅での予備練習と実習室での本格的な訓練をつなぐ技術として位置づけている点は納得感がある。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3491102.3501907" target="_blank" rel="noopener">A Model Predictive Control Approach for Reach Redirection in Virtual Reality</a></h3>
+        <p class="paper-meta">Eric J. Gonzalez, Elyse D. Z. Chase, Pramod Kotipalli, Sean Follmer — CHI Conference on Human Factors in Computing Systems — 2022</p>
+        <div class="paper-note">
+<p>ユーザの実際の手を目的の位置へ誘導する際、到達運動をMinimum Jerkモデルで予測しながら、実際の手とバーチャル手のずらし方をモデル予測制御で逐次決定する手法。従来のHaptic Retargetingでは、開始位置と目標位置に基づく固定的なマッピングを用いることが多いが、本研究では目標への到達精度、ずらし量、ずらしの滑らかさをコストとして、約10ミリ秒ごとに最適化する。<a href="https://doi.org/10.1109/VR50410.2021.00036" target="_blank" rel="noopener">Clarence-2021</a>が予測していたのはユーザがどの物体へ手を伸ばしているかであり、本研究が予測するのは、目標が既知の状態で視覚的なずらしに対して実手がどう動くかである。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3389/frvir.2022.860872" target="_blank" rel="noopener">Changing Finger Movement Perception: Influence of Active Haptics on Visual Dominance</a></h3>
+        <p class="paper-meta">Loën Boban, David Pittet, Bruno Herbelin, Ronan Boulic — Frontiers in Virtual Reality — 2022</p>
+        <div class="paper-note">
+<p><a href="https://doi.org/10.1038/srep25847" target="_blank" rel="noopener">Salomon-2016</a>の実験に力覚提示を加えた後続研究。実際に動かした指とVR内で動いて見える指を一致または不一致にし、さらに力覚グローブを使って、実際に動かした指または反対の指へバーチャル物体に触れた際の反力を提示している。視覚優位は強いが絶対ではなく、力覚との不一致は視覚判断の確信度や身体所有感に影響することを示している。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3491102.3517671" target="_blank" rel="noopener">Designing Visuo-Haptic Illusions with Proxies in Virtual Reality: Exploration of Grasp, Movement Trajectory and Object Mass</a></h3>
+        <p class="paper-meta">Martin Feick, Kora Persephone Regitz, Anthony Tang, Antonio Krüger — CHI Conference on Human Factors in Computing Systems — 2022</p>
+        <div class="paper-note">
+<p>hand redirection系の研究。physical proxyを使い回すためにCD比を使って、バーチャルな手の動きを実際の手の動きと分離させるが、その分離（ずれ）の検出閾値を調べている。把持の仕方、移動軌道、物体の重さの効果を調べているが、閾値へのシステマチックな効果は見られなかった。個人差が大きかったこととと、スライダーなど拘束ありの方が閾値が大きかった。CD比はpseudo-hapticsを引き起こすものとしては導入されていないので、疑似的な触感（重さ感）などは調べていない。<strong>イントロでリサという架空のVRデザイナーが登場し、料理教室のために鍋のproxy一個でさまざまな鍋をまかなえないか悩んでいる。論文はこのリサの悩みに付き合い、最後にちゃんと悩みが解決される。研究論文というより、リサの相談に乗る回のような読み心地。</strong></p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3491102.3517728" target="_blank" rel="noopener">The Dark Side of Perceptual Manipulations in Virtual Reality</a></h3>
+        <p class="paper-meta">Wen-Jie Tseng, Elise Bonnail, Mark McGill, Mohamed Khamis, Éric Lecolinet, Samuel Huron, Jan Gugenheimer — CHI Conference on Human Factors in Computing Systems — 2022</p>
+        <div class="paper-note">
+<p>redirected walkingやhaptic retargetingなどの知覚操作が悪用された場合の危険性を、ワークショップと実装例から整理し、対策の提示と注意喚起を行なった。危険を特徴付ける2つの観点として、重篤度（眼精疲労等から死亡まで）と、ユーザが自分の責任だと感じる度合い（perceived agency）の二軸を採用しているのが興味深い。知覚操作にユーザが同意していたとしても、気づかれない範囲で行う場合は操作されていることに気づかない。その際には、何かインシデントが起きた場合にその責任をシステムによる知覚操作ではなく自分に帰してしまう可能性があるということだった。検出閾値以上の設定で知覚操作を行うことの意義がこんなところにあると気付いていなかった。将来pseudo-hapticsを実場面に応用しようとすると似たような課題が出てくる。CHIの面白いところはこういう検討をした論文がちゃんとでてくるところだと思う。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3531073.3531100" target="_blank" rel="noopener">Generalizing the Hand Redirection Function in Virtual Reality</a></h3>
+        <p class="paper-meta">Benoît Geslain, Simon Besga, Flavien Lebrun, Gilles Bailly — Proceedings of the 2022 International Conference on Advanced Visual Interfaces — 2022</p>
+        <div class="paper-note">
+<p>hand redirection系の研究。実際の手の位置とバーチャル手の関係を決める関数で、従来は開始点から目標までの距離に比例してずれを線形に増やす関数を使ってきたが、これを「開始点でずれ0、目標でずれλ」という拘束を満たす2次多項式（制御点1個のベジェ曲線）に一般化した。しかしずれをいつ入れるかは検出に効かず、接触時の最終的なずれ量だけが効くという結果だった。設計側から見ると、気づかれやすさを犠牲にせずに実手の軌道を選べるので、物理的な障害物やロボットとの衝突回避に使える。pseudo-hapticsでもゲインの時間プロファイルをどう設計するかはたまに議論になるが、この結果を素直に読むと、プロファイルを工夫しても気づかれやすさは変わらない可能性がある。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1016/j.apergo.2022.103819" target="_blank" rel="noopener">Pseudo-haptics and self-haptics for freehand mid-air text entry in VR</a></h3>
+        <p class="paper-meta">Woojoo Kim, Shuping Xiong — Applied Ergonomics — 2022</p>
+        <div class="paper-note">
+<p>VRの空中タイピングで触覚フィードバックを大きな機材なしで付与するための検討。Normal、Pseudo-haptic（キーが浮き出て沈む・押下時に光る・仮想手が貫通しない、の3効果を束ねたもの）、Pinch（球形キーの上で親指と人差し指をつまむ、指同士の接触が自己触覚になる）の3種を比較した。Pseudo-hapticの効果が小さかった理由として、タイピング中は入力すべき文章を見ていてキーボードを見ていないので視覚手がかりに依存するpseudo-hapticsが働きにくいということらしい。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3389/frvir.2022.879845" target="_blank" rel="noopener">Holitouch: Conveying Holistic Touch Illusions by Combining Pseudo-Haptics With Tactile and Proprioceptive Feedback During Virtual Interaction With 3DUIs</a></h3>
+        <p class="paper-meta">Oscar Javier Ariza Núñez, André Zenner, Frank Steinicke, Florian Daiber, Antonio Krüger — Frontiers in Virtual Reality — 2022</p>
+        <div class="paper-note">
+<p>VRの3Dボタンの触感を、接地型の力覚デバイスなしで提示する検討。実物のボタンを押すときの感覚を時間順に3つに分解している。指が表面に当たる「接触」、押し込んでいる間ずっと感じる押し返しの強さである「硬さ」、ある深さでカチッと入る瞬間の「作動」。接触は指先へのタップと指伸筋腱への電気刺激（TES）、硬さはC/D比操作のpseudo-haptics（硬いボタンほど実際の指を長く動かす必要があり、思ったより進まない感じが抵抗になる）、作動は押し込み量で周波数を変えるピエゾ振動で出す。触覚手がかりを足すほどJNDが小さくなり（0.25→0.07）、主観評定も全部の条件が最も高かった。接触を足すと「触った」感が、作動を足すと「押した」感が上がるという対応も出ていて、硬さの抵抗だけあってもクリックの振動がないとボタンを押した完了感が出ない、というのが著者らの説明。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3534590" target="_blank" rel="noopener">Modeling the Noticeability of User-Avatar Movement Inconsistency for Sense of Body Ownership Intervention</a></h3>
+        <p class="paper-meta">Zhipeng Li, Yu Jiang, Yihao Zhu, Ruijia Chen, Ruolin Wang, Yuntao Wang, Yukang Yan, Yuanchun Shi — Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies — 2022</p>
+        <div class="paper-note">
+<p>VRでアバターの腕を実際の腕からずらすと身体所有感を損なう。その「ずれをどこまで入れると気づかれるか」を、腕の姿勢と二つの関節の組み合わせで系統的に測り、設計者が使える統計モデルにしよう、という論文。「ずれに気づくこと」と「身体所有感を失うこと」を定義で同一視している。厳密には別の概念だが、気づかれないずれは所有感を損なわないという保守的な仮定として読めばよいのかもしれない。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/thms.2022.3182910" target="_blank" rel="noopener">Real-Time Adjustment of Tracking Offsets Through a Brain-Computer Interface for Weight Perception in Virtual Reality</a></h3>
+        <p class="paper-meta">Xupeng Ye, Jinyi Long — IEEE Transactions on Human-Machine Systems — 2022</p>
+        <div class="paper-note">
+<p><a href="https://doi.org/10.1145/3173574.3173702" target="_blank" rel="noopener">Rietzler-2018</a>のトラッキングオフセットによる重さ提示に対し、オフセット量をEEGベースのBCIで実時間調整する閉ループを提案した研究。2021年のVRWでの発表（<a href="https://doi.org/10.1109/vrw52623.2021.00185" target="_blank" rel="noopener">Ye-2021</a>）の論文版。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3390/electronics11142274" target="_blank" rel="noopener">Development of a Virtual Object Weight Recognition Algorithm Based on Pseudo-Haptics and the Development of Immersion Evaluation Technology</a></h3>
+        <p class="paper-meta">Eunjin Son, Ha-Young Song, Seonghyeon Nam, Youngwon Kim — Electronics — 2022</p>
+        <div class="paper-note">
+<p><a href="https://doi.org/10.1145/3173574.3173702" target="_blank" rel="noopener">Rietzler-2018</a>のオフセット法をQuest 2のハンドトラッキングで再実装している。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1016/j.ijhcs.2022.102907" target="_blank" rel="noopener">Pseudo-haptic button for improving user experience of mid-air interaction in VR</a></h3>
+        <p class="paper-meta">Woojoo Kim, Shuping Xiong — International Journal of Human-Computer Studies — 2022</p>
+        <div class="paper-note">
+<p>VRの空中ボタンに触覚フィードバックがない問題を、物理デバイスなしの視覚的な工夫で補えるか調べた研究。近接表示（指が近づくと円が広がる）、突出（浮き出たボタンが沈む）、ヒット効果（押下時の光と揺れ）、貫通阻止（実指が貫通しても仮想の指は面で止まる）の4つをpseudo-haptic featureと呼び、有無の組み合わせ全16個のボタンを自由に触らせて評定させた。特に体験を向上させたのは突出とヒット効果。近接表示は距離感には効くが体験を悪化させ、3割が「気が散る」と嫌った。貫通阻止は効果が小さく、底まで押さない人には違いすら分からなかった。<a href="https://doi.org/10.1016/j.apergo.2022.103819" target="_blank" rel="noopener">Kim-2022</a>でこのうち3つをキーボードに載せ、タイピング中はキーボードを見ていないので効果が小さくなる、という話につながる。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/segah54908.2022.9978590" target="_blank" rel="noopener">Experiencing Age-Related Movement Impairment Through Visual Delegation in VR Can Substitute Haptic Impairments of an Age Simulation Suit</a></h3>
+        <p class="paper-meta">S Misztal, Guillermo Carbonell, Jonas Schild — 2022 IEEE 10th International Conference on Serious Games and Applications for Health(SeGAH) — 2022</p>
+        <div class="paper-note">
+<p>加齢体験スーツは、装具によって関節の動きを制限し、加齢に伴う運動の不自由さを体験させるが、専用装置が必要。本研究では、加齢体験スーツによる腕の物理的な運動制限を、実際の腕とバーチャル腕の位置のずれや半透明の表示によって代替しようとした研究。再現しているのは主に視覚から生じる主観的な運動制限である。物体の重さや硬さではなく、自分の身体機能をpseudo-hapticsによって変化させる応用として興味深い。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/ismar55827.2022.00058" target="_blank" rel="noopener">An Object Synthesis Method to Enhance Visuo-Haptic Consistency</a></h3>
+        <p class="paper-meta">Naoya Fukumoto, Naoya Isoyama, Hideaki Uchiyama, Nobuchika Sakata, Kiyoshi Kiyokawa — 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) — 2022</p>
+        <div class="paper-note">
+<p>手元にある実物体をVRのhaptic proxyとして利用する際、ユーザが触れる部分だけバーチャル物体の形状を実物体へ近づけ、視覚と触覚の不一致を減らす手法を提案。実物体をバーチャル物体に合わせるのではなく、バーチャル物体の側を実物体へ少し譲歩させる発想が面白い。形状は合わせられても重量や重心までは変わらず、物体を振るとその違いが気になったという報告もあるため、静かに把持・接触する操作に向いた方法だと思う。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/ismar-adjunct57072.2022.00218" target="_blank" rel="noopener">Phantom Touch phenomenon as a manifestation of the Visual-Auditory-Tactile Synaesthesia and its impact on the users in virtual reality</a></h3>
+        <p class="paper-meta">Sasha Alexdottir, Xiaosong Yang — 2022 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct) — 2022</p>
+        <div class="paper-note">
+<p>VRで実際の接触なしに他者からの接触を感じるPhantom Touchの要因をVRChatユーザ調査から調査。頭から足へ順に触れるHTT法を作った。本文に「Misuse of Phantom Touch」という節を置き、負の側面や抑止策の提案まで組み込んでいる。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/ismar55827.2022.00093" target="_blank" rel="noopener">Wormholes in VR: Teleporting Hands for Flexible Passive Haptics</a></h3>
+        <p class="paper-meta">Reigo Ban, Keigo Matsumoto, Takuji Narumi, Hideaki Kuzuoka — 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) — 2022</p>
+        <div class="paper-note">
+<p>実際の手は手元の実物体に触れているのに、VRではワームホールから離れた場所へ手が出て、そこにあるバーチャル物体へ触れているように見せる手法を提案。redirectionでは実際の手とは異なる軌道でバーチャル手を動かすが、ずれが大きいと気づかれる。この方法だとユーザはもちろんこの演出に気づくが、VRならではの演出として認識できあまり違和感がないのかもしれない。割り切ったというか思い切った非常に良い提案に感じる。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1038/s41598-022-20765-9" target="_blank" rel="noopener">Attribution of sensory prediction error to perception of muscle fatigue</a></h3>
+        <p class="paper-meta">Sho Ito, Toshitaka Kimura, Hiroaki Gomi — Scientific Reports — 2022</p>
+        <div class="paper-note">
+<p>従来は運動の予測誤差を外界（物体の重さ等）に帰属させていたが、自身の筋疲労の推定にも使われるかを調べた研究。指の反復運動の視覚フィードバックに遅延を入れると筋疲労の感覚が強まり、先行して提示すると弱まることから、感覚予測誤差の符号が疲労の知覚を左右することを示した。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/ismar55827.2022.00078" target="_blank" rel="noopener">Investigating the Effect of Direction on the Limits of Haptic Retargeting</a></h3>
+        <p class="paper-meta">Aldrich Clarence, Jarrod Knibbe, Maxime Cordeil, Michael Wybrow — 2022 IEEE International Symposium on Mixed and Augmented Reality — 2022</p>
+        <div class="paper-note">
+<p>手をどの方向に伸ばすかによって、haptic retargetingに気づく閾値が変わるかを調べた。  方向ごとの閾値は、最大：正面へ伸ばす方向の17.33度、最小：左斜め前へ伸ばす方向の14.84度だった。結論としては、方向の影響はあるが、方向別の閾値をわざわざ使い分けるほど大きくないということだった。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3526113.3545692" target="_blank" rel="noopener">Exploring Sensory Conflict Effect Due to Upright Redirection While Using VR in Reclining &amp; Lying Positions</a></h3>
+        <p class="paper-meta">Tianren Luo, Zhenxuan He, Chenyang Cai, Teng Han, Zhigeng Pan, Feng Tian — Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology — 2022</p>
+        <div class="paper-note">
+<p>寝そべった姿勢でVRを使うことという着眼点が私にはなかったのでそこが面白い。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/icoco56118.2022.10031797" target="_blank" rel="noopener">Weight Perception Simulation in Virtual Reality with Passive Force using Force Sensing Resistors</a></h3>
+        <p class="paper-meta">Woan Ning Lim, Yunli Lee, Kian Meng Yap, Ching Chiuan Yen — 2022 IEEE International Conference on Computing (ICOCO) — 2022</p>
+        <div class="paper-note">
+<p>ユーザが加えた力を計測し、その力によってVR内の物体の動きを変えて重さを表現。押下力に応じて物体の挙動を変えるpseudo-hapticsの試みという観点では<a href="https://link.springer.com/chapter/10.1007/978-3-642-31404-9_36" target="_blank" rel="noopener">Kimura-2012</a>などが近い。提案システムによって実際に重さ感が生じるかは検証されていない。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3562939.3565682" target="_blank" rel="noopener">Evaluation of Pseudo-Haptics system feedbacking muscle activity</a></h3>
+        <p class="paper-meta">Yoshihito Tanaka, Akira Kubota — Proceedings of the 28th ACM Symposium on Virtual Reality Software and Technology — 2022</p>
+        <div class="paper-note">
+<p>従来のpseudo-hapticsでは、所定のC/D比で視覚刺激を操作することが一般的だが、この研究ではユーザの発揮している力を筋電から読み取り、それに基づいてCD比を操作した。この枠組みは<a href="https://dl.acm.org/doi/10.1145/3332165.3347871" target="_blank" rel="noopener">Rietzler-2018</a>と同じだが視覚刺激への反映方法が少し異なる。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/gem56474.2022.10017660" target="_blank" rel="noopener">Designing a Pseudo-Haptics Study for Virtual Anesthesia Skills Development</a></h3>
+        <p class="paper-meta">Bill Kapralos, Álvaro Uribe-Quevedo, KC Collins, Celina Da Silva, Eva Peisachovich, Kamen Kanev, Michael Jenkin, Adam Dubrowski, Fahad Alam — 2022 IEEE Games, Entertainment, Media Conference (GEM) — 2022</p>
+        <div class="paper-note">
+<p>オンラインでの訓練需要がCOVID-19で高まったことを受け、麻酔技能の訓練のためにpseudo-hapticsを活用するコンセプトを示した論文。ただpseudo-hapticsがどう使われるのかは具体的には書かれていない。続編に期待。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3390/app122312414" target="_blank" rel="noopener">Virtual Gymnasium: Personalized Weight Perception Interface in Lifting Virtual Objects</a></h3>
+        <p class="paper-meta">Jun Lee, Younggwang Lee, Sung-Jun Park — Applied Sciences — 2022</p>
+        <div class="paper-note">
+<p>実物体の見かけの動きを変えて重さ感や疲労を操作する研究で、<a href="https://ieeexplore.ieee.org/document/6775451/" target="_blank" rel="noopener">Taima-2014</a>などを踏襲した手法を使っている。タイトルに含まれるPersonalizedは、腕の長さや軌道に合わせてガイドとなる視覚刺激の大きさと形状を調整していることを指しており、重さの感じ方をpersonalizeしているわけではない。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/tvcg.2022.3228171" target="_blank" rel="noopener">Revisiting Walking-in-Place by Introducing Step-Height Control, Elastic Input, and Pseudo-Haptic Feedback</a></h3>
+        <p class="paper-meta">Yutaro Hirao, Takuji Narumi, Ferran Argelaguet, Anatole Lécuyer — IEEE Transactions on Visualization and Computer Graphics — 2022</p>
+        <div class="paper-note">
+<p>その場で足踏みしてVR内を移動するWalking-in-Placeにpseudo-hapticsを導入した研究。同じ足踏みでも上り坂では遅く、下り坂では速く進ませることで、斜面の負荷感を表現している。上り坂には遅い表示、下り坂には速い表示で自然に感じられたということだった。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/tvcg.2022.3230746" target="_blank" rel="noopener">Kine-Appendage: Enhancing Freehand VR Interaction Through Transformations of Virtual Appendages</a></h3>
+        <p class="paper-meta">Yang Tian, Hualong Bai, Shengdong Zhao, Chi‐Wing Fu, Chun Yu, Haozhao Qin, Qiong Wang, Pheng‐Ann Heng — IEEE Transactions on Visualization and Computer Graphics — 2022</p>
+        <div class="paper-note">
+<p>バーチャルな手の先端からニュッと伸びる部分があり、それを物体接触時に変形させることで、操作に対して抵抗感と入力の手がかりを加える手法を提案した。著者らの研究グループのKine-appendage系の研究の一つ。身体運動を反映する視覚投影物から、何かをニュッと伸ばすという意味では<a href="https://ieeexplore.ieee.org/document/8357188/" target="_blank" rel="noopener">バーチャル紐</a>の類型ともいえる。視覚投影物そのものを歪めるのではなく、そこから伸長されるものであれば変形させたり歪めたり消滅させても違和感がないかもしれず、良い方法に感じる。BrittleStylusやKine-appendageなど固有名詞がいっぱい出てくる論文。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3574131.3574449" target="_blank" rel="noopener">Touch Trick the mind: Haptic Display Augmented the Mind-Map of internal locus of control</a></h3>
+        <p class="paper-meta">Yuze Shen, Zhigeng Pan — Proceedings of the 18th ACM SIGGRAPH International Conference on Virtual-Reality Continuum and its Applications in Industry — 2022</p>
+        <div class="paper-note">
+<p>バーチャル手と実際の手をずらす際に、見えている縞と同じ触覚刺激を与える際、位置のずれに気づきにくくなることを示した。<a href="https://dl.acm.org/doi/pdf/10.1145/2342896.2343032" target="_blank" rel="noopener">Magic pot系</a>の研究。</p>
+        </div>
+      </article>
+      <h2 class="year-heading">2023</h2>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1007/978-981-99-0293-4_88" target="_blank" rel="noopener">Mechanics of Pseudo-Haptics in Virtual Reality: Weight Perception</a></h3>
+        <p class="paper-meta">Neelesh Kumar, Ravali Gourishetti, Madhan Kumar Vasudevan, M. Manivannan — Smart innovation, systems and technologies — 2023</p>
+        <div class="paper-note">
+<p>この論文はpdfを取得できなかった。pdfを取得してからメモを執筆予定。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.4310/cis.2023.v23.n4.a2" target="_blank" rel="noopener">Natural hand remapping: velocity adaptive hand manipulation for VR</a></h3>
+        <p class="paper-meta">Yike Li, Chen Wang, Ge Yu, Yu He, Stefanie Zollmann, Song–Hai Zhang — Communications in Information and Systems — 2023</p>
+        <div class="paper-note">
+<p>遅い手の動きは精密操作、速い動きは素早い移動の意図を表すと考え、速度に応じてバーチャル手の移動ゲインを変える方法を提案。2000年代のHCI系のポインタ操作ゲインの研究を思い出した。タイトルのNaturalは、身体的に自然なというより、マッピング変更をあまり意識せず操作できる、という意味合いが強いと思われる。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1007/978-3-031-48038-6_20" target="_blank" rel="noopener">The Effect of Pseudo-Haptic Feedback on Weight Perception of Virtual Objects on the Computer Side</a></h3>
+        <p class="paper-meta">Yan Wang, Qian Fan — Lecture notes in computer science — 2023</p>
+        <div class="paper-note">
+<p>PC画面上の四角形をマウスでドラッグするとき、カーソルに対する四角形の移動ゲインを変えると重さが変わって感じられるか、さらにカーソルを隠すと効果が強まるかを調べている。デスクトップ環境の場合、通常はマウスに対するカーソルの移動ゲインを操作するが、この研究では見えるカーソルに対する四角形のゲインを操作しており、マウスと四角形（操作対象）の間にカーソルが媒介している変わった構成。カーソルを非表示にすると表示したときと比べて、少し重さ感は強まるという結果だった。これはタッチパネル等でカーソルと操作対象物のズレが見えると、pseudo-hapticsが弱まるという<a href="https://ieeexplore.ieee.org/document/6775491/" target="_blank" rel="noopener">知見</a>と整合的である。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3390/mti7020012" target="_blank" rel="noopener">Velocity-Oriented Dynamic Control–Display Gain for Kinesthetic Interaction with a Grounded Force-Feedback Device</a></h3>
+        <p class="paper-meta">Zhenxing Li, Jari Kangas, Roope Raisamo — Multimodal Technologies and Interaction — 2023</p>
+        <div class="paper-note">
+<p>力覚提示装置はワークスペースに限界があるため、手を速く動かすほど画面上の移動ゲインを大きくする方式を試した。固定ゲインのときよりも、ゲインを変化させるときに所要時間が短くなった。一方、ゲインを大きくすると、バーチャル物体に力覚提示装置で触れた場合の柔らかさ判断の正答率が下がる。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1002/aisy.202200303" target="_blank" rel="noopener">Multisensory Pseudo‐Haptics for Rendering Manual Interactions with Virtual Objects</a></h3>
+        <p class="paper-meta">Evan Pezent, Alix S. Macklin, Jeffrey M. Yau, Nicholas Colonnese, Marcia K. O’Malley — Advanced Intelligent Systems — 2023</p>
+        <div class="paper-note">
+<p>Tasbi(https://ieeexplore.ieee.org/document/8816098/)による手首の締め付けと振動に、バーチャル手の動きを遅くする視覚的pseudo-hapticsを組み合わせ、バーチャルボタンの硬さを表現した研究。ボタンへの接触時には振動を提示し、押し込み中にはバーチャル手の動きを遅くするとともに、押し込み量に応じて手首を徐々に締め付ける。これらを組み合わせることで、視覚提示だけの場合より硬さの違いを識別しやすくなり、参加者間の知覚のばらつきも小さくなった。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3389/frvir.2023.973083" target="_blank" rel="noopener">Weight perception analysis using pseudo-haptic feedback based on physical work evaluation</a></h3>
+        <p class="paper-meta">Mahdiyeh Sadat Moosavi, Pierre Raimbaud, Christophe Guillet, Jérémy Plouzeau, Frédéric Merienne — Frontiers in Virtual Reality — 2023</p>
+        <div class="paper-note">
+<p>バーチャル物体の重さを表現する方法として、gainを操作する方法と最大速度を制限する方法の2つを比較した。ただしこの研究では重さの主観評価はさせらおらず、持ち上げの仕事と疲労感のみ評定させている。最大速度を制限する方法はこの研究で初めて見た。また実際に持ち上げさせる物体の重量を操作（0.616, 1.0, 2.0, 5.0 kg）と操作しているのも珍しいと思う。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/tvcg.2023.3247056" target="_blank" rel="noopener">Modified Egocentric Viewpoint for Softer Seated Experience in Virtual Reality</a></h3>
+        <p class="paper-meta">Miki Matsumuro, Shohei Mori, Yuta Kataoka, Fumiaki Igarashi, Fumihisa Shibata, Asako Kimura — IEEE Transactions on Visualization and Computer Graphics — 2023</p>
+        <div class="paper-note">
+<p>実際の椅子に細工を加えずに、着座や背もたれに寄りかかるのに合わせてVR視点を動かすと、座面や背もたれを柔らかく感じさせられることを示した。ただし、柔らかくさせる視点操作は不快感も大きくした。通常は手や全身の動きの見え方を操作するが、身体運動に合わせて視点を操作するというのが斬新に感じる。今回は座っている椅子の物性知覚を変えているが、視点変化の原因を自身の身体に帰属させることも可能なのだろうか。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/vr55154.2023.00040" target="_blank" rel="noopener">Continuous VR Weight Illusion by Combining Adaptive Trigger Resistance and Control-Display Ratio Manipulation</a></h3>
+        <p class="paper-meta">Carolin Stellmacher, André Zenner, Oscar Javier Ariza Núñez, Ernst Kruijff, Johannes Schöning — 2023 IEEE Conference Virtual Reality and 3D User Interfaces (VR) — 2023</p>
+        <div class="paper-note">
+<p>物体を把持し持ち上げる操作において物体の重さを表現するために、把持時のボタン押下抵抗力操作と持ち上げ時のCD比操作の2つを検討。抵抗力の提示は、HTC Viveコントローラにサーボモータとばねを組み込んで実現している。重い設定ほど、物体を把持して保持するために強くボタンを押す必要がある。力の向きは重力とは異なり、重い物体ほど落とさないように強く握るという把持力を模したもの。どちらか単独の操作よりも重さの弁別ができ好まれた。コントローラのボタンを入力だけに使わず、押し返す力を変える触覚出力としても使った点が面白い。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/vrw58643.2023.00248" target="_blank" rel="noopener">Influence of Simulated Aerodynamic Forces on Weight Perception and Realism in Virtual Reality</a></h3>
+        <p class="paper-meta">Marvin Winkler, Stefan M. Grünvogel — 2023 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW) — 2023</p>
+        <div class="paper-note">
+<p>バーチャル空間において物体の落下中の見た目を観察し重さを推定させるタスクを実施。空気力学シミュレーションにおいて、物体形状を変化させることで、落下・飛行の見た目が変わっている。重さを判断するタスクでユーザが何をしたのかはちゃんと書いていない（物体を投げてはいない？）。この論文の続編が気になる。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/vrw58643.2023.00195" target="_blank" rel="noopener">Stretchy: Enhancing Object Sensation Through Multisensory Feedback and Muscle Input</a></h3>
+        <p class="paper-meta">Nicha Vanichvoranun, Bowon Kim, Dooyoung Kim, Jeongmi Lee, Sang Ho Yoon, Woontack Woo — 2023 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW) — 2023</p>
+        <div class="paper-note">
+<p>ユーザがバーチャル布を引っ張るときに前腕の筋活動を測り、その情報を使って布の変形の見た目を操作する。その際に引っ張る手の位置もガイドするような視覚情報・振動情報も提示するので結果的に、手の位置も誘導している。このときに力が効いてるのか位置が効いてるのかは気になる。<a href="https://ieeexplore.ieee.org/document/8941284" target="_blank" rel="noopener">Kawabe-2019</a>と関連する内容。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/tvcg.2023.3247083" target="_blank" rel="noopener">When Tangibles Become Deformable: Studying Pseudo-Stiffness Perceptual Thresholds in a VR Grasping Task</a></h3>
+        <p class="paper-meta">Elodie Bouzbib, Claudio Pacchierotti, Anatole Lécuyer — IEEE Transactions on Visualization and Computer Graphics — 2023</p>
+        <div class="paper-note">
+<p>実際には硬くて変形しない物体を握っているのに、VR内ではその物体が柔らかく押しつぶれるように見せることで、柔らかさを感じさせられるかを調べた研究です。硬い物体を握らせて柔らかさを伝えるという意味では<a href="https://link.springer.com/chapter/10.1007/978-3-642-31404-9_36" target="_blank" rel="noopener">Kimura-2012</a>がかなり近いが、それの実物体prop・VR版。Claudio PacchierottiとAnatole Lécuyerって共著あったんだと思って調べてみると、かなりたくさんあってビックリ。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/tvcg.2023.3254522" target="_blank" rel="noopener">Softness Perception of Visual Objects Controlled by Touchless Inputs: The Role of Effective Distance of Hand Movements</a></h3>
+        <p class="paper-meta">Takahiro Kawabe, Yusuke Ujitoko — IEEE Transactions on Visualization and Computer Graphics — 2023</p>
+        <div class="paper-note">
+<p>手の動きで画面上の物体を変形させる際、変形が有効となる手の移動距離が柔らかさ感に与える影響を調べた。有効距離が大きいほど柔らかく感じられる。有効距離によって変形が急に止まることは柔らかさ感に大きく影響していないことも示した。また、pseudo-hapticsの研究としては珍しく、この研究で焦点としている「柔らかさ」以外の属性（例えば温冷感や粘り気）についてもコントロールとして評価している。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3389/fpsyg.2023.1042188" target="_blank" rel="noopener">Falling and heaviness: Heaviness judgment for a visual object which users lift up is influenced by the presentation of the object&#x27;s falling or staying still</a></h3>
+        <p class="paper-meta">Yusuke Ujitoko, Seitaro Kaneko, Takumi Yokosaka, Takahiro Kawabe — Frontiers in Psychology — 2023</p>
+        <div class="paper-note">
+<p>画面上の物体をマウスで持ち上げて放した後、その物体が落ちるか浮いたままかによって重さの判断が変わることを示した研究。pseudo-hapticsでは通常、CD比など物体操作中の視覚パラメータの効果を見るが、操作後の視覚パラメータの効果を見た点で新しい。落ちるか否かの差はあったが、落ちる場合の落下速度による効果の差は見られなかった。インターンのときの思い出が詰まる論文。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/toh.2023.3266494" target="_blank" rel="noopener">Pseudo-Haptic Heaviness Influenced by the Range of the C/D Ratio and the Position of the C/D Ratio Within a Given Range</a></h3>
+        <p class="paper-meta">Takahiro Kawabe, Yusuke Ujitoko — IEEE Transactions on Haptics — 2023</p>
+        <div class="paper-note">
+<p>pseudo-haptics研究ではCD比が小さいほど重く感じるなどの関係が知られていたが、CD比の絶対値で決まるのか、それとも体験するCD比の範囲との比較で変わるのかを調べた。結果としては、CD比の範囲で重さのratingが変わった。そしてそれは8試行程度の短い時間でも起きることが示唆された。つまり、pseudo-hapticsの設計では、CD比をいくつにするかだけでなく、そのCD比を、どの範囲の刺激と一緒に提示するかが重要といえる。この論文はpseudo-haptics研究者みんなに読んでほしい。Fig.1がわかりやすい。私の関わるToH論文でショートペーパー枠のもと出版されたのはこれがはじめて。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3583961.3583967" target="_blank" rel="noopener">Cross-modal interaction of stereoscopy, surface deformation and tactile feedback on the perception of texture roughness in an active touch condition</a></h3>
+        <p class="paper-meta">Detjon Brahimaj, Florent Berthaut, Frédéric Giraud, Betty Lemaire‐Semail — IHM &#x27;23: Proceedings of the 34th Conference on l&#x27;Interaction Humain-Machine — 2023</p>
+        <div class="paper-note">
+<p>表面の変形の見え方が粗さ感に与える影響を、超音波で変化させた表面摩擦とともに調べた。pseudo-hapticsと触覚提示の組合せで粗さ感を調べたという意味では、<a href="https://doi.org/10.1109/tvcg.2019.2898820" target="_blank" rel="noopener">Ujitoko-2019</a>が近い。ただし本研究ではファインな粗さ感に対して、比較的マクロな凹凸変形の見えの効果を調べている点が特徴的。立体視の有無も切り替えている点も珍しい。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1167/jov.23.4.5" target="_blank" rel="noopener">Force illusion induced by visual illusion: Illusory curve in cursor path is interpreted as unintended force</a></h3>
+        <p class="paper-meta">Takumi Yokosaka, Yusuke Ujitoko, Takahiro Kawabe — Journal of Vision — 2023</p>
+        <div class="paper-note">
+<p>錯視でpseudo-haptics的な疑似的な力を感じさせられることを明らかにした研究。カーソル内部で動くノイズでカーソルが動いたように錯覚するMIPS刺激を用いることで、カーソルの軌道は実際には操作していないにもかかわらず、カーソル軌道を操作したような効果を狙っている。あと地味に珍しい点として、操作方向と垂直な方向に動きを歪めていることがある。pseudo-hapticsの事例の中ではあんまりない。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3544549.3585843" target="_blank" rel="noopener">Embodied Telepresent Connection (ETC): Exploring Virtual Social Touch Through Pseudohaptics</a></h3>
+        <p class="paper-meta">John Desnoyers-Stewart, Ekaterina R. Stepanova, Pinyao Liu, Alexandra Kitson, Patrick Parra Pennefather, Vladislav Ryzhov, Bernhard E. Riecke — Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems — 2023</p>
+        <div class="paper-note">
+<p>離れた場所にいる人同士が、VR内で触れ合ったように感じられるかを、pseudo-hapticsライクな刺激で検討した研究。アバター同士が近づくと色が温かく変化したり、アバターを構成するパーティクルが引き寄せあったり、接触すると火花や音が発生したりするシステムを作った。初期の探索研究。<a href="https://ieeexplore.ieee.org/document/9974405" target="_blank" rel="noopener">Phantom touch</a>は受動的に人に触られる状況を扱っていたが、本研究は能動的に触れる方向も含めた「触れ合う」状況を扱っている。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3544549.3585674" target="_blank" rel="noopener">Exploring the Perception of Pain in Virtual Reality through Perceptual Manipulations</a></h3>
+        <p class="paper-meta">Gaëlle Clavelin, Mickael Bouhier, Wen-Jie Tseng, Jan Gugenheimer — Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems — 2023</p>
+        <div class="paper-note">
+<p>指を曲げる物理刺激を与えた際に、曲がりを誇張して指が脱臼するようなVR映像を加えると、痛みや不快感が増すかを調べた。研究である。脱臼映像による不快感の増加は有意だったが、触覚だけの場合と比べた痛みの増加は有意ではなかった。痛みを対象とした点がこれまでのpseudo-haptics研究にない新しい点。強い痛みのような物理的に提示が難しい感覚を、疑似的に引き起こすというのはpseudo-hapticsを生かせる使い道だと感じる。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3544548.3581223" target="_blank" rel="noopener">Using Pseudo-Stiffness to Enrich the Haptic Experience in Virtual Reality</a></h3>
+        <p class="paper-meta">Yannick Weiß, Steeven Villa, Albrecht Schmidt, Sven Mayer, Florian Müller — Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems — 2023</p>
+        <div class="paper-note">
+<p>実物体を押し込む動作において、実際の手とバーチャル手の移動量の対応を変えて、硬さを操作する。[Ban-2014]をはじめとするpseudo-hapticsによる柔らかさ感制御は様々これまでにあったが、それを再検討した研究。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3544548.3580724" target="_blank" rel="noopener">Visuo-haptic Crossmodal Shape Perception Model for Shape-Changing Handheld Controllers Bridged by Inertial Tensor</a></h3>
+        <p class="paper-meta">Chaeyong Park, Jeongwoo Kim, Seungmoon Choi — Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems — 2023</p>
+        <div class="paper-note">
+<p>ハンドヘルド物体を振ったときの力学的な手がかりから感じる形状と、VR内で見る形状を対応づける知覚モデルを構築した。視覚刺激の操作で触感を感じさせる研究ではなく、実物の物理を操作して見た目の形に近づける研究という意味では<a href="https://ieeexplore.ieee.org/document/10106493/" target="_blank" rel="noopener">Ujitoko-2023</a>に近い。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/toh.2023.3272951" target="_blank" rel="noopener">Does It Par-?: Investigating the Relationship Between Mid-Air Haptics and Visual Representations of Surface Textures</a></h3>
+        <p class="paper-meta">Katarzyna Wojna-Nowak, Orestis Georgiou, David Beattie, Michael Wright, Christof Lutteroth — IEEE Transactions on Haptics — 2023</p>
+        <div class="paper-note">
+<p>空中超音波触覚で手のひらに提示した触感に合う視覚パラメータ（面の色、粒の大きさ、配置など8つのパラメータ）を調べた。触覚に合うような見た目を調べるという方向性では<a href="https://ieeexplore.ieee.org/document/10106493/" target="_blank" rel="noopener">Ujitoko-2023</a>や<a href="https://dl.acm.org/doi/10.1145/3544548.3580724" target="_blank" rel="noopener">Park-2023</a>を想像する。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/toh.2023.3275657" target="_blank" rel="noopener">Can Facial Expressions Induce Haptic Perception?</a></h3>
+        <p class="paper-meta">Nana Matsuyama, Soichiro Matsuda, Taku Hachisu — IEEE Transactions on Haptics — 2023</p>
+        <div class="paper-note">
+<p>カーソルでアバターエージェントとの綱引きの綱を引っ張る際、CD比に加えて、アバターエージェントが怒りに満ち不快そうな表情をしていると、疑似的な抵抗力が増えることを示した。さらに表情が不快かつ覚醒度が高いと力の評定が高まった。アバターと引っ張り合いをしてそのアバターの表情の寄与に着眼したユニークな研究。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/whc56415.2023.10224457" target="_blank" rel="noopener">Enhancing Perceived Resistance and Propulsion by Combining Pseudo-haptics and Pulling Illusion</a></h3>
+        <p class="paper-meta">Tomohiro Kawagishi, Yuki Ban, Yusuke Ujitoko, Shin’ichi Warisawa — 2023 IEEE World Haptics Conference (WHC) — 2023</p>
+        <div class="paper-note">
+<p>pseudo-hapticsは提示できる力の強さに限界がある（弱い）ので、それを非対称振動による牽引力錯覚と組み合わせることで増強できないか検討した研究。牽引力錯覚は運動方向に対して出すと推進力を感じられ、反対に出すと抵抗力に感じられる。pseudo-hapticsと組み合わせた際に、抵抗力では知覚される力が強まるが推進力では非対称振動単独と差がなかった。ちゃんと非対称じゃない振動をコントロールに設定している。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.5281/zenodo.8430417" target="_blank" rel="noopener">Vision Helps Touch: Pseudo-Haptic Effects for Conveying Fabrics Properties</a></h3>
+        <p class="paper-meta">Marina Ricci, Maarten W. A. Wijntjes, Gijs Huisman, Sylvia Pont — IEEE World Haptics Conference 2023 — 2023</p>
+        <div class="paper-note">
+<p>実写の布を持ち上げる動作と、両手で横に引っ張る動作の際の布を撮影しておき、マウスを横に動かすと写真が切り替わる。見る人には、自分が写真の中の腕を動かしているようにみえる設定。ゲインを変えると、次のコマに進むのに必要なマウス移動量が変わる。実験の結果、布を動かすのにマウス移動量が大きい設定では、布が重く感じ、伸びにくく感じられたという。実写映像のコマ送り速度を変えるという点が珍しい。この論文はWiPで、フルペーパーは<a href="https://ieeexplore.ieee.org/abstract/document/11177248" target="_blank" rel="noopener">Ricci-2025</a>。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/tvcg.2023.3295389" target="_blank" rel="noopener">Age and Gender Differences in the Pseudo-Haptic Effect on Computer Mouse Operation in a Desktop Environment</a></h3>
+        <p class="paper-meta">Yuki Ban, Yusuke Ujitoko — IEEE Transactions on Visualization and Computer Graphics — 2023</p>
+        <div class="paper-note">
+<p>pseudo-hapticsの個人差に着目した論文。400人超の被験者データをオンライン実験で集め解析した。pseudo-hapticsの効果は若年・男性で大きく、それはマウス習熟度とポインタ位置の検出精度で説明できることを示した。展示会などでpseudo-hapticsのデモをしていると若い人の方がリアクションがよいことと符号するが、性差があるとは思っていなかったので意外だった。pseudo-hapticsはオンライン実験ができるので個人差研究のための大きいサンプルサイズを集めやすかった。誰か個人差を較正する方式まで含めた提案をしてくれないか。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/tvcg.2023.3310001" target="_blank" rel="noopener">Leveraging Tendon Vibration to Enhance Pseudo-Haptic Perceptions in VR</a></h3>
+        <p class="paper-meta">Yutaro Hirao, Tomohiro Amemiya, Takuji Narumi, Ferran Argelaguet, Anatole Lécuyer — IEEE Transactions on Visualization and Computer Graphics — 2023</p>
+        <div class="paper-note">
+<p>pseudo-hapticsは、視覚と身体運動のずれが大きいと強い疑似的な触感を出せますが一方で違和感が発生することがある。この論文は腱に振動を与えてこの限界を突破することを試みているユニークな研究。腱振動を体性感覚のノイズとして使い、体性感覚の信頼度を下げると、MLEの枠組みでは視覚への依存が増え、大きなずれに気づきにくくなるのではということ。また腱振動そのものが、重さの感覚を増やすかという点にも着目している。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3390/app131810021" target="_blank" rel="noopener">Effects of Pseudo-Weight Resistance Training Using Mixed-Reality Technology on Muscle Activation in Healthy Adults: A Preliminary Study</a></h3>
+        <p class="paper-meta">Daekook M. Nekar, Dong-Yeop Lee, Ji-Heon Hong, Jin-Seop Kim, Seong-Gil Kim, Yeon-Gyo Nam, Jae-Ho Yu — Applied Sciences — 2023</p>
+        <div class="paper-note">
+<p>preliminary studyとあるものの、1回30分を週3回4週間と長期にわたって、pseudo-hapticsによるダンベル持ち上げ効果を調べた研究。ダンベルのような実物の錘を持ち上げた時のpseudo-haptics適用は事例が多いが、ここまで長期に検討したものは見たことない。pseudo-haptics有無で、期間前後の各筋活動の変化の差を比較したが、pseudo-hapticsの効果は見られなかったという。pseudo-hapticsの実装の詳細は<a href="http://koreascience.or.kr/article/JAKO202130865236575.pdf" target="_blank" rel="noopener">Park-2021</a>に書いてあるらしいが韓国国内誌のためか読めない...。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/imeta59369.2023.10294811" target="_blank" rel="noopener">Heavy Haptics: Simulating Weight in Virtual Reality Applications</a></h3>
+        <p class="paper-meta">Oliver Schober, Jeremiah Diephuis, Philipp Wintersberger, Wolfgang Hochleitner — 2023 International Conference on Intelligent Metaverse Technologies &amp; Applications (iMETA) — 2023</p>
+        <div class="paper-note">
+<p>VRでの重さ表現。[Dominjon-2005]と同じく重い設定のものほどバーチャル手から動きがずれる。それに加え、<strong>把持圧力によってその動きのずれ方を変化させており、把持圧力が弱いと、すぐに物体が遅れる（例えばずり落ちる）。さらにずれ方が大きくなると振動が強くなる</strong>。動きのずれ自体はユーザは直感的にわかると思うが、ずれ方と把持圧力や振動の関係はユーザにちゃんと事前に伝える必要がありそう。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1002/cav.2205" target="_blank" rel="noopener">Can manipulating control‐display ratio dynamically really work in changing pseudo‐haptic weight?</a></h3>
+        <p class="paper-meta">Yonghua Chen, Xubo Yang — Computer Animation and Virtual Worlds — 2023</p>
+        <div class="paper-note">
+<p>従来の疑似触覚研究ではCD比を静的に決めていたが、<strong>CD比を　動的に変化させる</strong>試みを行っている。静的な場合と動的に変えた場合を比較し、静的なほうが効果が大きいという結果。ただし「動的」条件では最初のCD比は1もしくは0.7~1.3のランダムな値としておき、途中から所定のCD比（静的条件のCD比と同じ）に遷移するという設定のため、1試行中のCD比の平均値は静的条件よりも1に近くなるので、効果が小さいのはそのことが影響していると思った。またembodimentのratingもとっていて、1かな離れるほどembodimentのratingが下がっている。ちゃんとpseudo-hapticsの文脈で測っているのは珍しい。PDF取得できそうでなぜかできないので、ウェブでfull textを読んだ。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3609987.3610002" target="_blank" rel="noopener">Pseudo-haptic and Self-haptic Feedback During VR Text Entry</a></h3>
+        <p class="paper-meta">Maria Kounalaki, Ioulia Simou, Andreas Komninos — Proceedings of the 2nd International Conference of the ACM Greek SIGCHI Chapter — 2023</p>
+        <div class="paper-note">
+<p>VRでのキーボード入力の補助のため、self-hapticsとpseudo-haptics(キーの凹みと色変化)を比較している。身体運動を反映する投影物の見え方を操作する古典的なpseudo-hapticsではない。触感に関する評価は行っていない。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.21606/iasdr.2023.466" target="_blank" rel="noopener">Designing visuo-haptic illusions for Virtual Reality applications using floor-based shape-changing displays</a></h3>
+        <p class="paper-meta">Nargiz Askarbekkyzy, Yilong Lin, Kongpyung Moon, Andrea Bianchi, Seungwoo Je — IASDR 2023: Life-Changing Design — 2023</p>
+        <div class="paper-note">
+<p>ピンの高さを制御して地形を作る床上のピンアレイ形状ディスプレイは、ピンの数や間隔等によって提示できる形状が制約される。そこで、足で触れる実物とVR内で見える形状の対応を変え、装置そのものを高密度化せずに表現を広げようとした。コンセプトとしては<a href="https://dl.acm.org/doi/10.1145/3173574.3173724" target="_blank" rel="noopener">Abtahi-2018</a>では手でピンアレイ形状ディスプレイを扱っているが、それの足バージョン。靴の有無の効果も見ている。<strong>ただし実際の動くピンアレイを作って調査したわけではなく、木製の静的な形状を使っているのがユニーク</strong>。実際にピンアレイを作ると工数がかかるのでこういうアナログな方法で検討するのは<a href="https://pubmed.ncbi.nlm.nih.gov/31751252/" target="_blank" rel="noopener">Ujitoko-2020</a>と同じで個人的に好き。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/toh.2023.3322189" target="_blank" rel="noopener">Perception of Soft Objects in Virtual Environments Under Conflicting Visual and Haptic Cues</a></h3>
+        <p class="paper-meta">Çağatay Başdoğan, Berke Ataseven, Mandayam A. Srinivasan — IEEE Transactions on Haptics — 2023</p>
+        <div class="paper-note">
+<p>親指と人差し指に力を返す、手持ち力覚デバイス力覚提示デバイスを使って、視覚と力覚を矛盾させたときに、視覚に引っ張られることを示した。Srinivasanが2023年も現役で活躍していて驚いた。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3577190.3614128" target="_blank" rel="noopener">Influence of hand representation on a grasping task in augmented reality</a></h3>
+        <p class="paper-meta">Louis Lafuma, Guillaume Bouyer, Olivier Goguel, Jean-Yves Didier — INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION — 2023</p>
+        <div class="paper-note">
+<p>ARでは実際の手が見える。ARで物体を手で操作するときに、バーチャル手の表示方式で物体操作はどう変わるのかを調べた。バーチャル手なし・バーチャル手を実際の位置に表示・IKでバーチャル手を表示・IKによるバーチャル手と実際の手の位置のバーチャル手の両方を表示、の4方式を比較。バーチャル手を表示する条件では作業は遅くなった。pseudo-hapticsによる触感は評価していない。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3611659.3615689" target="_blank" rel="noopener">Effect of Virtual Hand&#x27;s Fingertip Deformation on the Stiffness Perceived Using Pseudo-Haptics</a></h3>
+        <p class="paper-meta">Kosuke Morimoto, Kenta Hashiura, Keita Watanabe — 29th ACM Symposium on Virtual Reality Software and Technology — 2023</p>
+        <div class="paper-note">
+<p>VRで物体に触れたときにバーチャル手の指をビヨンと広がるように変形させる。<strong>物体の柔らかさを表現する際に、通常は物体の変形挙動を操作するが、本研究では逆に指側を変形させる</strong>という手法。変形が大きいほど対象物体を柔らかく感じることを示した。これは実世界の現象（柔らかいものを押すより、硬い物を押す方が指がつぶれて変形する）とは逆の関係で興味深い。デモも体験させてもらったが、効果が確かに感じられた。2023年の個人的ベストペーパーかも。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3611659.3615688" target="_blank" rel="noopener">Redirected Placement: Evaluating the Redirection of Passive Props during Reach-to-Place in Virtual Reality</a></h3>
+        <p class="paper-meta">Xuanhui Yang, Yan Zhang, Xubo Yang — 29th ACM Symposium on Virtual Reality Software and Technology — 2023</p>
+        <div class="paper-note">
+<p>視覚刺激を歪めて実物1つで複数のバーチャル物体の触感を提示<a href="https://doi.org/10.1145/2858036.2858226" target="_blank" rel="noopener">Azmandian-2016</a>系のhaptic retargetingを、<strong>物体を掴みに行く局面(RR)ではなく、掴んだ物体を置きに行く局面(RP)でやる</strong>という提案。置く位置を、次に触るバーチャル物体に実物が近づくよう制約付き最適化（ずらし量は検出閾値以内）で決める。触感そのものは測っていない。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/ismar59233.2023.00119" target="_blank" rel="noopener">Expansion of Detection Thresholds for Hand Redirection using Noisy Tendon Electrical Stimulation</a></h3>
+        <p class="paper-meta">Maki Ogawa, Keigo Matsumoto, Kazuma Aoyama, Takuji Narumi — 2023 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) — 2023</p>
+        <div class="paper-note">
+<p>腱への微弱なノイズ電気刺激で自己受容感覚の信頼性を下げることで、手のリダイレクションの検出閾値が広げようという研究。腱への刺激で信頼性を下げ、視覚の重みを上げるアプローチは[Hirao-2023]と似ている。性差を見ているのは珍しい。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/ismar-adjunct60411.2023.00167" target="_blank" rel="noopener">MaskWarp: Visuo-Haptic Illusions in Mixed Reality using Real-time Video Inpainting</a></h3>
+        <p class="paper-meta">Brandon Matthews, Carolin Reichherzer, Bruce H. Thomas, Ross Smith — 2023 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct) — 2023</p>
+        <div class="paper-note">
+<p>ビデオシースルー型のMRでは、実際の手や物体が映像に映ってしまうのでhaptic retargerting等の視触覚錯覚が成立しづらい。そこでビデオシースルー型のMRで、実際の手と物体をリアルタイムにinpaintingして消すシステムを構築した。特に評価はなしだが、haptic retargetingだけでなくpseudo-hapticsにおいても重要な要素技術。マスク領域や影などが残ってしまっているものの、この論文が書かれた2023年時点と比べ、現在ではinpaintingの技術も大きく発展しているので、いまどこまでできるのか気になる。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3586183.3606787" target="_blank" rel="noopener">Turn-It-Up: Rendering Resistance for Knobs in Virtual Reality through Undetectable Pseudo-Haptics</a></h3>
+        <p class="paper-meta">Martin Feick, André Zenner, Oscar Ariza, Anthony Tang, Cihan Biyikli, Antonio Krüger — Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology — 2023</p>
+        <div class="paper-note">
+<p>実物のノブを回しつつVRではノブの回転量の見た目を変化させ、その回転gainと抵抗感の関係を調べた。<a href="https://ieeexplore.ieee.org/document/1287199" target="_blank" rel="noopener">Paljic-2004</a>の方式の再検討に見える。<strong>抵抗感だけでなくgainを操作していることの気づかれにくさも調べているが、気づかれにくさって必ずしも重要なんだろうか</strong>というのが実はよくわかっていない。Fig.7にある表は、行も列がCD比であり、対角線より下はベイズファクタで上はp値を表すという初めて見る形式。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/icgi60907.2023.10452712" target="_blank" rel="noopener">Exploring Pseudo-Haptics for Object Compliance in Virtual Reality</a></h3>
+        <p class="paper-meta">Carlos Lousada, Daniel Mendes, Rui Rodrigues — 2023 International Conference on Graphics and Interaction (ICGI) — 2023</p>
+        <div class="paper-note">
+<p>バネマスダンパモデルとIKを使って、VRで視覚だけで物体の柔らかさを表現。新規性が少し怪しいのとタイトルが内容に対して広い印象を少し受ける。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3610541.3614585" target="_blank" rel="noopener">FurAir: Non-contact Presentation of Soft Fur Texture by Psuedo-haptics and Mid-air Ultrasound Haptic Feedback</a></h3>
+        <p class="paper-meta">Juro Hosoi, Du Jin, Yuki Ban, Shin’ichi Warisawa — SIGGRAPH Asia 2023 Emerging Technologies — 2023</p>
+        <div class="paper-note">
+<p>毛並みの触覚表現は、生き物とのバーチャルな触れ合いをリアルにしていくうえで重要な課題だと思う。本デモでは、毛並みをなでる際の横方向の抵抗をpseudo-hapticsで、手のひらへの反力を空中超音波で表すシステムを提案している。空中超音波触覚は強い触感を出せないが、毛の感触を出すくらいであれば、ふわふわした感じやちりちりした感じをだせるのでちょうど役割として適合する。またpseudo-hapticsも同様に強い触感は出せないが、非接触で抵抗感を出せるので、pseudo-hapticsのアプリケーションとしても空中超音波と合わせて毛並みを表現するというのはかなりアリだと思った。評価を行った論文が2024年に出ている(<a href="https://ieeexplore.ieee.org/document/10812211/" target="_blank" rel="noopener">Hosoi-2024</a>)。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3626705.3627790" target="_blank" rel="noopener">Vibrollusion: Creating a Vibrotactile Illusion Induced by Audiovisual Touch Feedback</a></h3>
+        <p class="paper-meta">Marco Kurzweg, Maximilian Letter, Katrin Wolf — Proceedings of the 22nd International Conference on Mobile and Ubiquitous Multimedia — 2023</p>
+        <div class="paper-note">
+<p>ARにおいて物体に触れた際に、物体の縁をぼかしてゆらすのと、音を組み合わせて、リアルな振動に感じさせられないかを調べている。実際の振動と比較する条件を入れるとこの錯覚の効果が分かる気がする。身体運動を反映する投影物の見え方を歪める狭義のpseudo-hapticsではなく、接触対象の見た目を変える方式。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.2312/egve.20231333" target="_blank" rel="noopener">Influence of Pseudo-haptic Weight on Product Rarity Valuation</a></h3>
+        <p class="paper-meta">Naoya Okura, Akemi Oyanagi, Takuji Narumi, H. Kuzuoka, Tomohiro Amemiya — ICAT-EGVE — 2023</p>
+        <div class="paper-note">
+<p>pseudo-hapticsのアプリとしてよく挙げられるEコマースを想定した研究。VRで商品を持ち上げさせる際に、CD比を変えて重く感じさせることで、商品の希少性評価や購買意欲に影響するかを調べている。背景には「重いものは重要に感じる」という<a href="https://journals.sagepub.com/doi/10.1111/j.1467-9280.2009.02426.x" target="_blank" rel="noopener">Jostmann-2009</a>知見がある。非常に重要な研究だと思うが、残念ながらフルペーパーは英語で出ていない。</p>
+        </div>
+      </article>
+      <h2 class="year-heading">2024</h2>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/access.2024.3511078" target="_blank" rel="noopener">Effect of Virtual Object Material on the Pseudo-Haptic Weight</a></h3>
+        <p class="paper-meta">Kazuki Shimamura, Yuki Shimomura, Yuki Ban, Yusuke Ujitoko, Shin’ichi Warisawa — IEEE Access — 2024</p>
+        <div class="paper-note">
+<p>VRにおいて人が持ち上げるバーチャル物体の素材の見え（発泡スチロール・木・金属）とCD比を操作して、重さ評価をさせ、重さ感に対する素材の見えの影響は有意だがCD比に比べて小さいことを示した。<a href="https://doi.org/10.3389/fpsyg.2023.1042188" target="_blank" rel="noopener">Ujitoko-2023</a>のときもそうだったがCD比の効果がいかに大きいかがよくわかる。この論文は難産だった記憶がある。ちなみにpseudo-haptics適用時の素材の見えの効果については<a href="https://dl.acm.org/doi/10.1145/3411763.3451842" target="_blank" rel="noopener">Maehigashi-2021</a>が一部先行して調べている。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1007/978-3-031-71707-9_13" target="_blank" rel="noopener">Measuring the Limit of Perception of Bond Stiffness of Interactive Molecules in VR via a Gamified Psychophysics Experiment</a></h3>
+        <p class="paper-meta">Rhoslyn Roebuck Williams, Jonathan Barnoud, Luis Toledo, Till Holzapfel, David R. Glowacki — Lecture notes in computer science — 2024</p>
+        <div class="paper-note">
+<p>分子動力学シミュレーションで、分子の硬さ（分子を変形させるのに必要な力の大きさ）の違いを、操作と視覚の関係で作る試み。<strong>真の触感というものが存在しない対象に関しては、触力覚提示装置を使っても、触感の設計は一意に定まらないという問題意識はなるほどと思った</strong>。ところで分子動力学シミュレーションって触覚提示の文脈でよく出てくるし古典的によく検討されているアプリだけど、冷静に考えると一般的には結構特殊なアプリなのではないかと思う。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1007/978-3-031-60449-2_7" target="_blank" rel="noopener">Perception-Driven Design Approach: Towards Interaction Design for Simulating and Evoking Tactile Properties via Digital Interfaces</a></h3>
+        <p class="paper-meta">Marina Ricci, Alessandra Scarcelli, Piera Losciale, Annalisa Di Roma — Lecture notes in computer science — 2024</p>
+        <div class="paper-note">
+<p>デジタルインターフェースでの対象の触覚属性の知覚を引き起こすための設計フレームワークを示している。このようなフレームワークの提案でも、なんらかの検証は必要だと思うが、検証はこれからのようだ。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/access.2024.3375917" target="_blank" rel="noopener">Responsive-ExtendedHand: Adaptive Visuo-Haptic Feedback Recognizing Object Property With RGB-D Camera for Projected Extended Hand</a></h3>
+        <p class="paper-meta">Yushi Sato, Daisuke Iwai, Kosuke Sato — IEEE Access — 2024</p>
+        <div class="paper-note">
+<p>実空間にプロジェクションした拡張ハンドを視覚的に歪めて実物体の触感を伝える<a href="https://ieeexplore.ieee.org/document/9130660" target="_blank" rel="noopener">Sato-2019</a>の先行研究があるが、それを拡張し視覚的にどう歪めるかを自動化することをめざした。カメラが拡張ハンドの周りをみて、機械学習モデルで視覚パラメータを調整する。<strong>pseudo-hapticsのパラメータの自動設計という課題は応用に向けて非常に重要だと感じる</strong>。ちなみにだが、もともとのコンセプトである拡張ハンドは、手から手に接続する物体(ブラシなど)を延長させ、その物体を視覚的に変形させるなどしてpseudo-hapticsを引き起こす<a href="https://ieeexplore.ieee.org/document/9993764/" target="_blank" rel="noopener">Kine-appendage系の研究</a>と実はよく似ているのかなと思った。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/access.2024.3367601" target="_blank" rel="noopener">Sound Texture Feedback for a Projected Extended Hand Interface</a></h3>
+        <p class="paper-meta">Yushi Sato, Daisuke Iwai, Kosuke Sato — IEEE Access — 2024</p>
+        <div class="paper-note">
+<p>プロジェクション環境下での<a href="https://ieeexplore.ieee.org/document/9130660" target="_blank" rel="noopener">拡張ハンド</a>が物体に触れた接触音の研究。実際の手と拡張ハンドの間の動きのCD比を変えるのだが、その拡張ハンドで凹凸をなぞるときに、なぞり音は実際の手の速さに合わせるか、CD比が施された拡張ハンドの速さに合わせるかという問いの設定が面白い。基本的に実際の手ではなく、拡張ハンドの速さに合わせたなぞり音が自然と感じられた。ただし拡張ハンドが速くなるほど、良いとされた音の速さは頭打ちになった。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3648353" target="_blank" rel="noopener">Survey on Haptic Feedback through Sensory Illusions in Interactive Systems</a></h3>
+        <p class="paper-meta">Marco Kurzweg, Yannick Weiß, Marc O. Ernst, Albrecht Schmidt, Katrin Wolf — ACM Computing Surveys — 2024</p>
+        <div class="paper-note">
+<p>sensory illusionでhaptic feedbackをつくる研究のサーベイ。我々の<a href="https://ieeexplore.ieee.org/document/9424469" target="_blank" rel="noopener">サーベイ論文</a>では触る対象の触覚属性のみをフィードバックする対象としていたが、、この論文はfunneling、saltationや身体図式の錯覚まで幅広く扱っている。一方、データベースは限定的でIEEEはなんとToHしか含んでいない。TVCG, ISMAR, VRが除外されるとは。pseudo-haptic&quot; OR pseudohaptic OR &quot;pseudo haptic&quot; OR &quot;pseudo-haptics&quot; OR pseudohaptics OR &quot;pseudo haptics&quot;というクエリが紹介されているが、論文でpseudohapticsと書かれている例を見た記憶がないかも。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1007/s10055-024-00948-7" target="_blank" rel="noopener">Enhancing weight perception in virtual reality: an analysis of kinematic features</a></h3>
+        <p class="paper-meta">Mahdiyeh Sadat Moosavi, Pierre Raimbaud, Christophe Guillet, Frédéric Merienne — Virtual Reality — 2024</p>
+        <div class="paper-note">
+<p>VRで手で物体を持ち上げる際のCD比を小さくした際に、ユーザの手の動きの特徴を解析した。手の速度が速い時間の長さ、最大速度等を調べ、pseudo-haptics適用時の手の運動特徴は実物の重量を持ち上げた際のものと近いとした。実験の際の指示は「自分のペースで持ち上げる」というものだが、指示を変えたときにどう変わるかが気になる。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3610978.3640704" target="_blank" rel="noopener">Pseudo-haptics Interfaces for Robotic Teleoperation</a></h3>
+        <p class="paper-meta">Rui Xavier, José Luís Silva, Rodrigo Ventura — Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction — 2024</p>
+        <div class="paper-note">
+<p>遠隔操作へのpseudo-hapticsの適用を議論した論文。遠隔操作と言ってもさまざまなタスクがあり、pseudo-hapticsが適用しやすいタスクとそうでないタスクがあるはずなので、それをさらに整理するとよさそう。&quot;Pseudo-haptics Interfaces for Robotic Teleoperation&quot;というタイトルは広すぎるかも。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.7717/peerj-cs.1926" target="_blank" rel="noopener">The experience of a tele-operated avatar being touched increases operator’s sense of discomfort</a></h3>
+        <p class="paper-meta">Mitsuhiko Kimoto, Masahiro Shiomi — PeerJ Computer Science — 2024</p>
+        <div class="paper-note">
+<p>遠隔操作アバターが他者から触られる際に、操作者はどう感じるのかを調べた。疑似的に触られたという感覚は生じなかったが、不快感情は生まれた。身体運動と視覚のずれは使っておらず、その意味では古典的な疑似触覚ではない。アバターの身体が触られる視覚刺激に対して感じる感覚・知覚を調べた系統にはこれまでも<a href="https://ieeexplore.ieee.org/document/9974405/" target="_blank" rel="noopener">Alexdottir-2022</a>があったように、ソーシャルタッチの文脈の研究が徐々に流行りつつあるのかも。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3649792.3649803" target="_blank" rel="noopener">Study of the Impact of Visual and Haptic Sensory Sensitivities on the Detection of Visuo-Haptic Illusions in Virtual Reality</a></h3>
+        <p class="paper-meta">Flavien Lebrun, Sinan Haliyo, Malika Auvray, David Gueorguiev, Gilles Bailly — Proceedings of the 35th Conference on l&#x27;Interaction Humain-Machine — 2024</p>
+        <div class="paper-note">
+<p>ハンドリダイレクションやpseudo-hapticsなどのズレの検出しやすさは、個人の視覚と自己受容感覚の精度によるという前提で、両者を測る方法を提案。検出閾値と精度の関係は調べていない。pseudo-hapticsの個人差研究の際には参照したい。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/access.2024.3450512" target="_blank" rel="noopener">Effects of Congruent Multisensory Feedback on the Perception and Performance of Virtual Reality Hand-Retargeted Interaction</a></h3>
+        <p class="paper-meta">Hyunyoung Jang, Jinwook Kim, Jeongmi Lee — IEEE Access — 2024</p>
+        <div class="paper-note">
+<p>ハンドリダイレクションで、ずれに気づく感度と正確さが、同時に与える多感覚刺激で変わるかを調べた。検出閾値には多感覚刺激が影響を与えなかった一方、正確さ（PSEからのずれ）は高まる（ずれが小さくなる）。ずれの検出閾値を制御する系の研究は<a href="https://ieeexplore.ieee.org/document/10316482/" target="_blank" rel="noopener">Ogawa-2023</a>など流行りものかな。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3660636" target="_blank" rel="noopener">Understanding the Impact of Visual and Kinematic Information on the Perception of Physicality Errors</a></h3>
+        <p class="paper-meta">Goksu Yamac, Carol O’Sullivan, Michael Neff — ACM Transactions on Applied Perception — 2024</p>
+        <div class="paper-note">
+<p>ダンベルを持ち上げる際に、ダンベルの大きさやアバターの体型、筋肉の変形の見た目を操作して、努力感・重さ感・動きの自然さを評定させた。<a href="https://ieeexplore.ieee.org/document/6777424" target="_blank" rel="noopener">Jauregui-2014</a>のように動きは操作していない。ダンベルの大きさはsize-weight illusionと同じ方向の効果が出ている。大柄な体型のアバターだとダンベルが重く推定された。また筋の変形が大きいと努力感が大きく評定され、また重く推定された。同じ物理重さを持ち上げるのに、こんなにムキムキがっしりな自分なのにこの重さとは相当重いな、という推定方向。アバターの見た目の情報を加味した重さ推定という意味では少し<a href="https://ieeexplore.ieee.org/document/10123985/" target="_blank" rel="noopener">Matsuyama-2023</a>とも関連ある（がその研究では自身のアバタではなく綱引きする相手のアバタの情報が見えている）。被験者数がとにかく多い。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3613904.3642073" target="_blank" rel="noopener">Beyond the Blink: Investigating Combined Saccadic &amp; Blink-Suppressed Hand Redirection in Virtual Reality</a></h3>
+        <p class="paper-meta">André Zenner, Chiara Karr, Martin Feick, Oscar Ariza, Antonio Krüger — Proceedings of the CHI Conference on Human Factors in Computing Systems — 2024</p>
+        <div class="paper-note">
+<p>ハンドリダイレクションの文脈で、サッカードと瞬目の間に手の位置をずらす方法を検討。<a href="https://ieeexplore.ieee.org/document/9417723/" target="_blank" rel="noopener">Zenner-2021</a>の後継論文。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3613904.3642254" target="_blank" rel="noopener">Big or Small, It’s All in Your Head: Visuo-Haptic Illusion of Size-Change Using Finger-Repositioning</a></h3>
+        <p class="paper-meta">Myung Jin Kim, Eyal Ofek, Michel Pahud, Mike Sinclair, Andrea Bianchi — Proceedings of the CHI Conference on Human Factors in Computing Systems — 2024</p>
+        <div class="paper-note">
+<p>握り方と視覚刺激を操作することで、物体のサイズ知覚を制御できるか検討した。<a href="https://dl.acm.org/doi/10.1145/3313831.3376358" target="_blank" rel="noopener">Yoshida-2020</a>などでは装置の形状を変化させるが、本研究では形状は変化させない。結果としては、握り方（指・関節の位置や姿勢）を操作してもサイズ知覚は変わらなかった。一方、視覚はサイズ知覚を引っ張れた。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3613904.3642552" target="_blank" rel="noopener">Experiencing Dynamic Weight Changes in Virtual Reality Through Pseudo-Haptics and Vibrotactile Feedback</a></h3>
+        <p class="paper-meta">Carolin Stellmacher, Feri Irsanto Pujianto, Tanja Kojić, Jan‐Niklas Voigt‐Antons, Johannes Schöning — Proceedings of the CHI Conference on Human Factors in Computing Systems — 2024</p>
+        <div class="paper-note">
+<p>VRで、ジョッキに水を入れる(重くなる)、水を注ぎ出す(軽くなる)といった、操作の途中で重さが変わる状況を、CD比の動的な操作で表現。動的にCD比を変えるというのは<a href="https://onlinelibrary.wiley.com/doi/10.1002/cav.2205" target="_blank" rel="noopener">Chen-2023</a>で既に行われてはいるが、その研究では離散的に切り替えるのに対し、本研究では連続的に切り替えている。さらに振動を足すと、重さの変化の知覚が強まるかも調べている。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3613904.3642499" target="_blank" rel="noopener">Motionless Movement: Towards Vibrotactile Kinesthetic Displays</a></h3>
+        <p class="paper-meta">Yuran Ding, Nihar Sabnis, Paul Strohmeier — Proceedings of the CHI Conference on Human Factors in Computing Systems — 2024</p>
+        <div class="paper-note">
+<p>実際には手が動いていないが、力入力に基づき振動と視覚を操作して、手が動いた感覚を制御できるかを調べた研究。楽な入力インタフェースを考えると、運動入力ではなく力入力になると思うので、こういった力入力で運動感を出す研究は大事だと思う。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3613904.3642912" target="_blank" rel="noopener">To Reach the Unreachable: Exploring the Potential of VR Hand Redirection for Upper Limb Rehabilitation</a></h3>
+        <p class="paper-meta">Peixuan Xiong, Yukai Zhang, Nandi Zhang, Shihan Fu, Xin Li, Yadan Zheng, Jinni Zhou, Xiquan Hu, Mingming Fan — CHI 2024 — 2024</p>
+        <div class="paper-note">
+<p>上肢に運動障害のある患者が、VRのハンドリダイレクションを使ったリハビリを受けると、意欲や努力、手の所有感がどう変わるかを調べた。ハンドリダイレクションは、実際の手より遠くまで届くように見せると意欲が高まった。リダイレクションに気づくか気づかないかがこうした評定指標にどう影響するかが気になる。もし気づいても問題ないんだとすると、ゲインをもっと高めたほうがよいという話になるかも？</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3613904.3642351" target="_blank" rel="noopener">Using the Visual Language of Comics to Alter Sensations in Augmented Reality</a></h3>
+        <p class="paper-meta">Arpit Bhatia, Henning Pohl, Teresa Hirzle, Hasti Seifi, Kasper Hornbæk — Proceedings of the CHI Conference on Human Factors in Computing Systems — 2024</p>
+        <div class="paper-note">
+<p>ARで漫画の視覚言語（漫画の集中線等）を用いるデザイン空間を提案しデモを作成。<a href="https://dl.acm.org/doi/10.1145/3562939.3565607" target="_blank" rel="noopener">Cauquis-2022</a>を思い出した。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.7717/peerj-cs.2042" target="_blank" rel="noopener">Pilot study of the relation between various dynamics of avatar experience and perceptual characteristics</a></h3>
+        <p class="paper-meta">Yuto Okamoto, Kazuhiro Matsui, Tetsuya Ando, Keita Atsuumi, Kazuhiro Taniguchi, Hiroaki Hirai, Atsushi Nishikawa — PeerJ Computer Science — 2024</p>
+        <div class="paper-note">
+<p>筋電でアバターを操作する際、実際の身体運動に先行してアバターが動くようにする状況において、所有感や主体感、快適さを調べている。筋電は実際の動きより早く立ち上がるので、応答モデルの固有角周波数を上げると「意図は伴うのに身体より先に動く腕」が作れる、という発想が面白い。結果は、遅延が大きすぎても小さすぎても身体所有感・行為主体感・快適さは下がり、ちょうどよい遅延にピークがあった。重さや軽さを直接は測っていない。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.21785/icad2024.011" target="_blank" rel="noopener">Brightness Is More Efficient Than Delay to Induce Weight Perception in Augmented Reality</a></h3>
+        <p class="paper-meta">Louis Lafuma, Guillaume Bouyer, Jean-Yves Didier, Olivier Goguel — Proceedings of the 29th International Conference on Auditory Display (ICAD2024) — 2024</p>
+        <div class="paper-note">
+<p>このタイトルで視覚の明るさではなく、音の明るさ（スペクトル重心）のことだとは思わなかった。ARでバーチャル物体を持ち上げるときに、持ち上げの動きに連動する音のスペクトル重心を下げると重く、上げると軽く感じられる。一方、動きに対する音の遅延は 50〜250 ms の範囲では重さ判断に効かなかった。<a href="https://journals.sagepub.com/doi/10.1177/0301006618808937" target="_blank" rel="noopener">Takashima-2018</a>や<a href="https://ieeexplore.ieee.org/document/9766314/" target="_blank" rel="noopener">Kaneko-2022</a>と関連。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/access.2024.3409449" target="_blank" rel="noopener">Pseudo-Haptics Survey: Human-Computer Interaction in Extended Reality and Teleoperation</a></h3>
+        <p class="paper-meta">Rui Xavier, José Luís Silva, Rodrigo Ventura, Joaquim Jorge — IEEE Access — 2024</p>
+        <div class="paper-note">
+<p>2016〜2023年のpseudo-haptics論文48本を整理したサーベイ。分類軸そのものは我々のサーベイと大きく変わらず。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.7759/cureus.62397" target="_blank" rel="noopener">Effects of Different Visual Flow Velocities on Psychophysiological Responses During Virtual Reality Cycling</a></h3>
+        <p class="paper-meta">Kyosuke Kawaguchi, Takefumi Moriuchi, Ryotaro Takita, Kyosuke Yoshimura, Ryo Kozu, Y. Yanagita, Tomoki Origuchi, Takashi Matsuo, Toshio Higashi — Cureus — 2024</p>
+        <div class="paper-note">
+<p>VRサイクリングで、ペダル回転に対する景色の流れの速さを通常の0.5倍・1倍・1.5倍にして、運動の楽しさ・下肢の疲労・心拍を比べている。<strong>景色が速いほど楽しい</strong>。考察で、同じ負荷でもペダルが軽く感じるpseudo-hapticsが起きたかもしれない、と述べている。たまにCereusにpseudo-hapticsの関連論文が載る。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3390/app14146020" target="_blank" rel="noopener">A Review of Recent Literature on Audio-Based Pseudo-Haptics</a></h3>
+        <p class="paper-meta">Sandy Abdo, Bill Kapralos, KC Collins, Adam Dubrowski — Applied Sciences — 2024</p>
+        <div class="paper-note">
+<p>音を使ったpseudo-hapticsのサーベイ。重さ・硬さ・粗さ・湿り気・光沢などが、周波数・音の高さ・音量・遅延・減衰時間で変わる、という整理。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/icvr62393.2024.10869259" target="_blank" rel="noopener">Enhancing Usability with Virtual Imagery: Insights into Feedback Mechanism from a BCI-VR Integrated System</a></h3>
+        <p class="paper-meta">Annan Lu, Mengjie Huang, Luyao Tang, Rui Yang — 2024 10th International Conference on Virtual Reality (ICVR) — 2024</p>
+        <div class="paper-note">
+<p>motor imageryで操作するBCI-VRに、振動フィードバックを足すと使いやすさが上がるかを調べた。物理振動の有無×疑似触覚の有無の4条件を比べた。ただしオフラインBCI（疑似オンライン）で、参加者の脳波がリアルタイムに仮想の手を動かしたわけではないらしい。また疑似触覚の実装の詳細は書かれていない。今後のに期待したい。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/icvr62393.2024.10868891" target="_blank" rel="noopener">Pseudo-Haptics for Weight Perception in VR: Controller vs. Bare Hand Interactions with Tracking Delay and Vertical Offset</a></h3>
+        <p class="paper-meta">Chiwoong Hwang, Tiare Feuchtner, Kaj Grønbæk — 2024 10th International Conference on Virtual Reality (ICVR) — 2024</p>
+        <div class="paper-note">
+<p>重さ感を表現するpseudo-hapticsを、コントローラと素手（ハンドトラッキング）で比べた。手法は、バーチャル手を遅らせるもの（遅延）と、バーチャル手を実際の手よりずらすもの（オフセット）の2つを検討しており、好感がもてる。結果は、遅延ではコントローラと素手で閾値に有意な差なし。オフセットでは重くする方向にコントローラの方が敏感だった。遅延とオフセットの結果を直接比較できる実験デザインで追加実験してみてほしい。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3641234.3671066" target="_blank" rel="noopener">Effective Visual Feedback for Virtual Grasping</a></h3>
+        <p class="paper-meta">Shota Imaizumi, Mie Sato — ACM SIGGRAPH 2024 Posters — 2024</p>
+        <div class="paper-note">
+<p>拘束力がない状況でバーチャル物体を把持する場合、実際の手がバーチャル物体の中にめり込んでしまう。これに対処する方法を比較した。めり込んだ分を、めりこんでないバーチャル手の指の色を赤くしてフィードバックする方法（FC）や、物体の色を赤くしてフィードバックする方法（OC）、指や物体の色の空間分布を細かく操作する方法等を比較。触感ではなくパフォーマンスを評価。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.18260/1-2--48053" target="_blank" rel="noopener">Tangible Digital Twins: Experiencing Structural Mechanics by Inducing the Sense of Stiffness via Hand Gestures in Virtual Reality</a></h3>
+        <p class="paper-meta">Kaiyuan Wang, Yuxiang Zhao, I. Ab Aziz, Mohamad Alipour — 2024 ASEE Annual Conference &amp; Exposition Proceedings — 2024</p>
+        <div class="paper-note">
+<p>ジェスチャでバーチャルな梁を変形させ、速く変形させすぎると変形が止まるという仕掛けにして硬さを表現。硬い部材は、ゆっくり動かさないと、変形しない。引っ張り、圧縮、ねじり、曲げの変形4種を検討。<a href="https://ieeexplore.ieee.org/document/8685858/" target="_blank" rel="noopener">Weser-2019</a>では、持ち上げる物体の重さごとに異なる速度制限を設けて、制限の速度が低いほど重いと感じさせていたが、本研究はそれの柔らかさ版といえる。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1080/10447318.2024.2385184" target="_blank" rel="noopener">Effects of Waveform, Time Delay, and Vibration Axis on the Perception of Vibrotactile Compliance Illusions on Smartphone Touchscreens</a></h3>
+        <p class="paper-meta">Joyoung Han, YoungIn Kim, Jingun Jung, Keunwoo Park, Geehyuk Lee — International Journal of Human-Computer Interaction — 2024</p>
+        <div class="paper-note">
+<p>押す指に力に応じた短い振動を返して、硬い画面を柔らかく感じさせるcompliance illusion<a href="https://dl.acm.org/doi/10.1145/1891903.1891931" target="_blank" rel="noopener">Kildal-2010</a>を、スマホ実装のために調べている。製品開発者から出る3つの疑問として、波形は正弦波でなくてよいか、遅延はどこまで許されるか、振動軸は垂直でなくてよいか、に答えた。視覚的な操作を行うpseudo-hapticsとは異なる研究。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.20965/jrm.2024.p0823" target="_blank" rel="noopener">Comparison of Parameters of Regression Equations for Estimating the Perceptual Quantity of Pseudo-Haptics</a></h3>
+        <p class="paper-meta">Kazuhiro Matsui, Iori Kikuchi, Kotaro Okada, Keita Atsuumi, Kazuhiro Taniguchi, Hiroaki Hirai, Atsushi Nishikawa — Journal of Robotics and Mechatronics — 2024</p>
+        <div class="paper-note">
+<p>CD比の操作で生じる重さ感を、把持力や筋電から推定できるか検討。実重量を持ち上げて、把持力や筋電が重さに応じてどう変わるかを記録する。次にCD比を変化させ、把持力や筋電の変化を記録。これらを合わせて重さ感を推定し、実際に参加者の感じた重さ感と比較。推定に何を使うか、持ち上げのどの区間を切り出すか、PH体験の何回目の持ち上げを使うか、を検討。ただし推定の誤差、人の重さの弁別閾より大きい。チャレンジングで非常に重要な研究。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/coginfocom63007.2024.10894706" target="_blank" rel="noopener">Stick Shape Perception by Pseudo-Haptics Using Visual Stimuli</a></h3>
+        <p class="paper-meta">Yuta Taneichi, Mie Sato — 2024 IEEE 15th International Conference on Cognitive Infocommunications (CogInfoCom) — 2024</p>
+        <div class="paper-note">
+<p>VRで棒状のバーチャル物体に触れたときの視覚情報を変えると、接触感と棒の形の知覚が変わるかを調べた。刺激は6つで、棒の色が変わる、触れている手の甲の部分が赤色になる、触れた部分の手が透明になる等。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1080/10447318.2024.2400817" target="_blank" rel="noopener">Usability of Pseudo-Haptic Feedback for Manual Precise Manipulation of Objects in Augmented Reality</a></h3>
+        <p class="paper-meta">Yunfei Qin, Weiping He, Xiaotian Zhang, Mark Billinghurst, Yanghao Zhang, Jiepeng Dong — International Journal of Human-Computer Interaction — 2024</p>
+        <div class="paper-note">
+<p>ずれを拡大して見せて作業支援するという意味で、<a href="https://dl.acm.org/doi/10.1145/2875194.2875216" target="_blank" rel="noopener">Nomoto-2016</a>の系譜。このずれの拡大というアイデアを、AR物体の6自由度の位置合わせに適用検討したもの。疑似触覚的な効果が出たので効いたのか、単にずれが大きく見えて、気づきやすかったのかは区別できない設計。作業支援という文脈では、その切り分けについて特に行う必要性はないのかもしれない。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3641825.3687728" target="_blank" rel="noopener">Enriching Industrial Training Experience in Virtual Reality with Pseudo-Haptics and Vibrotactile Stimulation</a></h3>
+        <p class="paper-meta">Chiwoong Hwang, Tiare Feuchtner, Ian Oakley, Kaj Grønbæk — 30th ACM Symposium on Virtual Reality Software and Technology — 2024</p>
+        <div class="paper-note">
+<p>VRでの訓練（工場の機械の保守）で、遅延によるpseudo-hapticsと振動触覚を組み合わせた。力の知覚（1項目）は擬似触覚の効果が大きく、存在感と楽しさは振動の効果が大きい、併用が最も良い、という結果。<a href="https://doi.org/10.1145/3613904.3642552" target="_blank" rel="noopener">Stellmacher-2024</a>（動的な重さの変化に振動を足しても改善しなかった）とは結果が違う。VRでの訓練の結果、ちゃんと実際の保守作業が上達したかを確認するのが大事だと思うがそれは残念ながら測っていない。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3390/robotics13100143" target="_blank" rel="noopener">Virtual Hand Deformation-Based Pseudo-Haptic Feedback for Enhanced Force Perception and Task Performance in Physically Constrained Teleoperation</a></h3>
+        <p class="paper-meta">Kento Yamamoto, Yaonan Zhu, Tadayoshi Aoyama, Yasuhisa Hasegawa — Robotics — 2024</p>
+        <div class="paper-note">
+<p>遠隔操作ロボットのグリッパーに加わった力を、ロボットの手の位置に描画したバーチャルハンドの指の変形で表現する。操作者は自分の指が曲がったように感じ、そこから力を感じる、という発想（C/D比にずれを付ける従来法は、空間的なずれが透明性を下げる、触れたことが分かりにくい、力の大きさが直感的でない、という3つの問題を挙げている）。指先の変形で硬さを変えた<a href="https://doi.org/10.1145/3611659.3615689" target="_blank" rel="noopener">Morimoto-2023</a>と同系統といえる。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3654777.3676439" target="_blank" rel="noopener">Exploring the Effects of Sensory Conflicts on Cognitive Fatigue in VR Remappings</a></h3>
+        <p class="paper-meta">Tianren Luo, Gaozhang Chen, Yijian Wen, Pengxiang Wang, Yachun Fan, Teng Han, Feng Tian — Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology — 2024</p>
+        <div class="paper-note">
+<p>VRと実世界とで手の位置や頭の回転量、身体サイズの見た目をずらしたときに、認知的疲労にどう影響するかを調べた。気づかれないずらし量の範囲と、気づかれるが許容されるずらし量の範囲をパイロット実験で調べたうえで、本実験でずらし量と認知的疲労との関係を調べた。この手の研究で身体サイズを変化させる操作を、手の位置や頭の回転量の操作と並列で入れているのは珍しい。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3654777.3676425" target="_blank" rel="noopener">Predicting the Limits: Tailoring Unnoticeable Hand Redirection Offsets in Virtual Reality to Individuals&#x27; Perceptual Boundaries</a></h3>
+        <p class="paper-meta">Martin Feick, Kora Persephone Regitz, Lukas Gehrke, André Zenner, Anthony Tang, Tobias Jungbluth, Maurice Rekrut, Antonio Krüger — Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology — 2024</p>
+        <div class="paper-note">
+<p>ハンドリダイレクションの検出閾値は個人差が大きい。そこで手の動き・視線・脳波から、与えているずれとその人の閾値の関係を推定することを試みた。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3654777.3676409" target="_blank" rel="noopener">Selfrionette: A Fingertip Force-Input Controller for Continuous Full-Body Avatar Manipulation and Diverse Haptic Interactions</a></h3>
+        <p class="paper-meta">Takeru Hashimoto, Yutaro Hirao — Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology — 2024</p>
+        <div class="paper-note">
+<p>指先の力入力でVRアバターを操作するコントローラを使い、力とアバタの動きの対応を変えるだけで、重さ・摩擦・硬さを提示する。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/ismar-adjunct64951.2024.00130" target="_blank" rel="noopener">Visual Pseudo-Haptic Feedback as a Catalyst: Exploring User Joy with VFX in VR Physical Games</a></h3>
+        <p class="paper-meta">Min Ni — 2024 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct) — 2024</p>
+        <div class="paper-note">
+<p>VRジェンガに視覚効果を足すとユーザ体験がどう変わるかを調べた。ここでの視覚効果は、触れる前の物体の輪郭の光、接触中の物体の色・明るさの変化、物体を置いたときの粒子、押す・引くときの文字表示（&quot;Push&quot;・&quot;Drag&quot;）。実装の詳細は書かれておらず、また複数の効果が一緒に与えられるので、どれが効いたかは分けられない。測っているのは楽しさ・驚きなどの感情で、触覚の知覚は測っていない。操作の案内や演出に近い効果にも見える。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3678957.3685715" target="_blank" rel="noopener">ScentHaptics: Augmenting the Haptic Experiences of Digital Mid-Air Textiles with Scent</a></h3>
+        <p class="paper-meta">Christopher Dawes, Jing Xue, Giada Brianza, Patricia Cornelio, Roberto Montano-Murillo, Emanuela Maggioni, Marianna Obrist — International Conference on Multimodel Interaction — 2024</p>
+        <div class="paper-note">
+<p>空中超音波触覚で提示する際に香りを組み合わせると触感が変わるかを調べた。香りで触感を変調するというのは珍しい。結果は、粗さ・硬さ・温かさの評定は香りで変わらず、触感のリアルさがほぼ全ての香りで上がった。香りがあること自体のリアルさへの効果に見える。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1007/978-3-031-70061-3_31" target="_blank" rel="noopener">The Interplay of Vision and Referred Haptic Feedback in VR Environments</a></h3>
+        <p class="paper-meta">Elyse D. Z. Chase, Marcia K. O’Malley — Lecture notes in computer science — 2024</p>
+        <div class="paper-note">
+<p>指先の触覚刺激を手首のバンド（Tasbi）に代わりに提示する際、視覚との矛盾で硬さの知覚がどうなるかを調べた。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.48550/arxiv.2411.05133" target="_blank" rel="noopener">Innovative Weight Simulation in Virtual Reality Cube Games: A Pseudo-Haptic Approach</a></h3>
+        <p class="paper-meta">Woan Ning Lim, Edric Yi Junn Leong, Yunli Lee, Kian Meng Yap — arXiv (Cornell University) — 2024</p>
+        <div class="paper-note">
+<p>力入力に応じて、持ち上げ時の物体の動きのCD比を動的に変えるコンセプトを提案。力入力のpseudo-hapticsが少し流行っている気がする。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3389/frvir.2024.1442829" target="_blank" rel="noopener">Influence of habituation on pseudo-haptic weight perception of virtual objects</a></h3>
+        <p class="paper-meta">Kenta Ito, Yuki Ban, Shin’ichi Warisawa — Frontiers in Virtual Reality — 2024</p>
+        <div class="paper-note">
+<p>pseudo-hapticsを適用した状態で、持ち上げを反復すると重さの錯覚が弱まるかを調べた研究。CD比（0.8、1.0）×持ち上げ回数（10回、100回）の4条件をそれぞれ行った後に、CD比による効果を定量化した。CD比1に対して、10回持ち上げではCD比0.8の方が重く感じられ（p=0.013）、100回では差がなくなった（p=0.64）。ただし0.8での10回と100回の差は有意でなかった（p=0.066）。条件の順序は固定で、疲労や慣れが最後の条件に混ざっているかもしれない。実用化を考えると重要な研究。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3678698.3678706" target="_blank" rel="noopener">Investigating Size Congruency Between the Visual Perception of a VR Object and the Haptic Perception of Its Physical World Agent</a></h3>
+        <p class="paper-meta">Wenqi Zheng, Dawei Xiong, Junwei Li, Jiajun Jiang, Cekai Weng, Jinni Zhou, Mingming Fan — Proceedings of the 17th International Symposium on Visual Information Communication and Interaction — 2024</p>
+        <div class="paper-note">
+<p>手で持つ実物体の大きさと、見えているバーチャル物体の大きさのずれがどこまで許容されるかを調べた。実物は固定で、見える大きさを実物の60〜140%に変える。この主題であれば、閾値を調べたほうがいいかも。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3681756.3697955" target="_blank" rel="noopener">Auditory AR System to Induce Pseudo-Haptic Force Feedback for Lateral Hand Movements Using Spatially Localized Sound Stimuli</a></h3>
+        <p class="paper-meta">Daniel Oswaldo Lopez Tassara, Naoto Wakatsuki, Keiichi Zempo — SIGGRAPH Asia 2024 Posters — 2024</p>
+        <div class="paper-note">
+<p>視覚障害者向けに、音の聞こえる位置を実際の手の位置からずらし錯覚させる手法を提案。音で位置をずらすという発想は面白い。バーチャルな水に手を浸して中央に保つシナリオ（音が右に流れ、手が押されるように感じて左に戻そうとする）と、水を左右に動かして抵抗を感させるシナリオを実装している。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/toh.2024.3521418" target="_blank" rel="noopener">Voluminous Fur Stroking Experience Through Interactive Visuo-Haptic Model in Virtual Reality</a></h3>
+        <p class="paper-meta">Juro Hosoi, Du Jin, Yuki Ban, Shin’ichi Warisawa — IEEE Transactions on Haptics — 2024</p>
+        <div class="paper-note">
+<p><a href="https://doi.org/10.1145/3610541.3614585" target="_blank" rel="noopener">Hosoi-2023</a>のジャーナル版で、毛を撫でる触感を、空中超音波と毛の視覚刺激で作った。人工的な毛を撫でた際の力の挙動を再現するために、超音波の強度と周波数（順目70Hz、逆目30Hz）を設定。2つ目の実験では、視覚と触覚の2×2で毛皮感を10段階で評定させたところ、視覚が触覚より効果が大きく、心地よさと楽しさには触覚の効果がなかった。</p>
+        </div>
+      </article>
+      <h2 class="year-heading">2025</h2>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1007/978-981-96-2332-7_15" target="_blank" rel="noopener">Phantom Touch in VR and Its Potential Uses in the Education Field</a></h3>
+        <p class="paper-meta">Sasha Alexdottir — Gaming media and social effects — 2025</p>
+        <div class="paper-note">
+<p><a href="https://doi.org/10.1109/ismar-adjunct57072.2022.00218" target="_blank" rel="noopener">Alexdottir-2022</a>で扱ったPhantom Touchを教育に使えるかを論じた書籍の1つの章。社会的接触の効果（ハグのストレス緩和など）を挙げ、Phantom Touchなら追加の機器なしでメンタルヘルス、留学中の家族とのハグ、遠隔授業などへの応用について述べている。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/toh.2025.3535416" target="_blank" rel="noopener">Human-in-the-Loop Optimization of Perceived Realism of Multi-Modal Haptic Rendering Under Conflicting Sensory Cues</a></h3>
+        <p class="paper-meta">Harun Tolasa, Bilal Catkin, Volkan Patoğlu — IEEE Transactions on Haptics — 2025</p>
+        <div class="paper-note">
+<p>力覚デバイス（ノブ）の硬さと、画面に映る回転の倍率を同時に変えて、基準と同じ硬さになる組合せを少ない試行で見つける。ガウス過程とベイズ最適化で、1人あたり約30分で組合せを見つけた。物理と視覚の両方のパラメータを効率的に探索するのに使えそう。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3390/mti9030019" target="_blank" rel="noopener">Sensory Perception During Partial Pseudo-Haptics Applied to Adjacent Fingers</a></h3>
+        <p class="paper-meta">Satoshi Saga, Kotaro Sakae — Multimodal Technologies and Interaction — 2025</p>
+        <div class="paper-note">
+<p>バーチャル手の一部の指にだけ角度ゲインを適用したとき、その指と隣の指の感覚がどう変わるかを調べた。錯覚の大きさは、右手の指を曲げたあとの姿勢を、VR内に映らない左手でまねさせて測った。倍率が大きいほど左手が大きく曲がれば、右手の指の角度の感覚が見た目に引っ張られている（錯覚が出ている）ことになる。指を開いておけばゲインを変えた指だけに錯覚が出た。またゲインが1より小さいとゲインを変えた指に、1より大きいとゲインを変えていない指に違和感が出た。見た目の動きが周りより小さい指に出ると解釈している。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/vrw66409.2025.00178" target="_blank" rel="noopener">A Unified Rating System for a Qualitative Comparison of Haptic and Pseudo-Haptic Weight Simulation in Virtual Reality</a></h3>
+        <p class="paper-meta">Cecilia Halbritter, Daniel Mayer, Ralf Dörner, Martin Weier — 2025 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW) — 2025</p>
+        <div class="paper-note">
+<p>VRの重さ提示を、既存の物理触覚と疑似触覚を評価。疑似触覚でDA表みたいなものを作っているのは初めて見た。メタ分析の論文。評価項目の選定基準が気になるものの、横に手法を並べて評価するという方向性自体には重要性を感じる。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/vrw66409.2025.00363" target="_blank" rel="noopener">Force vs. Illusion: Realism, Cost, and Satisfaction</a></h3>
+        <p class="paper-meta">Josué Vincent, Théo Combe, Noreen Izza Arshad, Aylen Ricca — 2025 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW) — 2025</p>
+        <div class="paper-note">
+<p>訓練用のVR物体操作課題で、物理力覚pseudo-hapticsを比べた。NASA-TLXは差がなく、プレゼンスに関する質問紙では、現実感とaction possibility(日本語化しづらい...)だけ物理力覚が有意に高かった。著者は、精度や現実感が重要でない課題ではPHが低コストな代替になりうると言っている。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/tvcg.2025.3549553" target="_blank" rel="noopener">SummonBrush: Enhancing Touch Interaction on Large XR User Interfaces by Augmenting Users&#x27; Hands with Virtual Brushes</a></h3>
+        <p class="paper-meta">Yang Tian, Zhao Su, Tianren Luo, Teng Han, Shengdong Zhao, Youpeng Zhang, Yixin Wang, BoYu Gao, Dangxiao Wang — IEEE Transactions on Visualization and Computer Graphics — 2025</p>
+        <div class="paper-note">
+<p>大きなXRの平面UIで、画面の外に隠れたウィンドウを、腕を大きく動かさずに呼び出す手法を提案。指先にバーチャルな筆を付け、UIに押し込むと筆が曲がって墨がにじむ。墨が筆全体に広がるまで押し込むと、画面のどこからでもスワイプで隠れたウィンドウを呼び出せる。Fig.1やFig.2などの図のスタイルが珍しく思えて印象的。同じ著者の<a href="https://doi.org/10.1109/tvcg.2022.3230746" target="_blank" rel="noopener">Kine-appendage系</a>の系譜。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3745900.3746115" target="_blank" rel="noopener">Audio-Force: Pseudo-Haptic Force Feedback through Sound Localization, Reinforced by Obstruction and Pitch-Gain Variations</a></h3>
+        <p class="paper-meta">Daniel Oswaldo Lopez Tassara, Naoto Wakatsuki, Keiichi Zempo — Proceedings of the Augmented Humans International Conference 2025 — 2025</p>
+        <div class="paper-note">
+<p><a href="https://doi.org/10.1145/3681756.3697955" target="_blank" rel="noopener">Lopez-2024</a>のシステムの改良版。手に当たる水の力の錯覚を、音だけで作る。手が川に近づくと高周波を弱めて手の所有感を作り、川に入ると水が当たる音を手の位置に定位させる。流れに逆らうと音量とピッチを上げ、沿うと下げる。手を中央に保つと音量とピッチが上がり、そのあと手の聴覚上の位置だけが流れの向きにずれて、ユーザーは手を逆に動かして位置を戻す。スマートフォンのARアプリとして実装し、視覚障害者向けのアクセシビリティを狙う。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3745900.3746097" target="_blank" rel="noopener">Just Before Touch: Manipulating Perceived Haptic Sensations through Proactive Vibrotactile Cues in Virtual Reality</a></h3>
+        <p class="paper-meta">Yihao Dong, Pamuditha Somarathne, Craig T. Jin, Juno Kim, Andrea Bianchi, A. Withana — NASA/ESA Conference on Adaptive Hardware and Systems — 2025</p>
+        <div class="paper-note">
+<p>手がバーチャル物体に触れる前に振動を先に出すproactive hapticsを提案。先出しの時間（0、62.5、100 ms）と6種類の振動プロファイルを変えて、18個の感触語（radiating、pulling、diffuse、elasticなど）から当てはまるものを選ばせた。振動を先に出すことで、語の選ばれ方が有意に違い、先出しがあるとradiatingやdiffuse、elasticが増えるなど、プロファイルごとに傾向が変わった。ただし、語の多くは定義が明確になされておらず、実際に感触が変わったのかもよく分からない。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.3389/frvir.2025.1528675" target="_blank" rel="noopener">Method for modifying haptic feedback by displaying onomatopoeia</a></h3>
+        <p class="paper-meta">Izumi Mizoguchi, Sho Sakurai, Koichi Hirota, Takuya Nojima — Frontiers in Virtual Reality — 2025</p>
+        <div class="paper-note">
+<p>スマホの画面のボタンをタップしたとき、振動と同時にオノマトペ（kachi、pochi、nyuruなど7語）を表示すると、ボタンを押した感触の印象が変わるかを調べた。表示なしと比べて、kachiとbachiは近い感触として選ばれる物理ボタンが有意に変わり（多重比較の補正後）、kachi、pochi、bachi、tanは現実感が上がった。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1038/s41598-025-95527-4" target="_blank" rel="noopener">Influence of duration and visual feedback on the perception of tactile illusions of motion</a></h3>
+        <p class="paper-meta">Byron Remache-Vinueza, Irene Guijarro-Molina, Andrés Trujillo-León — Scientific Reports — 2025</p>
+        <div class="paper-note">
+<p>手のひらの2つの振動子で作る動きの触錯覚が、提示時間と視覚でどう変わるかを調べた。実験1では、ファントムモーションの提示時間が長いほど、動きが止まった位置が遠くなり、1秒を超えると手や装置の外に感じ、3秒では回答の48%が装置の外だった。皮膚ウサギは提示時間に影響されなかった。実験2では、画面の動く点を同時に見せ、2つの動きの一致度を5段階で評定させた。位置のずれや逆向きの視覚情報でも、評定の中央値は一致条件と同程度の4〜5で、著者は視覚情報が触覚情報を上書きしたと解釈した。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3706599.3719778" target="_blank" rel="noopener">FresnelDeformable: A Softness Presentation Technique Combining Fingertip Plane Tilt Manipulation and Pseudo-Stiffness</a></h3>
+        <p class="paper-meta">Hiroki Ota, Yutaro Hirao, Monica Perusquía-Hernández, Hideaki Uchiyama, Kiyoshi Kiyokawa, Maud Marchal — Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems — 2025</p>
+        <div class="paper-note">
+<p>握った装置の指先の接触面を、加えた力に応じて傾け、画面の物体の変形と組み合わせて柔らかさを提示する。傾きは、画面で変形した物体の法線方向に合わせる。視覚3条件（縮む、中央が凹む、変形なし）×触覚2条件（傾けあり、なし）で、柔らかさ、現実感、視触覚の一致度を答えさせた。傾けたことで一致度を有意に高めたが、柔らかさには有意傾向のみ。視覚の変形の効果も交互作用もなかった。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3706598.3714110" target="_blank" rel="noopener">DobbyEar: Inducing Body Illusion of Ear Deformation with Haptic Retargeting</a></h3>
+        <p class="paper-meta">Han Shi, Seungwoo Je — Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems — 2025</p>
+        <div class="paper-note">
+<p>自分の耳を触る手を、リターゲティングで大きさや形の違うバーチャルの耳の輪郭に沿わせて見せる。視覚刺激で変形させるのは自分の身体なので、触られた側の皮膚感覚も情報として入ってくるのでそれなりに視覚で引っ張るのは難しそうである。一方、耳という自分では直接視認しづらい部位を鏡を通じて見せるということや、そもそも耳という皮膚感覚に基づく定位が苦手そうな部位を選定していてアリかもと思わせる。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1145/3706598.3714003" target="_blank" rel="noopener">Tendon Vibration for Creating Movement Illusions in Virtual Reality</a></h3>
+        <p class="paper-meta">Mantas Cibulskis, Difeng Yu, Erik Skjoldan Mortensen, Waseem Hassan, Mark Schram Christensen, Joanna Bergström — Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems — 2025</p>
+        <div class="paper-note">
+<p>腕を動かしているとき、動かす筋の反対側の筋（拮抗筋）の腱を振動させると、実際より腕が動いたように感じる運動錯覚が起き、手のリダイレクションに気づかれにくくなることをめざした。</p>
+        </div>
+      </article>
+      <h2 class="year-heading">2026</h2>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1007/978-981-92-3991-7_22" target="_blank" rel="noopener">Roughness Rendering in XR Via Pseudo-Haptics and Auditory Feedback</a></h3>
+        <p class="paper-meta">Ming Ye, Yang Tian, Zhao Su, Zhenrong Zhang — Communications in computer and information science — 2026</p>
+        <div class="paper-note">
+<p>指先のバーチャルブラシの揺れと、表面をなぞる際の音による効果を調べた研究。視覚的な振動を加えるという点は<a href="https://link.springer.com/chapter/10.1007/978-3-030-58147-3_4" target="_blank" rel="noopener">Ota-2020</a>に近いが、指の動きの見え方を変えるのではなく指先から出ているバーチャルブラシの見え方を変える。著者らの研究グループの<a href="https://ieeexplore.ieee.org/document/9993764" target="_blank" rel="noopener">Kine-appendage</a>系の研究の一つ。タイトルにはRoughnessとあるものの、粗さそのものの強度評定や識別課題は行っておらず、評価項目は接触感、摩擦感、リアリティ、没入感などである。</p>
+        </div>
+      </article>
+      <article class="paper">
+        <h3 class="paper-title"><a href="https://doi.org/10.1109/access.2026.3705052" target="_blank" rel="noopener">Does Viewing a Full-Body Self-Avatar in a Mirror Affect Visual Delay Detection in Virtual Reality?</a></h3>
+        <p class="paper-meta">Daisuke Shimizu, S. Okamoto — IEEE Access — 2026</p>
+        <div class="paper-note">
+<p>pseudo-hapticsそのものは扱っていないが、鏡によって自分を見える状況では視覚遅延の検出がどう変わるかを調べており、pseudo-hapticsの設計のヒントになる知見を提供している。鏡の有無で遅延の閾値に有意な差はなかったが、判断のばらつきは鏡ありの方が小さい傾向があった。閾値は2つの方法で計算している。</p>
+        </div>
+      </article>
+    </div>
+  </main>
+</body>
+</html>

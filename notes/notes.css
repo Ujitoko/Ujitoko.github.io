@@ -1,0 +1,319 @@
+/* notes/notes.css — Notes セクション専用のスタイル
+ *
+ * Notes のページは styles.css と本ファイルだけを読み込み、project/project.css は
+ * 読み込まない。そのため project ページと同じ見た目にするためのページ骨格
+ * (.container / .research-title / .section / .back-link) を本ファイルでも定義する。
+ * 既存ページに影響しないよう、骨格側の指定はすべて .note-page 配下に限定している。
+ */
+
+/* ===== ページ骨格（project.css 相当。.note-page 配下のみ） ===== */
+.note-page {
+  background-color: #f9f9f9;
+  color: #555;
+}
+
+.note-page .container {
+  max-width: 800px;
+  margin: auto;
+  padding: 15px;
+}
+
+.note-page .title {
+  text-align: center;
+}
+
+.note-page .research-title {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 20px 0 10px;
+  text-align: center;
+  color: #333;
+}
+
+.note-page .section {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 20px;
+  width: 100%;
+}
+
+.note-page .back-link {
+  text-align: center;
+  margin: 20px 0 40px;
+}
+
+.note-page .back-link a {
+  margin: 0 10px;
+}
+
+/* ===== 記事のメタ情報・一覧のリード文 ===== */
+.note-meta,
+.note-lead {
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+  margin: 0 auto 20px;
+  max-width: 800px;
+  padding: 0 15px;
+}
+
+.note-lead {
+  line-height: 1.8;
+}
+
+.note-feed-link {
+  margin-left: 8px;
+  white-space: nowrap;
+}
+
+.note-meta time {
+  font-variant-numeric: tabular-nums;
+}
+
+.note-meta .note-tags {
+  margin-left: 10px;
+}
+
+/* ===== 記事本文（kramdown が出力する要素） ===== */
+.note-body p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #555;
+  margin-bottom: 1.2em;
+}
+
+.note-body > :first-child {
+  margin-top: 0;
+}
+
+.note-body > :last-child {
+  margin-bottom: 0;
+}
+
+.note-body h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1f78d1;
+  margin: 1.8em 0 0.8em;
+}
+
+.note-body h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 1.5em 0 0.6em;
+}
+
+.note-body h4 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #333;
+  margin: 1.4em 0 0.6em;
+}
+
+.note-body a {
+  color: #1f78d1;
+  text-decoration: none;
+}
+
+.note-body a:hover {
+  text-decoration: underline;
+}
+
+.note-body strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.note-body ul,
+.note-body ol {
+  margin-bottom: 1.2em;
+  padding-left: 1.6em;
+  font-size: 16px;
+}
+
+.note-body li {
+  line-height: 1.8;
+  margin-bottom: 0.4em;
+}
+
+.note-body blockquote {
+  border-left: 4px solid #ddd;
+  padding: 2px 0 2px 15px;
+  margin: 1.4em 0;
+  color: #777;
+}
+
+.note-body blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.note-body code {
+  background-color: #f0f0f0;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-family: Consolas, Menlo, Monaco, "Courier New", monospace;
+  font-size: 0.9em;
+  color: #c7254e;
+}
+
+.note-body pre {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin-bottom: 1.4em;
+  line-height: 1.6;
+}
+
+/* pre の中の code は装飾を打ち消す（背景・色の二重掛けを防ぐ） */
+.note-body pre code {
+  background-color: transparent;
+  padding: 0;
+  color: inherit;
+  font-size: 0.875em;
+}
+
+.note-body img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5em auto;
+  border-radius: 4px;
+}
+
+.note-body figure {
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+.note-body figure img {
+  margin-bottom: 8px;
+}
+
+.note-body figcaption {
+  font-size: 10pt;
+  color: #888;
+}
+
+/* 表は横スクロールさせる。セル内は通常どおり折り返す（日本語の表で
+ * nowrap にすると 1 行が極端に長くなり読めなくなるため）。 */
+.note-body .table-wrapper,
+.note-body table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.note-body table {
+  border-collapse: collapse;
+  margin-bottom: 1.5em;
+  font-size: 15px;
+}
+
+.note-body table th,
+.note-body table td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.note-body table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  color: #333;
+}
+
+.note-body hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 2.2em 0;
+}
+
+/* ===== 記事一覧 ===== */
+.note-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note-list li {
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.note-list li:first-child {
+  padding-top: 0;
+}
+
+.note-list li:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.note-date {
+  display: block;
+  font-size: 13px;
+  color: #888;
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 4px;
+}
+
+.note-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1f78d1;
+  text-decoration: none;
+}
+
+.note-title:hover {
+  text-decoration: underline;
+}
+
+.note-desc {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.7;
+  margin: 6px 0 0;
+}
+
+.note-empty {
+  text-align: center;
+  color: #888;
+  margin: 0;
+}
+
+/* ===== タグ ===== */
+.note-tags {
+  margin: 8px 0 0;
+}
+
+.note-tag-chip {
+  display: inline-block;
+  background: #e9ecef;
+  color: #495057;
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 15px;
+  margin: 0 4px 4px 0;
+}
+
+/* ===== モバイル ===== */
+@media (max-width: 480px) {
+  .note-page .research-title {
+    font-size: 26px;
+  }
+
+  .note-page .section {
+    padding: 15px;
+  }
+
+  .note-body p,
+  .note-body ul,
+  .note-body ol {
+    font-size: 15px;
+  }
+}

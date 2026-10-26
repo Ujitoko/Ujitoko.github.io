@@ -1,0 +1,56 @@
+# サイトの基本情報
+title: Yusuke Ujitoko
+description: 触覚（ハプティクス）研究や関連トピックについての個人的なメモ・雑記帳です。
+url: "https://ujitoko.github.io"
+lang: ja
+timezone: Asia/Tokyo
+
+# jekyll-feed が Atom フィードの <author> に使う。未設定だと空要素になる。
+author:
+  name: Yusuke Ujitoko
+  uri: https://ujitoko.github.io/
+
+# URLの構造。/notes/<slug>/ のようになります。
+permalink: /notes/:title/
+
+# Markdownのレンダリング設定。GitHub Flavored Markdown (GFM) を使用します。
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# プラグインの設定。RSSフィードを生成します。
+plugins:
+  - jekyll-feed
+
+# GitHub Pages は jekyll-optional-front-matter を強制的に有効にしており、
+# front matter のない .md まで HTML ページとして生成してしまう。
+# pseudo-haptics-survey/notes/ の .md は survey ページから fetch される生データなので、
+# ページ化されると不要な HTML が 400 件以上公開されてしまう。これを止める。
+# なお require_front_matter: true は .md 本体も出力から削除してしまうため使わない。
+optional_front_matter:
+  enabled: false
+
+# フィードの出力先
+feed:
+  path: notes/feed.xml
+
+# デフォルト設定。すべての投稿(_posts)に note.html レイアウトを自動適用します。
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "note"
+
+# Jekyllのビルド対象から除外するファイルやディレクトリ。
+# 既存の静的ファイル（paper/, img/, project/, en/ など）は除外せず、そのまま公開させます。
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - preview.ps1
+  - tmp/
+  - .venv/
+  - .claude/
+  - .vscode/

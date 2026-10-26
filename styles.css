@@ -350,3 +350,26 @@ body {
 /* Date column utilities: keep legacy width attributes but style via CSS */
 td[width="150"] { width: 150px; }
 td[width="70"] { width: 70px; }
+
+/* Navbar section links (Notes).
+   margin-right:auto keeps the brand and this link grouped on the left so that
+   .lang-switcher stays flush right instead of being spread out by the flex gap. */
+.navbar-links {
+  margin-right: auto;
+  margin-left: 20px;
+  font-size: 14px;
+}
+.navbar-links a {
+  color: #bbb;
+  text-decoration: none;
+}
+.navbar-links a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+@media (max-width: 480px) {
+  .navbar-links {
+    margin-left: 12px;
+    font-size: 12px;
+  }
+}
